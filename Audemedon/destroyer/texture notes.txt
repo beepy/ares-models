@@ -1,0 +1,4 @@
+standard audemedon textures, with the addition of:
+
+-audemedon colored gaitori ship plating
+-and yellow slpotchy window overlay

@@ -1,0 +1,14 @@
+metal brushed:
+	r219g228b255
+	bump- "brushed metal.png"
+metal ship plate:
+	65 total diffuse on pure white:
+	bump- "ship plate texture.png"
+pearl:
+	same as previous models
+radial pink glow:
+	r255g0b120
+	full ambience and diffuse
+	center radiating glow sphere
+weapon glow:
+	same as radial pink glow for all intents

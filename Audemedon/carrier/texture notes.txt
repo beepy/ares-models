@@ -1,0 +1,11 @@
+**this is the prototype texture info for audemedons unless noted in their respective notes file**
+
+circuit grid:
+	r255g127b0
+	bump- generic circuit grid texture
+radial glow:
+	pure yellow.
+	self explanatory
+tall grid texture:
+	r255g127b0
+	bump- aniso grid texture.

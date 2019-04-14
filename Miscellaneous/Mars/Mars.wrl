@@ -1,0 +1,48 @@
+#VRML V2.0 utf8
+
+DirectionalLight {
+	on TRUE
+	intensity 0.5000
+	color 1.0000 1.0000 1.0000
+	direction 0.9774 -0.1939 0.0842
+}
+DirectionalLight {
+	on TRUE
+	intensity 0.5000
+	color 0.8100 0.9400 0.9200
+	direction 0.6074 0.7318 -0.3092
+}
+WorldInfo {
+	title "/Users/atg/Desktop/models/Models/Media CD 1/Mars.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+DEF instance2 Transform {
+	scale 133.7831 133.7831 133.7831
+	center 0.0590 -0.1736 -0.0000
+	translation -0.0590 0.1736 0.0000
+	children [
+		Shape {
+			appearance DEF appearance0 Appearance {
+				material Material {
+					diffuseColor 0.6210 0.2830 0.2358
+					specularColor 0.2000 0.2000 0.2000
+					transparency 0.0000
+				}
+				texture ImageTexture {
+					url [
+						"texture0.jpg"
+					]
+				}
+			}
+			geometry DEF instance4 Sphere {
+				radius 1.0
+			}
+		}
+	]
+}
+Viewpoint {
+	position 488.2045 519.3277 496.1014
+	orientation -0.7071 0.7071 0.0000 0.9553
+	fieldOfView 0.8029
+}

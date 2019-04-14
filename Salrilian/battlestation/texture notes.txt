@@ -1,0 +1,19 @@
+**this file will be the prototype for all salrillian models unless noted in their respective texture notes**
+
+circuit grid:
+	20percent total difuse and abient
+	bump- generic circuit blocks texture
+
+glow dots:
+	r171g168b255
+	glow factor- center blob gradient
+insible surface:
+	see title
+
+tile, space white:
+	20percent total diffuse and ambient
+	bump- "smooth generic staticy texture.png" from obish battleship
+unnamed-1:
+	10 percent white texture. 
+window overlay[NL]
+	same as assault transport salrillian

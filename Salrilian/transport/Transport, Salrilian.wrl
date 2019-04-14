@@ -1,0 +1,202 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position -1.1696 464.8572 473.4161
+	orientation -1.0000 0.0000 -0.0000 0.7854
+	fieldOfView 1.0719
+	description "Camera #2"
+}
+Viewpoint {
+	position -4497.6226 -666.5959 -4791.9297
+	orientation 0.1736 -0.9848 0.0000 1.5708
+	fieldOfView 1.0342
+	description "Camera #1"
+}
+DirectionalLight {
+	on TRUE
+	intensity 0.8000
+	color 1.0000 1.0000 1.0000
+	direction 0.3983 -0.9083 0.1277
+}
+WorldInfo {
+	title "/Users/atg/Desktop/models/Models/Media CD 1/Transport, Salrilian.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+DEF instance2 Transform {
+	rotation 0.0000 1.0000 0.0000 -3.1416
+	center -1.3333 -0.0000 2.9539
+	translation 1.3333 0.0000 -2.9539
+	children [
+		Group {
+			children [
+				DEF instance3 Transform {
+					rotation 1.0000 0.0000 0.0000 -1.5708
+					scale 76.1904 43.1815 17.6509
+					center 0.0088 -0.9405 -0.0248
+					translation -0.0088 0.9405 0.0248
+					children [
+						Shape {
+							appearance DEF appearance0 Appearance {
+								material Material {
+									diffuseColor 0.8650 0.8650 0.8650
+									specularColor 1.0000 1.0000 1.0000
+									transparency 0.0000
+								}
+								texture ImageTexture {
+									url [
+										"texture0.jpg"
+									]
+								}
+							}
+							geometry DEF instance5 Sphere {
+								radius 1.0
+							}
+						}
+					]
+				}
+				DEF instance6 Transform {
+					scale 100.1203 10.0120 100.1203
+					center 0.0067 -0.0000 0.0000
+					translation -0.0067 0.0000 -0.0000
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance8 Sphere {
+								radius 1.0
+							}
+						}
+					]
+				}
+				DEF instance9 Transform {
+					scale 26.2154 14.9462 88.6676
+					center 0.0254 -0.0293 -0.5248
+					translation -0.0254 0.0293 0.5248
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance11 Sphere {
+								radius 1.0
+							}
+						}
+					]
+				}
+				DEF instance12 Transform {
+					scale 0.9000 0.9000 0.9000
+					center 0.7407 -0.4868 -71.5227
+					translation -0.7407 0.4868 71.5227
+					children [
+						Group {
+							children [
+								DEF instance13 Transform {
+									rotation 1.0000 0.0000 0.0000 -1.5708
+									scale 1.2593 1.2593 1.2593
+									center -63.5294 -0.1182 0.0000
+									translation 63.5294 0.1182 -0.0000
+									children [
+										Shape {
+											appearance USE appearance0
+											geometry DEF instance15 IndexedFaceSet {
+												normalPerVertex TRUE
+												solid FALSE
+												coord Coordinate {
+													point [
+-55.5588 -71.5888 0, -63.5 -35.8535 0, -63.5 -75.5594 0,
+-63.5 -35.8535 0, -55.5588 -71.5888 0, -63.5 75.323 0,
+-63.5 75.323 0, -55.5588 -71.5888 0, -39.6765 -27.9124 0,
+-63.5 75.323 0, -39.6765 -27.9124 0, 11.9412 75.323 0,
+11.9412 75.323 0, -39.6765 -27.9124 0, -7.9118 -8.0594 0,
+11.9412 75.323 0, -7.9118 -8.0594 0, 11.9412 19.7347 0,
+11.9412 75.323 0, 11.9412 19.7347 0, 19.8824 47.5288 0,
+11.9412 75.323 0, 19.8824 47.5288 0, 63.5588 63.4112 0,
+63.5588 63.4112 0, 19.8824 47.5288 0, 59.5883 51.4994 0,
+													]
+												}
+												normal Normal {
+													vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+													]
+												}
+												coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+												]
+											}
+										}
+									]
+								}
+								DEF instance16 Transform {
+									rotation -0.0000 -0.7071 0.7071 -3.1416
+									scale 1.2593 1.2593 1.2593
+									center -63.5294 -0.1182 -0.0000
+									translation 63.5294 0.1182 0.0000
+									children [
+										Shape {
+											appearance USE appearance0
+											geometry DEF instance18 IndexedFaceSet {
+												normalPerVertex TRUE
+												solid FALSE
+												coord Coordinate {
+													point [
+-55.5588 -71.5888 0, -63.5 -35.8535 0, -63.5 -75.5594 0,
+-63.5 -35.8535 0, -55.5588 -71.5888 0, -63.5 75.323 0,
+-63.5 75.323 0, -55.5588 -71.5888 0, -39.6765 -27.9124 0,
+-63.5 75.323 0, -39.6765 -27.9124 0, 11.9412 75.323 0,
+11.9412 75.323 0, -39.6765 -27.9124 0, -7.9118 -8.0594 0,
+11.9412 75.323 0, -7.9118 -8.0594 0, 11.9412 19.7347 0,
+11.9412 75.323 0, 11.9412 19.7347 0, 19.8824 47.5288 0,
+11.9412 75.323 0, 19.8824 47.5288 0, 63.5588 63.4112 0,
+63.5588 63.4112 0, 19.8824 47.5288 0, 59.5883 51.4994 0,
+													]
+												}
+												normal Normal {
+													vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+													]
+												}
+												coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+												]
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

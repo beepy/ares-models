@@ -1,0 +1,1 @@
+this image consists of the recording black box and the helmet. as such, the textures are the same as their respective models. as such, textures will not be detailed here. refer to the appropriate model folders.

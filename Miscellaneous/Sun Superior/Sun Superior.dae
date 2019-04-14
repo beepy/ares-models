@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Strata Design 3D CX</authoring_tool>
+        </contributor>
+        <created>2007-06-11T13:30:00Z</created>
+        <modified>2007-06-11T13:30:00Z</modified>
+        <unit meter="0.000352778" name="strata"/>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_images>
+        <image id="image1" name="shader1_sten">
+            <init_from>shader1_sten.jpg</init_from>
+        </image>
+    </library_images>
+    <library_effects>
+        <effect id="shader1-effect">
+            <profile_COMMON>
+                <newparam sid="shader1_sten-surface">
+                    <surface type="2D">
+                        <init_from>image1</init_from>
+                    </surface>
+                </newparam>
+                <newparam sid="shader1_sten-sampler">
+                    <sampler2D>
+                        <source>shader1_sten-surface</source>
+                    </sampler2D>
+                </newparam>
+                <technique sid="t0">
+                    <phong>
+                        <diffuse>
+                            <color>1 1 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>1 1 1 1</color>
+                        </specular>
+                        <shininess>
+                            <float>0</float>
+                        </shininess>
+                        <reflectivity>
+                            <float>0</float>
+                        </reflectivity>
+                        <transparent>
+                            <texture texture="shader1_sten-sampler" texcoord="UV1"/>
+                        </transparent>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                        <index_of_refraction>
+                            <float>1</float>
+                        </index_of_refraction>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_materials>
+        <material id="shader1" name="Sun_Glow">
+            <instance_effect url="#shader1-effect"/>
+        </material>
+    </library_materials>
+    <library_geometries>
+        <geometry id="mesh1" name="Polygon_Mesh">
+            <mesh>
+                <source id="mesh1-points">
+                    <float_array id="mesh1-points-array" count="96">1 0 0 0.980803 0.194996 0 0.923915 0.382594 0 0.831522 0.55549 0 0.707174 0.707038 0 0.555649 0.831415 0 0.382772 0.923842 0 0.195184 0.980765 0 9.58219e-05 0.999999 0 -0.194996 0.980803 0 -0.382594 0.923915 0 -0.55549 0.831522 0 -0.707038 0.707174 0 -0.831415 0.555649 0 -0.923842 0.382772 0 -0.980765 0.195184 0 -0.999999 9.57772e-05 0 -0.980803 -0.194996 0 -0.923915 -0.382594 0 -0.831522 -0.55549 0 -0.707174 -0.707038 0 -0.555649 -0.831415 0 -0.382772 -0.923842 0 -0.195184 -0.980765 0 -9.58536e-05 -0.999999 0 0.194996 -0.980803 0 0.382595 -0.923915 0 0.55549 -0.831522 0 0.707038 -0.707174 0 0.831415 -0.555649 0 0.923842 -0.382772 0 0.980765 -0.195184 0</float_array>
+                    <technique_common>
+                        <accessor count="32" source="#mesh1-points-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="mesh1-uvs">
+                    <float_array id="mesh1-uvs-array" count="64">0.998792 0.5 0.989217 0.597263 0.960842 0.690835 0.914757 0.777074 0.852733 0.852666 0.777154 0.914704 0.690924 0.960806 0.597356 0.989199 0.500048 0.998792 0.402737 0.989217 0.309165 0.960842 0.222926 0.914757 0.147335 0.852733 0.0852963 0.777154 0.0391948 0.690924 0.0108017 0.597356 0.00120827 0.500048 0.0107831 0.402737 0.0391582 0.309165 0.0852433 0.222926 0.147267 0.147334 0.222846 0.085296 0.309076 0.0391944 0.402644 0.0108013 0.499952 0.00120781 0.597263 0.0107827 0.690835 0.0391578 0.777074 0.0852428 0.852665 0.147267 0.914704 0.222846 0.960805 0.309076 0.989198 0.402644</float_array>
+                    <technique_common>
+                        <accessor count="32" source="#mesh1-uvs-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="mesh1-normals">
+                    <float_array id="mesh1-normals-array" count="96">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1</float_array>
+                    <technique_common>
+                        <accessor count="32" source="#mesh1-normals-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="mesh1-vertices">
+                    <input semantic="POSITION" source="#mesh1-points"/>
+                </vertices>
+                <polylist count="1" material="shader1">
+                    <input offset="0" semantic="VERTEX" source="#mesh1-vertices"/>
+                    <input offset="1" semantic="TEXCOORD" source="#mesh1-uvs"/>
+                    <input offset="2" semantic="NORMAL" source="#mesh1-normals"/>
+                    <vcount>32</vcount>
+                    <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 5 5 5 6 6 6 7 7 7 8 8 8 9 9 9 10 10 10 11 11 11 12 12 12 13 13 13 14 14 14 15 15 15 16 16 16 17 17 17 18 18 18 19 19 19 20 20 20 21 21 21 22 22 22 23 23 23 24 24 24 25 25 25 26 26 26 27 27 27 28 28 28 29 29 29 30 30 30 31 31 31</p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="Scene">
+            <node id="node1" name="Polygon_Mesh">
+                <translate>12.5139 -12.5139 0</translate>
+                <rotate sid="rotate_z">0 0 1 -0</rotate>
+                <rotate sid="rotate_y">0 1 0 0</rotate>
+                <rotate sid="rotate_x">1 0 0 0</rotate>
+                <scale>62.5694 62.5694 62.5694</scale>
+                <instance_geometry url="#mesh1">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="shader1" target="#shader1">
+                                <bind_vertex_input semantic="UV1" input_semantic="TEXCOORD" input_set="0"/>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#Scene"/>
+    </scene>
+</COLLADA>

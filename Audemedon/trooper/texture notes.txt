@@ -1,0 +1,19 @@
+alum trans:
+	r255g127b0
+	diffuse control:
+	ambient control:
+	opacity control:
+	specular control:
+	refection control:
+	stencil:
+		"abstract blocks.png"
+canvas:
+	r191g162b164
+	bump- "canvasy.png"
+invisible surface:
+	'nuf said.
+metal aluminum:
+	r232g253b255
+sun glow:
+	r255g127b255
+	round diffused shape.

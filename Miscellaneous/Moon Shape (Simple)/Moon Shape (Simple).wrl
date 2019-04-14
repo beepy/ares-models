@@ -1,0 +1,42 @@
+#VRML V2.0 utf8
+
+DirectionalLight {
+	on TRUE
+	intensity 0.9500
+	color 1.0000 1.0000 1.0000
+	direction 0.3517 -0.7887 -0.5043
+}
+WorldInfo {
+	title "/Users/atg/Desktop/models/Models/Media CD 1/Moon Shape (Simple).wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+DEF instance2 Transform {
+	scale 131.7025 131.7025 131.7025
+	center -2.4583 -3.2083 -0.0000
+	translation 2.4583 3.2083 0.0000
+	children [
+		Shape {
+			appearance DEF appearance0 Appearance {
+				material Material {
+					diffuseColor 0.5010 0.4859 0.4859
+					specularColor 0.0000 0.0000 0.0000
+					transparency 0.0000
+				}
+				texture ImageTexture {
+					url [
+						"texture0.jpg"
+					]
+				}
+			}
+			geometry DEF instance4 Sphere {
+				radius 1.0
+			}
+		}
+	]
+}
+Viewpoint {
+	position 812.1545 910.9313 488.3859
+	orientation -0.7071 0.7071 0.0000 0.9553
+	fieldOfView 0.8029
+}

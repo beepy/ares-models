@@ -1,0 +1,42 @@
+#VRML V2.0 utf8
+
+DirectionalLight {
+	on TRUE
+	intensity 0.8000
+	color 1.0000 1.0000 1.0000
+	direction 0.5346 -0.5026 -0.6794
+}
+WorldInfo {
+	title "L:\xsera\models\exported strata models\media cd1\earth geo mod\Earth Geo Mode.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+DEF instance2 Transform {
+	scale 36.0000 36.0000 36.0000
+	center -2.7778 1.0139 -0.0000
+	translation 2.7778 -1.0139 0.0000
+	children [
+		Shape {
+			appearance DEF appearance0 Appearance {
+				material Material {
+					diffuseColor 0.5026 0.6145 0.7145
+					specularColor 0.0000 0.0000 0.0000
+					transparency 0.0000
+				}
+				texture ImageTexture {
+					url [
+						"texture0.jpg"
+					]
+				}
+			}
+			geometry DEF instance4 Sphere {
+				radius 1.0
+			}
+		}
+	]
+}
+Viewpoint {
+	position 233.4970 96.9970 133.4970
+	orientation -0.7071 0.7071 0.0000 0.9553
+	fieldOfView 0.8029
+}

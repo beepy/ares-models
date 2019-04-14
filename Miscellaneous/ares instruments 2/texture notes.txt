@@ -1,0 +1,30 @@
+black &shiney:
+as name describes. same as  a previous model
+green light:
+as name descrives. same as a prevous model
+linen:
+	same as ares bridge texture.
+metal - aluminum:
+	r237g206b102
+red lense: 
+	as name descrives. same as a prevous model
+space tile no tech:
+	r194g181b133
+	diffuse - :space tile no tech.jpg"
+	bump- "space tile no tech.jpg" (ow whatever)
+space tile, fatigued white:
+	dissuse- "space tile no tech.jpg"
+	bump- the generic circuits texture
+	r194g181b133
+stereo black plain:
+	same as ares bridge.1
+stereo black rib1:
+		same as ares bridge.1
+stereo black rib2:
+	same as ares bridge.1
+stereo square:
+		same as ares bridge.1
+tan aluminum:
+	same as ares bridge.1
+
+

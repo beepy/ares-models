@@ -1,0 +1,1994 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position 49.5960 -48.9056 133.6709
+	orientation -0.8002 0.5997 0.0000 0.1180
+	fieldOfView 1.2748
+	description "Camera #1"
+}
+PointLight {
+	on TRUE
+	intensity 0.5000
+	color 1.0000 1.0000 1.0000
+	location 23.4096 -51.4678 -110.8873
+}
+WorldInfo {
+	title "L:\xsera\models\exported strata models\media cd1\bridge mockup\bridge mock up.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+Group {
+	children [
+		DEF instance3 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			scale 1.5000 1.5000 1.5000
+			center 228.0657 -25.4941 -203.2327
+			translation -228.0657 25.4941 203.2327
+			children [
+				Group {
+					children [
+						DEF instance4 Transform {
+							rotation 0.0000 1.0000 0.0000 -3.1416
+							scale 3.0885 3.8724 3.1015
+							center 29.0316 15.4502 -47.0058
+							translation -29.0316 -15.4502 47.0058
+							children [
+								Shape {
+									appearance DEF appearance0 Appearance {
+										material Material {
+											diffuseColor 0.0000 0.0000 1.0000
+											specularColor 0.0000 0.0000 0.0000
+											transparency 0.0000
+										}
+									}
+									geometry DEF instance6 Sphere {
+										radius 1.0
+									}
+								}
+							]
+						}
+						DEF instance7 Transform {
+							rotation 0.0000 0.7880 -0.6157 -3.1416
+							scale 1.1313 3.8425 1.1941
+							center 73.8441 -29.6864 -85.1027
+							translation -73.8441 29.6864 85.1027
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance9 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance10 Transform {
+							rotation 0.0000 0.9063 -0.4226 -3.1416
+							scale 1.1313 4.0257 1.1941
+							center 73.8441 -16.3384 -119.7668
+							translation -73.8441 16.3384 119.7668
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance12 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance7
+						DEF instance13 Transform {
+							rotation 0.0000 0.7716 -0.6361 -3.1416
+							scale 1.1313 3.8425 1.1941
+							center 84.7330 -31.8919 -82.6714
+							translation -84.7330 31.8919 82.6714
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance15 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance16 Transform {
+							rotation 0.0000 0.9863 -0.1650 -3.1416
+							scale 1.1313 4.0257 1.1941
+							center 84.7330 4.4375 -132.8576
+							translation -84.7330 -4.4375 132.8576
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance18 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance13
+						DEF instance19 Transform {
+							rotation 0.0000 0.9994 -0.0349 -3.1416
+							scale 1.7598 5.3187 1.5712
+							center 49.8414 14.5377 -89.3433
+							translation -49.8414 -14.5377 89.3433
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance21 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance22 Transform {
+							rotation 0.0000 0.7880 -0.6157 -3.1416
+							scale 1.7598 5.0219 1.5712
+							center 49.8414 -23.3563 -71.5740
+							translation -49.8414 23.3563 71.5740
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance24 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance19
+						DEF instance25 Transform {
+							rotation 0.0000 0.9994 0.0349 -3.1416
+							scale 1.7598 5.3187 1.5712
+							center 52.3284 17.6816 -82.0488
+							translation -52.3284 -17.6816 82.0488
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance27 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance28 Transform {
+							rotation 0.0000 0.7193 -0.6947 -3.1416
+							scale 1.7598 5.0219 1.5712
+							center 52.3284 -27.4812 -53.8616
+							translation -52.3284 27.4812 53.8616
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance30 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance25
+						DEF instance31 Transform {
+							rotation 0.0000 1.0000 0.0000 -3.1416
+							scale 4.2737 6.9133 1.8226
+							center 21.0176 10.3272 -79.8946
+							translation -21.0176 -10.3272 79.8946
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance33 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance28
+						USE instance22
+						USE instance16
+						USE instance10
+						USE instance4
+						USE instance25
+						USE instance19
+						USE instance13
+						USE instance7
+					]
+				}
+			]
+		}
+		Group {
+			children [
+				DEF instance34 Transform {
+					rotation 1.0000 0.0000 0.0000 -1.5708
+					scale 4.3110 4.3110 11.6158
+					center -20.2476 10.1608 9.0671
+					translation 20.2476 -10.1608 -9.0671
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance36 Cone {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance37 Transform {
+					rotation 1.0000 0.0000 0.0000 -1.5708
+					scale 8.3826 9.2208 3.4556
+					center -10.4345 4.7505 25.1306
+					translation 10.4345 -4.7505 -25.1306
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance39 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance40 Transform {
+					rotation 1.0000 0.0000 0.0000 -1.5708
+					scale 0.9693 0.9693 18.3738
+					center -90.2847 45.7584 5.7310
+					translation 90.2847 -45.7584 -5.7310
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance42 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance43 Transform {
+					rotation 0.0000 0.0000 -1.0000 -0.1920
+					scale 0.8428 6.0684 6.0684
+					center -73.9126 14.9891 -7.2183
+					translation 73.9126 -14.9891 7.2183
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance45 Box {
+								size 2.0 2.0 2.0
+							}
+						}
+					]
+				}
+			]
+		}
+		DEF instance46 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			scale 184.0000 84.0000 184.0000
+			center -0.0380 0.2560 -0.7611
+			translation 0.0380 -0.2560 0.7611
+			children [
+				Shape {
+					appearance USE appearance0
+					geometry DEF instance48 IndexedFaceSet {
+						normalPerVertex TRUE
+						solid FALSE
+						coord Coordinate {
+							point [
+1 -1 0, -1 1 0, -1 -1 0,
+-1 1 0, 1 -1 0, 1 1 0,
+							]
+						}
+						normal Normal {
+							vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+							]
+						}
+						coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+						]
+					}
+				}
+			]
+		}
+		DEF instance49 Transform {
+			rotation 0.0000 1.0000 0.0000 -3.1416
+			scale 1.0000 1.0000 20.1429
+			center -6.9495 0.0000 -6.1064
+			translation 6.9495 -0.0000 6.1064
+			children [
+				Group {
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance51 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+-146.5 -106 0, -146.5 -106 -14, -118.5 -106 0,
+-146.5 -106 -14, -118.5 -106 -14, -118.5 -106 0,
+-118.5 -106 0, -118.5 -106 -14, -118.5 -80 0,
+-118.5 -106 -14, -118.5 -80 -14, -118.5 -80 0,
+-118.5 -80 0, -118.5 -80 -14, -133.5 -63 0,
+-118.5 -80 -14, -133.5 -63 -14, -133.5 -63 0,
+-133.5 -63 0, -133.5 -63 -14, -133.5 -29 0,
+-133.5 -63 -14, -133.5 -29 -14, -133.5 -29 0,
+-133.5 -29 0, -133.5 -29 -14, -146.5 -29 0,
+-133.5 -29 -14, -146.5 -29 -14, -146.5 -29 0,
+-146.5 -29 0, -146.5 -29 -14, -146.5 -106 0,
+-146.5 -29 -14, -146.5 -106 -14, -146.5 -106 0,
+									]
+								}
+								normal Normal {
+									vector [
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+1 0 0, 1 0 0, 1 0 0,
+1 0 0, 1 0 0, 1 0 0,
+0.7498 0.6616 0, 0.7498 0.6616 0, 0.7498 0.6616 0,
+0.7498 0.6616 0, 0.7498 0.6616 0, 0.7498 0.6616 0,
+1 0 0, 1 0 0, 1 0 0,
+1 0 0, 1 0 0, 1 0 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+-1 0 0, -1 0 0, -1 0 0,
+-1 0 0, -1 0 0, -1 0 0,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+								]
+							}
+						}
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance53 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+-118.5 -106 0, -146.5 -29 0, -146.5 -106 0,
+-146.5 -29 0, -118.5 -106 0, -133.5 -63 0,
+-133.5 -63 0, -118.5 -106 0, -118.5 -80 0,
+-133.5 -29 0, -146.5 -29 0, -133.5 -63 0,
+									]
+								}
+								normal Normal {
+									vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+								]
+							}
+						}
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance55 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+-133.5 -29 -14, -146.5 -106 -14, -146.5 -29 -14,
+-146.5 -106 -14, -133.5 -29 -14, -133.5 -63 -14,
+-146.5 -106 -14, -133.5 -63 -14, -118.5 -106 -14,
+-118.5 -106 -14, -133.5 -63 -14, -118.5 -80 -14,
+									]
+								}
+								normal Normal {
+									vector [
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+		DEF instance56 Transform {
+			rotation 1.0000 0.0000 0.0000 -1.5708
+			scale 189.5000 152.5000 189.5000
+			center -0.1293 0.0459 -0.0240
+			translation 0.1293 -0.0459 0.0240
+			children [
+				Shape {
+					appearance USE appearance0
+					geometry DEF instance58 IndexedFaceSet {
+						normalPerVertex TRUE
+						solid FALSE
+						coord Coordinate {
+							point [
+1 -1 0, -1 1 0, -1 -1 0,
+-1 1 0, 1 -1 0, 1 1 0,
+							]
+						}
+						normal Normal {
+							vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+							]
+						}
+						coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+						]
+					}
+				}
+			]
+		}
+		DEF instance59 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			scale 1.5000 1.5000 1.5000
+			center 174.9932 -26.7430 76.2136
+			translation -174.9932 26.7430 -76.2136
+			children [
+				Group {
+					children [
+						DEF instance60 Transform {
+							rotation 0.0000 -1.0000 0.0000 -1.5708
+							scale 3.0885 3.8724 3.1015
+							center 29.0316 15.4502 -47.0058
+							translation -29.0316 -15.4502 47.0058
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance62 Sphere {
+										radius 1.0
+									}
+								}
+							]
+						}
+						DEF instance63 Transform {
+							rotation 0.0000 -1.0000 0.0000 -1.5708
+							scale 4.2737 6.9133 1.8226
+							center 21.0176 10.3272 -79.8946
+							translation -21.0176 -10.3272 79.8946
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance65 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance66 Transform {
+							rotation 0.2115 -0.9542 0.2115 -1.6177
+							scale 1.1313 3.3310 1.1941
+							center 52.5663 30.6567 -121.8386
+							translation -52.5663 -30.6567 121.8386
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance68 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance69 Transform {
+							rotation -0.2732 -0.9223 -0.2732 -1.6515
+							scale 1.1313 3.3310 1.1941
+							center 92.9641 3.4738 -121.8386
+							translation -92.9641 -3.4738 121.8386
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance71 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance72 Transform {
+							rotation -0.0609 -0.9963 -0.0609 -1.5745
+							scale 1.7598 4.2639 1.5712
+							center 54.9891 16.9553 -92.6775
+							translation -54.9891 -16.9553 92.6775
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance74 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance75 Transform {
+							rotation 0.0436 -0.9981 0.0436 -1.5727
+							scale 1.7598 4.2639 1.5712
+							center 48.1893 21.4128 -92.6775
+							translation -48.1893 -21.4128 92.6775
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance77 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance60
+						DEF instance78 Transform {
+							rotation -0.2952 -0.9087 -0.2952 -1.6664
+							scale 1.1313 3.3310 1.1941
+							center 107.5413 0.7399 -121.8386
+							translation -107.5413 -0.7399 121.8386
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance80 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance81 Transform {
+							rotation 0.3236 -0.8891 0.3236 -1.6880
+							scale 1.1313 3.3310 1.1941
+							center 14.1224 32.4987 -121.8386
+							translation -14.1224 -32.4987 121.8386
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance83 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance84 Transform {
+							rotation -0.0609 -0.9963 -0.0609 -1.5745
+							scale 1.7598 4.4050 1.5712
+							center 54.9891 18.4310 -92.6775
+							translation -54.9891 -18.4310 92.6775
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance86 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance87 Transform {
+							rotation 0.0436 -0.9981 0.0436 -1.5727
+							scale 1.7598 4.4050 1.5712
+							center 48.1892 22.7456 -92.6775
+							translation -48.1892 -22.7456 92.6775
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance89 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance69
+						USE instance81
+						USE instance81
+						USE instance66
+						USE instance78
+						USE instance78
+						USE instance75
+						USE instance87
+						USE instance87
+						USE instance72
+						USE instance84
+						USE instance84
+					]
+				}
+			]
+		}
+		DEF instance90 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			scale 1.5000 1.5000 1.5000
+			center 86.4222 -28.0010 -214.1353
+			translation -86.4222 28.0010 214.1353
+			children [
+				Group {
+					children [
+						DEF instance91 Transform {
+							rotation 0.0013 1.0000 0.0087 -2.8449
+							scale 3.0885 3.8724 3.1015
+							center 41.5453 16.1025 -35.1450
+							translation -41.5453 -16.1025 35.1450
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance93 Sphere {
+										radius 1.0
+									}
+								}
+							]
+						}
+						DEF instance94 Transform {
+							rotation -0.0298 0.9795 -0.1993 -2.8509
+							scale 1.1313 3.8425 1.1941
+							center 108.0085 7.6227 -107.8316
+							translation -108.0085 -7.6227 107.8316
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance96 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance97 Transform {
+							rotation -0.0117 0.9968 -0.0785 -2.8458
+							scale 1.1313 4.0257 1.1941
+							center 108.0084 12.7936 -99.4674
+							translation -108.0084 -12.7936 99.4674
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance99 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance94
+						DEF instance100 Transform {
+							rotation -0.1257 0.5257 -0.8413 -2.9848
+							scale 1.1313 3.8425 1.1941
+							center 118.8974 -31.5584 -15.7140
+							translation -118.8974 31.5584 15.7140
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance102 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance103 Transform {
+							rotation -0.0559 0.9257 -0.3740 -2.8666
+							scale 1.1313 4.0257 1.1941
+							center 118.8973 -6.2813 -104.3434
+							translation -118.8973 6.2813 104.3434
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance105 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance100
+						DEF instance106 Transform {
+							rotation 0.0000 1.0000 -0.0000 -2.8449
+							scale 1.7598 5.3187 1.5712
+							center 71.8042 17.4401 -70.5003
+							translation -71.8042 -17.4401 70.5003
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance108 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance109 Transform {
+							rotation -0.0412 0.9604 -0.2754 -2.8565
+							scale 1.7598 5.0219 1.5712
+							center 71.8042 1.9429 -89.4911
+							translation -71.8042 -1.9429 89.4911
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance111 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance106
+						DEF instance112 Transform {
+							rotation 0.0486 0.9444 0.3252 -2.8612
+							scale 1.7598 5.3187 1.5712
+							center 74.2912 27.2725 -22.0475
+							translation -74.2912 -27.2725 22.0475
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance114 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance115 Transform {
+							rotation -0.0208 0.9901 -0.1391 -2.8478
+							scale 1.7598 5.0219 1.5712
+							center 74.2912 9.6219 -85.1445
+							translation -74.2912 -9.6219 85.1445
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance117 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance112
+						DEF instance118 Transform {
+							rotation 0.0336 0.9738 0.2248 -2.8525
+							scale 4.2737 6.9133 1.8226
+							center 30.0611 16.4468 -38.5484
+							translation -30.0611 -16.4468 38.5484
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance120 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance115
+						USE instance109
+						USE instance103
+						USE instance97
+						USE instance91
+						USE instance112
+						USE instance106
+						USE instance100
+						USE instance94
+					]
+				}
+			]
+		}
+		DEF instance121 Transform {
+			center -0.0000 -0.0000 54.7313
+			translation 0.0000 0.0000 -54.7313
+			children [
+				Group {
+					children [
+						USE instance34
+						USE instance37
+						USE instance40
+						USE instance43
+					]
+				}
+			]
+		}
+		DEF instance122 Transform {
+			rotation 0.0000 1.0000 -0.0000 -1.8500
+			scale 1.5000 1.5000 1.5000
+			center 53.3228 -25.4941 -167.0773
+			translation -53.3228 25.4941 167.0773
+			children [
+				Group {
+					children [
+						USE instance4
+						USE instance7
+						USE instance10
+						USE instance7
+						USE instance13
+						USE instance16
+						USE instance13
+						USE instance19
+						USE instance22
+						USE instance19
+						USE instance25
+						USE instance28
+						USE instance25
+						USE instance31
+						USE instance28
+						USE instance22
+						USE instance16
+						USE instance10
+						USE instance4
+						USE instance25
+						USE instance19
+						USE instance13
+						USE instance7
+					]
+				}
+			]
+		}
+		DEF instance123 Transform {
+			rotation 0.0000 1.0000 0.0000 -3.1416
+			center 39.6535 -0.0000 87.6071
+			translation -39.6535 0.0000 -87.6071
+			children [
+				Group {
+					children [
+						USE instance34
+						USE instance37
+						USE instance40
+						USE instance43
+					]
+				}
+			]
+		}
+		DEF instance124 Transform {
+			rotation 1.0000 0.0000 0.0000 -1.5708
+			scale 189.5000 152.5000 189.5000
+			center -0.1293 0.0459 0.5594
+			translation 0.1293 -0.0459 -0.5594
+			children [
+				Shape {
+					appearance USE appearance0
+					geometry DEF instance126 IndexedFaceSet {
+						normalPerVertex TRUE
+						solid FALSE
+						coord Coordinate {
+							point [
+1 -1 0, -1 1 0, -1 -1 0,
+-1 1 0, 1 -1 0, 1 1 0,
+							]
+						}
+						normal Normal {
+							vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+							]
+						}
+						coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+						]
+					}
+				}
+			]
+		}
+		DEF instance127 Transform {
+			scale 1.0000 1.0000 20.1429
+			center -53.7374 -0.0000 -7.8936
+			translation 53.7374 0.0000 7.8936
+			children [
+				Group {
+					children [
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance129 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+-133.5 -29 -14, -146.5 -106 -14, -146.5 -29 -14,
+-146.5 -106 -14, -133.5 -29 -14, -133.5 -63 -14,
+-146.5 -106 -14, -133.5 -63 -14, -118.5 -106 -14,
+-118.5 -106 -14, -133.5 -63 -14, -118.5 -80 -14,
+									]
+								}
+								normal Normal {
+									vector [
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+								]
+							}
+						}
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance131 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+-118.5 -106 0, -146.5 -29 0, -146.5 -106 0,
+-146.5 -29 0, -118.5 -106 0, -133.5 -63 0,
+-133.5 -63 0, -118.5 -106 0, -118.5 -80 0,
+-133.5 -29 0, -146.5 -29 0, -133.5 -63 0,
+									]
+								}
+								normal Normal {
+									vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+								]
+							}
+						}
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance133 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+-146.5 -106 0, -146.5 -106 -14, -118.5 -106 0,
+-146.5 -106 -14, -118.5 -106 -14, -118.5 -106 0,
+-118.5 -106 0, -118.5 -106 -14, -118.5 -80 0,
+-118.5 -106 -14, -118.5 -80 -14, -118.5 -80 0,
+-118.5 -80 0, -118.5 -80 -14, -133.5 -63 0,
+-118.5 -80 -14, -133.5 -63 -14, -133.5 -63 0,
+-133.5 -63 0, -133.5 -63 -14, -133.5 -29 0,
+-133.5 -63 -14, -133.5 -29 -14, -133.5 -29 0,
+-133.5 -29 0, -133.5 -29 -14, -146.5 -29 0,
+-133.5 -29 -14, -146.5 -29 -14, -146.5 -29 0,
+-146.5 -29 0, -146.5 -29 -14, -146.5 -106 0,
+-146.5 -29 -14, -146.5 -106 -14, -146.5 -106 0,
+									]
+								}
+								normal Normal {
+									vector [
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+1 0 0, 1 0 0, 1 0 0,
+1 0 0, 1 0 0, 1 0 0,
+0.7498 0.6616 0, 0.7498 0.6616 0, 0.7498 0.6616 0,
+0.7498 0.6616 0, 0.7498 0.6616 0, 0.7498 0.6616 0,
+1 0 0, 1 0 0, 1 0 0,
+1 0 0, 1 0 0, 1 0 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+-1 0 0, -1 0 0, -1 0 0,
+-1 0 0, -1 0 0, -1 0 0,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+		DEF instance134 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			scale 1.5000 1.5000 1.5000
+			center 49.3509 -25.4941 -203.2327
+			translation -49.3509 25.4941 203.2327
+			children [
+				Group {
+					children [
+						USE instance4
+						USE instance7
+						USE instance10
+						USE instance7
+						USE instance13
+						USE instance16
+						USE instance13
+						USE instance19
+						USE instance22
+						USE instance19
+						USE instance25
+						USE instance28
+						USE instance25
+						USE instance31
+						USE instance28
+						USE instance22
+						USE instance16
+						USE instance10
+						USE instance4
+						USE instance25
+						USE instance19
+						USE instance13
+						USE instance7
+					]
+				}
+			]
+		}
+		DEF instance135 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			scale 184.0000 84.0000 184.0000
+			center -0.0380 0.2560 0.5069
+			translation 0.0380 -0.2560 -0.5069
+			children [
+				Shape {
+					appearance USE appearance0
+					geometry DEF instance137 IndexedFaceSet {
+						normalPerVertex TRUE
+						solid FALSE
+						coord Coordinate {
+							point [
+1 -1 0, -1 1 0, -1 -1 0,
+-1 1 0, 1 -1 0, 1 1 0,
+							]
+						}
+						normal Normal {
+							vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+							]
+						}
+						coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+						]
+					}
+				}
+			]
+		}
+		DEF instance138 Transform {
+			center -0.0000 -0.0000 104.7034
+			translation 0.0000 0.0000 -104.7034
+			children [
+				Group {
+					children [
+						USE instance34
+						USE instance37
+						USE instance40
+						USE instance43
+					]
+				}
+			]
+		}
+		DEF instance139 Transform {
+			rotation 0.0000 -1.0000 0.0000 -2.7402
+			scale 1.5000 1.5000 1.5000
+			center 56.1262 -30.2041 -150.7230
+			translation -56.1262 30.2041 150.7230
+			children [
+				Group {
+					children [
+						DEF instance140 Transform {
+							rotation 0.0000 1.0000 0.0000 -3.1416
+							scale 3.0885 3.8724 3.1015
+							center 29.0316 15.4502 -47.0058
+							translation -29.0316 -15.4502 47.0058
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance142 Sphere {
+										radius 1.0
+									}
+								}
+							]
+						}
+						DEF instance143 Transform {
+							rotation 0.0000 0.9962 0.0872 -3.1416
+							scale 1.1313 3.8425 1.1941
+							center 73.8441 26.3091 -111.8294
+							translation -73.8441 -26.3091 111.8294
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance145 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance146 Transform {
+							rotation 0.0000 0.9848 0.1736 -3.1416
+							scale 1.1313 4.0257 1.1941
+							center 73.8441 28.4729 -95.9842
+							translation -73.8441 -28.4729 95.9842
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance148 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance143
+						DEF instance149 Transform {
+							rotation 0.2250 0.9744 -0.0000 -3.1416
+							scale 1.1313 3.8425 1.1941
+							center 105.8104 6.8717 -121.8386
+							translation -105.8104 -6.8717 121.8386
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance151 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance152 Transform {
+							rotation -0.1045 0.9945 0.0000 -3.1416
+							scale 1.1313 4.0257 1.1941
+							center 70.9957 21.6346 -121.8386
+							translation -70.9957 -21.6346 121.8386
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance154 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance149
+						DEF instance155 Transform {
+							rotation 0.0000 0.9945 0.1045 -3.1416
+							scale 1.7598 5.3187 1.5712
+							center 49.8414 23.2748 -80.1199
+							translation -49.8414 -23.2748 80.1199
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance157 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance158 Transform {
+							rotation 0.0000 0.9945 0.1045 -3.1416
+							scale 1.7598 5.0219 1.5712
+							center 49.8414 22.4761 -80.1199
+							translation -49.8414 -22.4761 80.1199
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance160 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance155
+						DEF instance161 Transform {
+							rotation 0.0000 0.9994 -0.0349 -3.1416
+							scale 1.7598 5.3187 1.5712
+							center 52.3284 15.9633 -95.9855
+							translation -52.3284 -15.9633 95.9855
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance163 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance164 Transform {
+							rotation -0.0000 0.9994 -0.0349 -3.1416
+							scale 1.7598 5.0219 1.5712
+							center 52.3284 14.7325 -95.9855
+							translation -52.3284 -14.7325 95.9855
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance166 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance161
+						DEF instance167 Transform {
+							rotation 0.0000 1.0000 0.0000 -3.1416
+							scale 4.2737 6.9133 1.8226
+							center 21.0176 10.3272 -79.8946
+							translation -21.0176 -10.3272 79.8946
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance169 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						USE instance164
+						USE instance158
+						USE instance152
+						USE instance146
+						USE instance140
+						USE instance161
+						USE instance155
+						USE instance149
+						USE instance143
+					]
+				}
+			]
+		}
+		DEF instance170 Transform {
+			rotation 0.0000 1.0000 0.0000 -3.1416
+			center -44.6929 88.3032 -35.9138
+			translation 44.6929 -88.3032 35.9138
+			children [
+				Group {
+					children [
+						DEF instance171 Transform {
+							center 86.1864 -88.3032 68.7896
+							translation -86.1864 88.3032 -68.7896
+							children [
+								Group {
+									children [
+										USE instance34
+										USE instance37
+										USE instance40
+										USE instance43
+									]
+								}
+							]
+						}
+						DEF instance172 Transform {
+							center 86.1864 -88.3032 18.8175
+							translation -86.1864 88.3032 -18.8175
+							children [
+								Group {
+									children [
+										USE instance34
+										USE instance37
+										USE instance40
+										USE instance43
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance173 Transform {
+			rotation 0.0000 1.0000 -0.0000 -1.5708
+			scale 1.5000 1.5000 1.5000
+			center 130.0425 -25.4941 -175.0398
+			translation -130.0425 25.4941 175.0398
+			children [
+				Group {
+					children [
+						USE instance4
+						USE instance7
+						USE instance10
+						USE instance7
+						USE instance13
+						USE instance16
+						USE instance13
+						USE instance19
+						USE instance22
+						USE instance19
+						USE instance25
+						USE instance28
+						USE instance25
+						USE instance31
+						USE instance28
+						USE instance22
+						USE instance16
+						USE instance10
+						USE instance4
+						USE instance25
+						USE instance19
+						USE instance13
+						USE instance7
+					]
+				}
+			]
+		}
+		DEF instance174 Transform {
+			scale 184.0000 84.0000 184.0000
+			center -0.1522 0.2560 0.6685
+			translation 0.1522 -0.2560 -0.6685
+			children [
+				Shape {
+					appearance USE appearance0
+					geometry DEF instance176 IndexedFaceSet {
+						normalPerVertex TRUE
+						solid FALSE
+						coord Coordinate {
+							point [
+1 -1 0, -1 1 0, -1 -1 0,
+-1 1 0, 1 -1 0, 1 1 0,
+							]
+						}
+						normal Normal {
+							vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+							]
+						}
+						coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+						]
+					}
+				}
+			]
+		}
+		DEF instance177 Transform {
+			scale 64.0218 24.2146 64.0218
+			center -0.4144 1.8452 1.9011
+			translation 0.4144 -1.8452 -1.9011
+			children [
+				Shape {
+					appearance DEF appearance1 Appearance {
+						material Material {
+							diffuseColor 0.0656 0.0656 0.0336
+							specularColor 0.0000 0.0000 0.0000
+							transparency 0.0000
+						}
+						texture ImageTexture {
+							url [
+								"texture1.jpg"
+							]
+						}
+					}
+					geometry DEF instance179 IndexedFaceSet {
+						normalPerVertex TRUE
+						solid FALSE
+						coord Coordinate {
+							point [
+-0.999 -0.7837 0, -1 0.75 0, -1 -0.75 0,
+-1 0.75 0, -0.999 -0.7837 0, -0.999 0.7837 0,
+-0.999 0.7837 0, -0.999 -0.7837 0, -0.996 0.8148 0,
+-0.996 0.8148 0, -0.999 -0.7837 0, -0.996 -0.8148 0,
+-0.996 0.8148 0, -0.996 -0.8148 0, -0.9908 0.8433 0,
+-0.9908 0.8433 0, -0.996 -0.8148 0, -0.9908 -0.8433 0,
+-0.9908 0.8433 0, -0.9908 -0.8433 0, -0.9836 -0.8693 0,
+-0.9908 0.8433 0, -0.9836 -0.8693 0, -0.9836 0.8693 0,
+-0.9836 0.8693 0, -0.9836 -0.8693 0, -0.9741 -0.8927 0,
+-0.9836 0.8693 0, -0.9741 -0.8927 0, -0.9741 0.8927 0,
+-0.9741 0.8927 0, -0.9741 -0.8927 0, -0.9625 0.9137 0,
+-0.9625 0.9137 0, -0.9741 -0.8927 0, -0.9625 -0.9137 0,
+-0.9625 0.9137 0, -0.9625 -0.9137 0, -0.9486 0.9323 0,
+-0.9486 0.9323 0, -0.9625 -0.9137 0, -0.9486 -0.9323 0,
+-0.9486 0.9323 0, -0.9486 -0.9323 0, -0.9323 -0.9486 0,
+-0.9486 0.9323 0, -0.9323 -0.9486 0, -0.9323 0.9486 0,
+-0.9323 0.9486 0, -0.9323 -0.9486 0, -0.9137 -0.9625 0,
+-0.9323 0.9486 0, -0.9137 -0.9625 0, -0.9137 0.9625 0,
+-0.9137 0.9625 0, -0.9137 -0.9625 0, -0.8927 -0.9741 0,
+-0.9137 0.9625 0, -0.8927 -0.9741 0, -0.8927 0.9741 0,
+-0.8927 0.9741 0, -0.8927 -0.9741 0, -0.8693 -0.9836 0,
+-0.8927 0.9741 0, -0.8693 -0.9836 0, -0.8693 0.9836 0,
+-0.8693 0.9836 0, -0.8693 -0.9836 0, -0.8433 -0.9908 0,
+-0.8693 0.9836 0, -0.8433 -0.9908 0, -0.8433 0.9908 0,
+-0.8433 0.9908 0, -0.8433 -0.9908 0, -0.8148 -0.996 0,
+-0.8433 0.9908 0, -0.8148 -0.996 0, -0.8148 0.996 0,
+-0.8148 0.996 0, -0.8148 -0.996 0, -0.7837 -0.999 0,
+-0.8148 0.996 0, -0.7837 -0.999 0, -0.7837 0.999 0,
+-0.7837 0.999 0, -0.7837 -0.999 0, -0.75 -1 0,
+-0.7837 0.999 0, -0.75 -1 0, -0.75 1 0,
+-0.75 1 0, -0.75 -1 0, 0.75 -1 0,
+-0.75 1 0, 0.75 -1 0, 0.75 1 0,
+0.75 1 0, 0.75 -1 0, 0.7837 -0.999 0,
+0.75 1 0, 0.7837 -0.999 0, 0.7837 0.999 0,
+0.7837 0.999 0, 0.7837 -0.999 0, 0.8148 -0.996 0,
+0.7837 0.999 0, 0.8148 -0.996 0, 0.8148 0.996 0,
+0.8148 0.996 0, 0.8148 -0.996 0, 0.8433 -0.9908 0,
+0.8148 0.996 0, 0.8433 -0.9908 0, 0.8433 0.9908 0,
+0.8433 0.9908 0, 0.8433 -0.9908 0, 0.8693 -0.9836 0,
+0.8433 0.9908 0, 0.8693 -0.9836 0, 0.8693 0.9836 0,
+0.8693 0.9836 0, 0.8693 -0.9836 0, 0.8927 -0.9741 0,
+0.8693 0.9836 0, 0.8927 -0.9741 0, 0.8927 0.9741 0,
+0.8927 0.9741 0, 0.8927 -0.9741 0, 0.9137 -0.9625 0,
+0.8927 0.9741 0, 0.9137 -0.9625 0, 0.9137 0.9625 0,
+0.9137 0.9625 0, 0.9137 -0.9625 0, 0.9323 -0.9486 0,
+0.9137 0.9625 0, 0.9323 -0.9486 0, 0.9323 0.9486 0,
+0.9323 0.9486 0, 0.9323 -0.9486 0, 0.9486 -0.9323 0,
+0.9323 0.9486 0, 0.9486 -0.9323 0, 0.9486 0.9323 0,
+0.9486 0.9323 0, 0.9486 -0.9323 0, 0.9625 -0.9137 0,
+0.9486 0.9323 0, 0.9625 -0.9137 0, 0.9625 0.9137 0,
+0.9625 0.9137 0, 0.9625 -0.9137 0, 0.9741 0.8927 0,
+0.9741 0.8927 0, 0.9625 -0.9137 0, 0.9741 -0.8927 0,
+0.9741 0.8927 0, 0.9741 -0.8927 0, 0.9836 0.8693 0,
+0.9836 0.8693 0, 0.9741 -0.8927 0, 0.9836 -0.8693 0,
+0.9836 0.8693 0, 0.9836 -0.8693 0, 0.9908 -0.8433 0,
+0.9836 0.8693 0, 0.9908 -0.8433 0, 0.9908 0.8433 0,
+0.9908 0.8433 0, 0.9908 -0.8433 0, 0.996 -0.8148 0,
+0.9908 0.8433 0, 0.996 -0.8148 0, 0.996 0.8148 0,
+0.996 0.8148 0, 0.996 -0.8148 0, 0.999 0.7837 0,
+0.999 0.7837 0, 0.996 -0.8148 0, 0.999 -0.7837 0,
+0.999 0.7837 0, 0.999 -0.7837 0, 1 0.75 0,
+1 0.75 0, 0.999 -0.7837 0, 1 -0.75 0,
+							]
+						}
+						normal Normal {
+							vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+							]
+						}
+						texCoord TextureCoordinate {
+							point [
+-0.999 -0.7837, -1 0.75, -1 -0.75,
+-1 0.75, -0.999 -0.7837, -0.999 0.7837,
+-0.999 0.7837, -0.999 -0.7837, -0.996 0.8148,
+-0.996 0.8148, -0.999 -0.7837, -0.996 -0.8148,
+-0.996 0.8148, -0.996 -0.8148, -0.9908 0.8433,
+-0.9908 0.8433, -0.996 -0.8148, -0.9908 -0.8433,
+-0.9908 0.8433, -0.9908 -0.8433, -0.9836 -0.8693,
+-0.9908 0.8433, -0.9836 -0.8693, -0.9836 0.8693,
+-0.9836 0.8693, -0.9836 -0.8693, -0.9741 -0.8927,
+-0.9836 0.8693, -0.9741 -0.8927, -0.9741 0.8927,
+-0.9741 0.8927, -0.9741 -0.8927, -0.9625 0.9137,
+-0.9625 0.9137, -0.9741 -0.8927, -0.9625 -0.9137,
+-0.9625 0.9137, -0.9625 -0.9137, -0.9486 0.9323,
+-0.9486 0.9323, -0.9625 -0.9137, -0.9486 -0.9323,
+-0.9486 0.9323, -0.9486 -0.9323, -0.9323 -0.9486,
+-0.9486 0.9323, -0.9323 -0.9486, -0.9323 0.9486,
+-0.9323 0.9486, -0.9323 -0.9486, -0.9137 -0.9625,
+-0.9323 0.9486, -0.9137 -0.9625, -0.9137 0.9625,
+-0.9137 0.9625, -0.9137 -0.9625, -0.8927 -0.9741,
+-0.9137 0.9625, -0.8927 -0.9741, -0.8927 0.9741,
+-0.8927 0.9741, -0.8927 -0.9741, -0.8693 -0.9836,
+-0.8927 0.9741, -0.8693 -0.9836, -0.8693 0.9836,
+-0.8693 0.9836, -0.8693 -0.9836, -0.8433 -0.9908,
+-0.8693 0.9836, -0.8433 -0.9908, -0.8433 0.9908,
+-0.8433 0.9908, -0.8433 -0.9908, -0.8148 -0.996,
+-0.8433 0.9908, -0.8148 -0.996, -0.8148 0.996,
+-0.8148 0.996, -0.8148 -0.996, -0.7837 -0.999,
+-0.8148 0.996, -0.7837 -0.999, -0.7837 0.999,
+-0.7837 0.999, -0.7837 -0.999, -0.75 -1,
+-0.7837 0.999, -0.75 -1, -0.75 1,
+-0.75 1, -0.75 -1, 0.75 -1,
+-0.75 1, 0.75 -1, 0.75 1,
+0.75 1, 0.75 -1, 0.7837 -0.999,
+0.75 1, 0.7837 -0.999, 0.7837 0.999,
+0.7837 0.999, 0.7837 -0.999, 0.8148 -0.996,
+0.7837 0.999, 0.8148 -0.996, 0.8148 0.996,
+0.8148 0.996, 0.8148 -0.996, 0.8433 -0.9908,
+0.8148 0.996, 0.8433 -0.9908, 0.8433 0.9908,
+0.8433 0.9908, 0.8433 -0.9908, 0.8693 -0.9836,
+0.8433 0.9908, 0.8693 -0.9836, 0.8693 0.9836,
+0.8693 0.9836, 0.8693 -0.9836, 0.8927 -0.9741,
+0.8693 0.9836, 0.8927 -0.9741, 0.8927 0.9741,
+0.8927 0.9741, 0.8927 -0.9741, 0.9137 -0.9625,
+0.8927 0.9741, 0.9137 -0.9625, 0.9137 0.9625,
+0.9137 0.9625, 0.9137 -0.9625, 0.9323 -0.9486,
+0.9137 0.9625, 0.9323 -0.9486, 0.9323 0.9486,
+0.9323 0.9486, 0.9323 -0.9486, 0.9486 -0.9323,
+0.9323 0.9486, 0.9486 -0.9323, 0.9486 0.9323,
+0.9486 0.9323, 0.9486 -0.9323, 0.9625 -0.9137,
+0.9486 0.9323, 0.9625 -0.9137, 0.9625 0.9137,
+0.9625 0.9137, 0.9625 -0.9137, 0.9741 0.8927,
+0.9741 0.8927, 0.9625 -0.9137, 0.9741 -0.8927,
+0.9741 0.8927, 0.9741 -0.8927, 0.9836 0.8693,
+0.9836 0.8693, 0.9741 -0.8927, 0.9836 -0.8693,
+0.9836 0.8693, 0.9836 -0.8693, 0.9908 -0.8433,
+0.9836 0.8693, 0.9908 -0.8433, 0.9908 0.8433,
+0.9908 0.8433, 0.9908 -0.8433, 0.996 -0.8148,
+0.9908 0.8433, 0.996 -0.8148, 0.996 0.8148,
+0.996 0.8148, 0.996 -0.8148, 0.999 0.7837,
+0.999 0.7837, 0.996 -0.8148, 0.999 -0.7837,
+0.999 0.7837, 0.999 -0.7837, 1 0.75,
+1 0.75, 0.999 -0.7837, 1 -0.75,
+							]
+						}
+						coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+36, 37, 38, -1,
+39, 40, 41, -1,
+42, 43, 44, -1,
+45, 46, 47, -1,
+48, 49, 50, -1,
+51, 52, 53, -1,
+54, 55, 56, -1,
+57, 58, 59, -1,
+60, 61, 62, -1,
+63, 64, 65, -1,
+66, 67, 68, -1,
+69, 70, 71, -1,
+72, 73, 74, -1,
+75, 76, 77, -1,
+78, 79, 80, -1,
+81, 82, 83, -1,
+84, 85, 86, -1,
+87, 88, 89, -1,
+90, 91, 92, -1,
+93, 94, 95, -1,
+96, 97, 98, -1,
+99, 100, 101, -1,
+102, 103, 104, -1,
+105, 106, 107, -1,
+108, 109, 110, -1,
+111, 112, 113, -1,
+114, 115, 116, -1,
+117, 118, 119, -1,
+120, 121, 122, -1,
+123, 124, 125, -1,
+126, 127, 128, -1,
+129, 130, 131, -1,
+132, 133, 134, -1,
+135, 136, 137, -1,
+138, 139, 140, -1,
+141, 142, 143, -1,
+144, 145, 146, -1,
+147, 148, 149, -1,
+150, 151, 152, -1,
+153, 154, 155, -1,
+156, 157, 158, -1,
+159, 160, 161, -1,
+162, 163, 164, -1,
+165, 166, 167, -1,
+168, 169, 170, -1,
+171, 172, 173, -1,
+174, 175, 176, -1,
+177, 178, 179, -1,
+180, 181, 182, -1,
+183, 184, 185, -1,
+						]
+					}
+				}
+			]
+		}
+		DEF instance180 Transform {
+			center -0.0000 61.2702 -0.0000
+			translation 0.0000 -61.2702 0.0000
+			children [
+				Group {
+					children [
+						Group {
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance182 IndexedFaceSet {
+										normalPerVertex TRUE
+										coord Coordinate {
+											point [
+25.2299 -45.2308 -94.7584, -67.5642 -45.2308 -125.5486, 25.2299 -45.2308 -125.5486,
+-67.5642 -45.2308 -125.5486, 25.2299 -45.2308 -94.7584, 9.8354 -45.2308 -94.7584,
+-67.5642 -45.2308 -125.5486, 9.8354 -45.2308 -94.7584, -23.5044 -45.2308 -88.46,
+-67.5642 -45.2308 -125.5486, -23.5044 -45.2308 -88.46, -67.5642 -45.2308 -74.2128,
+-23.5044 -45.2308 -88.46, 9.8354 -45.2308 -94.7584, 9.8354 -45.2308 -89.2551,
+-67.5642 -45.2308 -74.2128, -23.5044 -45.2308 -88.46, -48.7672 -45.2308 -73.4176,
+											]
+										}
+										normal Normal {
+											vector [
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+											]
+										}
+										coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+										]
+									}
+								}
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance184 IndexedFaceSet {
+										normalPerVertex TRUE
+										coord Coordinate {
+											point [
+113.6497 -45.2308 -74.2128, 20.8556 -45.2308 -125.5486, 113.6497 -45.2308 -125.5486,
+20.8556 -45.2308 -125.5486, 113.6497 -45.2308 -74.2128, 69.5899 -45.2308 -88.46,
+20.8556 -45.2308 -125.5486, 69.5899 -45.2308 -88.46, 36.2501 -45.2308 -94.7584,
+36.2501 -45.2308 -94.7584, 69.5899 -45.2308 -88.46, 36.2501 -45.2308 -89.2551,
+69.5899 -45.2308 -88.46, 113.6497 -45.2308 -74.2128, 94.8527 -45.2308 -73.4176,
+20.8556 -45.2308 -94.7584, 20.8556 -45.2308 -125.5486, 36.2501 -45.2308 -94.7584,
+											]
+										}
+										normal Normal {
+											vector [
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+0 -1 0, 0 -1 0, 0 -1 0,
+											]
+										}
+										coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+										]
+									}
+								}
+							]
+						}
+						Group {
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance186 IndexedFaceSet {
+										normalPerVertex TRUE
+										coord Coordinate {
+											point [
+-65.3771 -21.75 -76.3999, 23.0428 -21.75 -123.3615, -65.3771 -21.75 -123.3615,
+23.0428 -21.75 -123.3615, -65.3771 -21.75 -76.3999, -24.325 -21.75 -91.4423,
+23.0428 -21.75 -123.3615, -24.325 -21.75 -91.4423, 7.6482 -21.75 -96.9456,
+-24.325 -21.75 -91.4423, -65.3771 -21.75 -76.3999, -49.5878 -21.75 -76.3999,
+7.6482 -21.75 -91.4423, 7.6482 -21.75 -96.9456, -24.325 -21.75 -91.4423,
+23.0428 -21.75 -96.9456, 23.0428 -21.75 -123.3615, 7.6482 -21.75 -96.9456,
+											]
+										}
+										normal Normal {
+											vector [
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+											]
+										}
+										coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+										]
+									}
+								}
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance188 IndexedFaceSet {
+										normalPerVertex TRUE
+										coord Coordinate {
+											point [
+23.0428 -21.75 -96.9456, 111.4626 -21.75 -123.3615, 23.0428 -21.75 -123.3615,
+111.4626 -21.75 -123.3615, 23.0428 -21.75 -96.9456, 38.4373 -21.75 -96.9456,
+111.4626 -21.75 -123.3615, 38.4373 -21.75 -96.9456, 70.4105 -21.75 -91.4423,
+111.4626 -21.75 -123.3615, 70.4105 -21.75 -91.4423, 111.4626 -21.75 -76.3999,
+70.4105 -21.75 -91.4423, 38.4373 -21.75 -96.9456, 38.4373 -21.75 -91.4423,
+111.4626 -21.75 -76.3999, 70.4105 -21.75 -91.4423, 95.6733 -21.75 -76.3999,
+											]
+										}
+										normal Normal {
+											vector [
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+0 1 0, 0 1 0, 0 1 0,
+											]
+										}
+										coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+										]
+									}
+								}
+							]
+						}
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance190 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+-65.3771 -21.75 -76.3999, -67.5642 -22.7352 -74.2128, -49.5878 -21.75 -76.3999,
+-67.5642 -22.7352 -74.2128, -48.7672 -22.7352 -73.4176, -49.5878 -21.75 -76.3999,
+-49.5878 -21.75 -76.3999, -48.7672 -22.7352 -73.4176, -24.325 -21.75 -91.4423,
+-48.7672 -22.7352 -73.4176, -23.5044 -22.7352 -88.46, -24.325 -21.75 -91.4423,
+-24.325 -21.75 -91.4423, -23.5044 -22.7352 -88.46, 7.6482 -21.75 -91.4423,
+-23.5044 -22.7352 -88.46, 9.8354 -22.7352 -89.2551, 7.6482 -21.75 -91.4423,
+7.6482 -21.75 -91.4423, 9.8354 -22.7352 -89.2551, 7.6482 -21.75 -96.9456,
+9.8354 -22.7352 -89.2551, 9.8354 -22.7352 -94.7584, 7.6482 -21.75 -96.9456,
+7.6482 -21.75 -96.9456, 9.8354 -22.7352 -94.7584, 23.0428 -21.75 -96.9456,
+9.8354 -22.7352 -94.7584, 25.2299 -22.7352 -94.7584, 23.0428 -21.75 -96.9456,
+23.0428 -21.75 -96.9456, 25.2299 -22.7352 -94.7584, 23.0428 -21.75 -123.3615,
+25.2299 -22.7352 -94.7584, 25.2299 -22.7352 -125.5486, 23.0428 -21.75 -123.3615,
+23.0428 -21.75 -123.3615, 25.2299 -22.7352 -125.5486, -65.3771 -21.75 -123.3615,
+25.2299 -22.7352 -125.5486, -67.5642 -22.7352 -125.5486, -65.3771 -21.75 -123.3615,
+-65.3771 -21.75 -123.3615, -67.5642 -22.7352 -125.5486, -65.3771 -21.75 -76.3999,
+-67.5642 -22.7352 -125.5486, -67.5642 -22.7352 -74.2128, -65.3771 -21.75 -76.3999,
+-67.5642 -22.7352 -74.2128, -67.5642 -45.2308 -74.2128, -48.7672 -22.7352 -73.4176,
+-67.5642 -45.2308 -74.2128, -48.7672 -45.2308 -73.4176, -48.7672 -22.7352 -73.4176,
+-48.7672 -22.7352 -73.4176, -48.7672 -45.2308 -73.4176, -23.5044 -22.7352 -88.46,
+-48.7672 -45.2308 -73.4176, -23.5044 -45.2308 -88.46, -23.5044 -22.7352 -88.46,
+-23.5044 -22.7352 -88.46, -23.5044 -45.2308 -88.46, 9.8354 -22.7352 -89.2551,
+-23.5044 -45.2308 -88.46, 9.8354 -45.2308 -89.2551, 9.8354 -22.7352 -89.2551,
+9.8354 -22.7352 -89.2551, 9.8354 -45.2308 -89.2551, 9.8354 -22.7352 -94.7584,
+9.8354 -45.2308 -89.2551, 9.8354 -45.2308 -94.7584, 9.8354 -22.7352 -94.7584,
+9.8354 -22.7352 -94.7584, 9.8354 -45.2308 -94.7584, 25.2299 -22.7352 -94.7584,
+9.8354 -45.2308 -94.7584, 25.2299 -45.2308 -94.7584, 25.2299 -22.7352 -94.7584,
+25.2299 -22.7352 -94.7584, 25.2299 -45.2308 -94.7584, 25.2299 -22.7352 -125.5486,
+25.2299 -45.2308 -94.7584, 25.2299 -45.2308 -125.5486, 25.2299 -22.7352 -125.5486,
+25.2299 -22.7352 -125.5486, 25.2299 -45.2308 -125.5486, -67.5642 -22.7352 -125.5486,
+25.2299 -45.2308 -125.5486, -67.5642 -45.2308 -125.5486, -67.5642 -22.7352 -125.5486,
+-67.5642 -22.7352 -125.5486, -67.5642 -45.2308 -125.5486, -67.5642 -22.7352 -74.2128,
+-67.5642 -45.2308 -125.5486, -67.5642 -45.2308 -74.2128, -67.5642 -22.7352 -74.2128,
+									]
+								}
+								normal Normal {
+									vector [
+0 0.9118 0.4107, 0 0.9118 0.4107, 0.0493 0.9413 0.3341,
+-0.0134 0.9483 0.317, 0.1029 0.9526 0.2864, 0.0493 0.9413 0.3341,
+0.0493 0.9413 0.3341, 0.1029 0.9526 0.2864, 0.1073 0.9525 0.2851,
+0.1029 0.9526 0.2864, 0.0569 0.9422 0.3301, 0.1073 0.9525 0.2851,
+0.1073 0.9525 0.2851, 0.0569 0.9422 0.3301, 0.0048 0.9335 0.3586,
+0.0569 0.9422 0.3301, 0.0096 0.9153 0.4027, 0.0048 0.9335 0.3586,
+0.4107 0.9118 0, 0.4107 0.9118 0, 0.4107 0.9118 0,
+0.4107 0.9118 0, 0.4107 0.9118 0, 0.4107 0.9118 0,
+0 0.9118 0.4107, 0 0.9118 0.4107, 0 0.9118 0.4107,
+0 0.9118 0.4107, 0 0.9118 0.4107, 0 0.9118 0.4107,
+0.4107 0.9118 0, 0.4107 0.9118 0, 0.4107 0.9118 0,
+0.4107 0.9118 0, 0.4107 0.9118 0, 0.4107 0.9118 0,
+0 0.9118 -0.4107, 0 0.9118 -0.4107, 0 0.9118 -0.4107,
+0 0.9118 -0.4107, 0 0.9118 -0.4107, 0 0.9118 -0.4107,
+-0.4107 0.9118 0, -0.4107 0.9118 0, -0.4107 0.9118 0,
+-0.4107 0.9118 0, -0.4107 0.9118 0, -0.4107 0.9118 0,
+-0.0423 0 0.9991, -0.0423 0 0.9991, -0.0423 0 0.9991,
+-0.0423 0 0.9991, -0.0423 0 0.9991, -0.0423 0 0.9991,
+0.5116 0 0.8592, 0.5116 0 0.8592, 0.3595 0 0.9332,
+0.5116 0 0.8592, 0.192 0 0.9814, 0.3595 0 0.9332,
+0.3595 0 0.9332, 0.192 0 0.9814, 0.0238 0 0.9997,
+0.192 0 0.9814, 0.0238 0 0.9997, 0.0238 0 0.9997,
+1 0 0, 1 0 0, 1 0 0,
+1 0 0, 1 0 0, 1 0 0,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+1 0 0, 1 0 0, 1 0 0,
+1 0 0, 1 0 0, 1 0 0,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+-1 0 0, -1 0 0, -1 0 0,
+-1 0 0, -1 0 0, -1 0 0,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+36, 37, 38, -1,
+39, 40, 41, -1,
+42, 43, 44, -1,
+45, 46, 47, -1,
+48, 49, 50, -1,
+51, 52, 53, -1,
+54, 55, 56, -1,
+57, 58, 59, -1,
+60, 61, 62, -1,
+63, 64, 65, -1,
+66, 67, 68, -1,
+69, 70, 71, -1,
+72, 73, 74, -1,
+75, 76, 77, -1,
+78, 79, 80, -1,
+81, 82, 83, -1,
+84, 85, 86, -1,
+87, 88, 89, -1,
+90, 91, 92, -1,
+93, 94, 95, -1,
+								]
+							}
+						}
+						Shape {
+							appearance USE appearance0
+							geometry DEF instance192 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+111.4626 -21.75 -123.3615, 113.6497 -22.7352 -125.5486, 23.0428 -21.75 -123.3615,
+113.6497 -22.7352 -125.5486, 20.8556 -22.7352 -125.5486, 23.0428 -21.75 -123.3615,
+23.0428 -21.75 -123.3615, 20.8556 -22.7352 -125.5486, 23.0428 -21.75 -96.9456,
+20.8556 -22.7352 -125.5486, 20.8556 -22.7352 -94.7584, 23.0428 -21.75 -96.9456,
+23.0428 -21.75 -96.9456, 20.8556 -22.7352 -94.7584, 38.4373 -21.75 -96.9456,
+20.8556 -22.7352 -94.7584, 36.2501 -22.7352 -94.7584, 38.4373 -21.75 -96.9456,
+38.4373 -21.75 -96.9456, 36.2501 -22.7352 -94.7584, 38.4373 -21.75 -91.4423,
+36.2501 -22.7352 -94.7584, 36.2501 -22.7352 -89.2551, 38.4373 -21.75 -91.4423,
+38.4373 -21.75 -91.4423, 36.2501 -22.7352 -89.2551, 70.4105 -21.75 -91.4423,
+36.2501 -22.7352 -89.2551, 69.5899 -22.7352 -88.46, 70.4105 -21.75 -91.4423,
+70.4105 -21.75 -91.4423, 69.5899 -22.7352 -88.46, 95.6733 -21.75 -76.3999,
+69.5899 -22.7352 -88.46, 94.8527 -22.7352 -73.4176, 95.6733 -21.75 -76.3999,
+95.6733 -21.75 -76.3999, 94.8527 -22.7352 -73.4176, 111.4626 -21.75 -76.3999,
+94.8527 -22.7352 -73.4176, 113.6497 -22.7352 -74.2128, 111.4626 -21.75 -76.3999,
+111.4626 -21.75 -76.3999, 113.6497 -22.7352 -74.2128, 111.4626 -21.75 -123.3615,
+113.6497 -22.7352 -74.2128, 113.6497 -22.7352 -125.5486, 111.4626 -21.75 -123.3615,
+113.6497 -22.7352 -125.5486, 113.6497 -45.2308 -125.5486, 20.8556 -22.7352 -125.5486,
+113.6497 -45.2308 -125.5486, 20.8556 -45.2308 -125.5486, 20.8556 -22.7352 -125.5486,
+20.8556 -22.7352 -125.5486, 20.8556 -45.2308 -125.5486, 20.8556 -22.7352 -94.7584,
+20.8556 -45.2308 -125.5486, 20.8556 -45.2308 -94.7584, 20.8556 -22.7352 -94.7584,
+20.8556 -22.7352 -94.7584, 20.8556 -45.2308 -94.7584, 36.2501 -22.7352 -94.7584,
+20.8556 -45.2308 -94.7584, 36.2501 -45.2308 -94.7584, 36.2501 -22.7352 -94.7584,
+36.2501 -22.7352 -94.7584, 36.2501 -45.2308 -94.7584, 36.2501 -22.7352 -89.2551,
+36.2501 -45.2308 -94.7584, 36.2501 -45.2308 -89.2551, 36.2501 -22.7352 -89.2551,
+36.2501 -22.7352 -89.2551, 36.2501 -45.2308 -89.2551, 69.5899 -22.7352 -88.46,
+36.2501 -45.2308 -89.2551, 69.5899 -45.2308 -88.46, 69.5899 -22.7352 -88.46,
+69.5899 -22.7352 -88.46, 69.5899 -45.2308 -88.46, 94.8527 -22.7352 -73.4176,
+69.5899 -45.2308 -88.46, 94.8527 -45.2308 -73.4176, 94.8527 -22.7352 -73.4176,
+94.8527 -22.7352 -73.4176, 94.8527 -45.2308 -73.4176, 113.6497 -22.7352 -74.2128,
+94.8527 -45.2308 -73.4176, 113.6497 -45.2308 -74.2128, 113.6497 -22.7352 -74.2128,
+113.6497 -22.7352 -74.2128, 113.6497 -45.2308 -74.2128, 113.6497 -22.7352 -125.5486,
+113.6497 -45.2308 -74.2128, 113.6497 -45.2308 -125.5486, 113.6497 -22.7352 -125.5486,
+									]
+								}
+								normal Normal {
+									vector [
+0 0.9118 -0.4107, 0 0.9118 -0.4107, 0 0.9118 -0.4107,
+0 0.9118 -0.4107, 0 0.9118 -0.4107, 0 0.9118 -0.4107,
+-0.4107 0.9118 0, -0.4107 0.9118 0, -0.4107 0.9118 0,
+-0.4107 0.9118 0, -0.4107 0.9118 0, -0.4107 0.9118 0,
+0 0.9118 0.4107, 0 0.9118 0.4107, 0 0.9118 0.4107,
+0 0.9118 0.4107, 0 0.9118 0.4107, 0 0.9118 0.4107,
+-0.4107 0.9118 0, -0.4107 0.9118 0, -0.4107 0.9118 0,
+-0.4107 0.9118 0, -0.4107 0.9118 0, -0.4107 0.9118 0,
+0 0.9118 0.4107, 0 0.9118 0.4107, -0.0562 0.9415 0.3322,
+-0.0074 0.9501 0.3118, -0.1098 0.9524 0.2844, -0.0562 0.9415 0.3322,
+-0.0562 0.9415 0.3322, -0.1098 0.9524 0.2844, -0.1073 0.9525 0.2851,
+-0.1098 0.9524 0.2844, -0.0481 0.9434 0.3282, -0.1073 0.9525 0.2851,
+-0.1073 0.9525 0.2851, -0.0481 0.9434 0.3282, 0.0084 0.9346 0.3555,
+-0.0481 0.9434 0.3282, 0.0168 0.9178 0.3967, 0.0084 0.9346 0.3555,
+0.4107 0.9118 0, 0.4107 0.9118 0, 0.4107 0.9118 0,
+0.4107 0.9118 0, 0.4107 0.9118 0, 0.4107 0.9118 0,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+-1 0 0, -1 0 0, -1 0 0,
+-1 0 0, -1 0 0, -1 0 0,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+-1 0 0, -1 0 0, -1 0 0,
+-1 0 0, -1 0 0, -1 0 0,
+-0.0238 0 0.9997, -0.0238 0 0.9997, -0.192 0 0.9814,
+-0.0238 0 0.9997, -0.3595 0 0.9332, -0.192 0 0.9814,
+-0.192 0 0.9814, -0.3595 0 0.9332, -0.5116 0 0.8592,
+-0.3595 0 0.9332, -0.5116 0 0.8592, -0.5116 0 0.8592,
+0.0423 0 0.9991, 0.0423 0 0.9991, 0.0423 0 0.9991,
+0.0423 0 0.9991, 0.0423 0 0.9991, 0.0423 0 0.9991,
+1 0 0, 1 0 0, 1 0 0,
+1 0 0, 1 0 0, 1 0 0,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+36, 37, 38, -1,
+39, 40, 41, -1,
+42, 43, 44, -1,
+45, 46, 47, -1,
+48, 49, 50, -1,
+51, 52, 53, -1,
+54, 55, 56, -1,
+57, 58, 59, -1,
+60, 61, 62, -1,
+63, 64, 65, -1,
+66, 67, 68, -1,
+69, 70, 71, -1,
+72, 73, 74, -1,
+75, 76, 77, -1,
+78, 79, 80, -1,
+81, 82, 83, -1,
+84, 85, 86, -1,
+87, 88, 89, -1,
+90, 91, 92, -1,
+93, 94, 95, -1,
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,61 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position 206.4328 192.0676 135.7480
+	orientation -0.8165 0.5774 0.0000 1.0472
+	fieldOfView 1.3894
+	description "Camera #1"
+}
+DirectionalLight {
+	on TRUE
+	intensity 0.8000
+	color 1.0000 1.0000 1.0000
+	direction 0.1612 -0.7500 -0.6415
+}
+WorldInfo {
+	title "L:\xsera\models\exported strata models\media cd1\atomic pulse model\Atomic Pulse Model.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+Group {
+	children [
+		DEF instance3 Transform {
+			scale 109.0286 109.0286 109.0286
+			center -0.6562 0.0069 -0.0000
+			translation 0.6562 -0.0069 0.0000
+			children [
+				Shape {
+					appearance DEF appearance0 Appearance {
+						material Material {
+							diffuseColor 1.0000 0.7900 0.1100
+							specularColor 0.0000 0.0000 0.0000
+							transparency 0.5727
+						}
+					}
+					geometry DEF instance5 Sphere {
+						radius 1.0
+					}
+				}
+			]
+		}
+		DEF instance6 Transform {
+			scale 27.2571 27.2571 27.2571
+			center -2.6250 0.0278 -0.0000
+			translation 2.6250 -0.0278 0.0000
+			children [
+				Shape {
+					appearance DEF appearance1 Appearance {
+						material Material {
+							diffuseColor 1.0000 0.7900 0.1100
+							specularColor 0.0000 0.0000 0.0000
+							transparency 0.4273
+						}
+					}
+					geometry DEF instance8 Sphere {
+						radius 1.0
+					}
+				}
+			]
+		}
+	]
+}

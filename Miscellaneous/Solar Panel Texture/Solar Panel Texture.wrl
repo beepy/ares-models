@@ -1,0 +1,18 @@
+#VRML V2.0 utf8
+
+DirectionalLight {
+	on TRUE
+	intensity 0.9500
+	color 1.0000 1.0000 1.0000
+	direction 0.3517 -0.7887 -0.5043
+}
+WorldInfo {
+	title "/Users/atg/Dropbox/xsera/models/Strata Challenge/models/Models/Media CD 1/Ares Graphics & Models Ä/Solar Panel Texture_/Solar Panel Texture.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+Viewpoint {
+	position 577.3503 721.3503 577.3503
+	orientation -0.7071 0.7071 0.0000 0.9553
+	fieldOfView 0.8029
+}

@@ -1,0 +1,18 @@
+blue radial glow:
+	r0g115b255
+	as name describes.
+green linear glow:
+	r0g255b0
+	as name describes.
+red linear glow:
+	r255g76b0
+	as name describes, except its orange
+space circuit white:
+	diffuse generic static texture
+	bump generic circuits texture
+	r0g204b204
+tile space white:
+	same as space circuit but bump is genereic static textures
+yellow radial glow:
+	r255g255b97
+	as name describes.

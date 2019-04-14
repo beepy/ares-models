@@ -1,0 +1,11 @@
+glow splotch:
+	r255g201b8
+	glow and opacity are controlled by "splotch.png"
+glow splotch faint:
+	same diffuse color
+	lighting controlled by "splotch.png"
+	stencil- "shader1_sten.jpg"
+glow splotch invert:
+	same as glow splotch, opacity and glow inverted.
+invisible surface:
+	its invisible.

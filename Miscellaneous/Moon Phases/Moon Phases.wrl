@@ -1,0 +1,49 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position -22.5798 30.7972 216.8419
+	orientation 0.9994 -0.0337 0.0000 0.0792
+	fieldOfView 1.3919
+	description "Camera #1"
+}
+PointLight {
+	on TRUE
+	intensity 1.0000
+	color 0.9000 0.9386 1.0000
+	location 1746.2747 47.9999 -488.2645
+}
+WorldInfo {
+	title "/Users/atg/Desktop/models/Models/Media CD 1/Moon Phases.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+DEF instance2 Transform {
+	center 345.7686 374.5454 -0.0000
+	translation -345.7686 -374.5454 0.0000
+	children [
+		DEF instance3 Transform {
+			scale 131.7025 131.7025 131.7025
+			center -2.4583 -3.2083 -0.0000
+			translation 2.4583 3.2083 0.0000
+			children [
+				Shape {
+					appearance DEF appearance0 Appearance {
+						material Material {
+							diffuseColor 0.5457 0.5294 0.5294
+							specularColor 0.0000 0.0000 0.0000
+							transparency 0.0000
+						}
+						texture ImageTexture {
+							url [
+								"texture0.jpg"
+							]
+						}
+					}
+					geometry DEF instance5 Sphere {
+						radius 1.0
+					}
+				}
+			]
+		}
+	]
+}

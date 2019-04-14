@@ -1,0 +1,25 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position -147.3734 802.6708 597.7513
+	orientation -1.0000 0.0009 0.0000 1.0187
+	fieldOfView 0.3680
+	description "Camera #2"
+}
+Viewpoint {
+	position -353.1796 -121.0936 1255.4142
+	orientation 0.0000 -1.0000 0.0000 0.1745
+	fieldOfView 0.3252
+	description "Camera #1"
+}
+DirectionalLight {
+	on TRUE
+	intensity 0.8000
+	color 1.0000 1.0000 1.0000
+	direction 0.0412 -0.9317 -0.3609
+}
+WorldInfo {
+	title "/Users/atg/Dropbox/xsera/models/Strata Challenge/models/Models/Media CD 1/Ares Graphics & Models Ä/Gate Ship, Cantharan_/Gate Ship, Cantharan.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+

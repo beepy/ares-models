@@ -1,0 +1,6456 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position 0.0000 723.8276 805.0000
+	orientation -1.0000 0.0000 -0.0000 0.7854
+	fieldOfView 0.9287
+	description "Camera #1"
+}
+DirectionalLight {
+	on TRUE
+	intensity 0.8000
+	color 1.0000 1.0000 1.0000
+	direction 0.4788 -0.8725 -0.0977
+}
+WorldInfo {
+	title "/Users/atg/Desktop/models/Models/Media CD 1/trooper, gaitori assault.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+DEF instance2 Transform {
+	rotation 0.0000 1.0000 0.0000 -3.1416
+	center 1.3320 -0.0001 152.4884
+	translation -1.3320 0.0001 -152.4884
+	children [
+		Group {
+			children [
+				DEF instance3 Transform {
+					scale 1.0000 1.0000 7.4000
+					center -0.0000 -0.0000 -19.5946
+					translation 0.0000 0.0000 19.5946
+					children [
+						Group {
+							children [
+								Shape {
+									appearance DEF appearance11486147 Appearance {
+										material Material {
+											diffuseColor 0.0000 0.0000 0.0000
+										}
+									}
+									geometry DEF instance5 IndexedFaceSet {
+										normalPerVertex TRUE
+										solid FALSE
+										coord Coordinate {
+											point [
+-40 -5 -20, -45 -35 -20, -50 -20 -20,
+-45 -35 -20, -40 -5 -20, 0 -40 -20,
+0 -40 -20, -40 -5 -20, 0 0 -20,
+0 -40 -20, 0 0 -20, 40 -5 -20,
+0 -40 -20, 40 -5 -20, 45 -35 -20,
+45 -35 -20, 40 -5 -20, 50 -20 -20,
+											]
+										}
+										normal Normal {
+											vector [
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+											]
+										}
+										coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+										]
+									}
+								}
+								Shape {
+									appearance USE appearance11486147
+									geometry DEF instance7 IndexedFaceSet {
+										normalPerVertex TRUE
+										solid FALSE
+										coord Coordinate {
+											point [
+-45 -35 0, -40 -5 0, -50 -20 0,
+-40 -5 0, -45 -35 0, 0 -40 0,
+-40 -5 0, 0 -40 0, 0 0 0,
+0 0 0, 0 -40 0, 45 -35 0,
+0 0 0, 45 -35 0, 40 -5 0,
+40 -5 0, 45 -35 0, 50 -20 0,
+											]
+										}
+										normal Normal {
+											vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+											]
+										}
+										coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+										]
+									}
+								}
+								Shape {
+									appearance USE appearance11486147
+									geometry DEF instance9 IndexedFaceSet {
+										normalPerVertex TRUE
+										coord Coordinate {
+											point [
+0 -40 0, 0 -40.7082 -5.1825, 45 -35 0,
+0 -40.7082 -5.1825, 45.4452 -35.5508 -5.1825, 45 -35 0,
+45 -35 0, 45.4452 -35.5508 -5.1825, 50 -20 0,
+45.4452 -35.5508 -5.1825, 50.702 -19.906 -5.1825, 50 -20 0,
+50 -20 0, 50.702 -19.906 -5.1825, 40 -5 0,
+50.702 -19.906 -5.1825, 40.3723 -4.3976 -5.1825, 40 -5 0,
+40 -5 0, 40.3723 -4.3976 -5.1825, 0 0 0,
+40.3723 -4.3976 -5.1825, 0 0.7082 -5.1825, 0 0 0,
+0 0 0, 0 0.7082 -5.1825, -40 -5 0,
+0 0.7082 -5.1825, -40.3723 -4.3976 -5.1825, -40 -5 0,
+-40 -5 0, -40.3723 -4.3976 -5.1825, -50 -20 0,
+-40.3723 -4.3976 -5.1825, -50.702 -19.906 -5.1825, -50 -20 0,
+-50 -20 0, -50.702 -19.906 -5.1825, -45 -35 0,
+-50.702 -19.906 -5.1825, -45.4452 -35.5508 -5.1825, -45 -35 0,
+-45 -35 0, -45.4452 -35.5508 -5.1825, 0 -40 0,
+-45.4452 -35.5508 -5.1825, 0 -40.7082 -5.1825, 0 -40 0,
+0 -40.7082 -5.1825, 0 -40.7082 -14.8175, 45.4452 -35.5508 -5.1825,
+0 -40.7082 -14.8175, 45.4452 -35.5508 -14.8175, 45.4452 -35.5508 -5.1825,
+45.4452 -35.5508 -5.1825, 45.4452 -35.5508 -14.8175, 50.702 -19.906 -5.1825,
+45.4452 -35.5508 -14.8175, 50.702 -19.906 -14.8175, 50.702 -19.906 -5.1825,
+50.702 -19.906 -5.1825, 50.702 -19.906 -14.8175, 40.3723 -4.3976 -5.1825,
+50.702 -19.906 -14.8175, 40.3723 -4.3976 -14.8175, 40.3723 -4.3976 -5.1825,
+40.3723 -4.3976 -5.1825, 40.3723 -4.3976 -14.8175, 0 0.7082 -5.1825,
+40.3723 -4.3976 -14.8175, 0 0.7082 -14.8175, 0 0.7082 -5.1825,
+0 0.7082 -5.1825, 0 0.7082 -14.8175, -40.3723 -4.3976 -5.1825,
+0 0.7082 -14.8175, -40.3723 -4.3976 -14.8175, -40.3723 -4.3976 -5.1825,
+-40.3723 -4.3976 -5.1825, -40.3723 -4.3976 -14.8175, -50.702 -19.906 -5.1825,
+-40.3723 -4.3976 -14.8175, -50.702 -19.906 -14.8175, -50.702 -19.906 -5.1825,
+-50.702 -19.906 -5.1825, -50.702 -19.906 -14.8175, -45.4452 -35.5508 -5.1825,
+-50.702 -19.906 -14.8175, -45.4452 -35.5508 -14.8175, -45.4452 -35.5508 -5.1825,
+-45.4452 -35.5508 -5.1825, -45.4452 -35.5508 -14.8175, 0 -40.7082 -5.1825,
+-45.4452 -35.5508 -14.8175, 0 -40.7082 -14.8175, 0 -40.7082 -5.1825,
+0 -40.7082 -14.8175, 0 -40 -20, 45.4452 -35.5508 -14.8175,
+0 -40 -20, 45 -35 -20, 45.4452 -35.5508 -14.8175,
+45.4452 -35.5508 -14.8175, 45 -35 -20, 50.702 -19.906 -14.8175,
+45 -35 -20, 50 -20 -20, 50.702 -19.906 -14.8175,
+50.702 -19.906 -14.8175, 50 -20 -20, 40.3723 -4.3976 -14.8175,
+50 -20 -20, 40 -5 -20, 40.3723 -4.3976 -14.8175,
+40.3723 -4.3976 -14.8175, 40 -5 -20, 0 0.7082 -14.8175,
+40 -5 -20, 0 0 -20, 0 0.7082 -14.8175,
+0 0.7082 -14.8175, 0 0 -20, -40.3723 -4.3976 -14.8175,
+0 0 -20, -40 -5 -20, -40.3723 -4.3976 -14.8175,
+-40.3723 -4.3976 -14.8175, -40 -5 -20, -50.702 -19.906 -14.8175,
+-40 -5 -20, -50 -20 -20, -50.702 -19.906 -14.8175,
+-50.702 -19.906 -14.8175, -50 -20 -20, -45.4452 -35.5508 -14.8175,
+-50 -20 -20, -45 -35 -20, -45.4452 -35.5508 -14.8175,
+-45.4452 -35.5508 -14.8175, -45 -35 -20, 0 -40.7082 -14.8175,
+-45 -35 -20, 0 -40 -20, 0 -40.7082 -14.8175,
+											]
+										}
+										normal Normal {
+											vector [
+-0.0375 -0.991 0.1285, -0.0005 -0.9979 0.0645, 0.4492 -0.8823 0.1403,
+-0.0005 -0.9979 0.0645, 0.6268 -0.7761 0.0694, 0.4492 -0.8823 0.1403,
+0.4492 -0.8823 0.1403, 0.6268 -0.7761 0.0694, 0.991 -0.0292 0.1309,
+0.6268 -0.7761 0.0694, 0.9891 0.1305 0.0682, 0.991 -0.0292 0.1309,
+0.991 -0.0292 0.1309, 0.9891 0.1305 0.0682, 0.6423 0.7547 0.1333,
+0.9891 0.1305 0.0682, 0.5256 0.8478 0.0699, 0.6423 0.7547 0.1333,
+0.6423 0.7547 0.1333, 0.5256 0.8478 0.0699, 0.0418 0.9904 0.1316,
+0.5256 0.8478 0.0699, 0.0004 0.9978 0.066, 0.0418 0.9904 0.1316,
+0.0418 0.9904 0.1316, 0.0004 0.9978 0.066, -0.3883 0.9112 0.1379,
+0.0004 0.9978 0.066, -0.5248 0.8485 0.0676, -0.3883 0.9112 0.1379,
+-0.3883 0.9112 0.1379, -0.5248 0.8485 0.0676, -0.9483 0.2877 0.1342,
+-0.5248 0.8485 0.0676, -0.989 0.132 0.0666, -0.9483 0.2877 0.1342,
+-0.9483 0.2877 0.1342, -0.989 0.132 0.0666, -0.7693 -0.6244 0.1354,
+-0.989 0.132 0.0666, -0.6275 -0.7753 0.0719, -0.7693 -0.6244 0.1354,
+-0.7693 -0.6244 0.1354, -0.6275 -0.7753 0.0719, -0.0375 -0.991 0.1285,
+-0.6275 -0.7753 0.0719, -0.0005 -0.9979 0.0645, -0.0375 -0.991 0.1285,
+-0.0005 -0.9979 0.0645, 0.0005 -0.9979 -0.0645, 0.6268 -0.7761 0.0694,
+0.0005 -0.9979 -0.0645, 0.6275 -0.7753 -0.0719, 0.6268 -0.7761 0.0694,
+0.6268 -0.7761 0.0694, 0.6275 -0.7753 -0.0719, 0.9891 0.1305 0.0682,
+0.6275 -0.7753 -0.0719, 0.989 0.132 -0.0666, 0.9891 0.1305 0.0682,
+0.9891 0.1305 0.0682, 0.989 0.132 -0.0666, 0.5256 0.8478 0.0699,
+0.989 0.132 -0.0666, 0.5248 0.8485 -0.0676, 0.5256 0.8478 0.0699,
+0.5256 0.8478 0.0699, 0.5248 0.8485 -0.0676, 0.0004 0.9978 0.066,
+0.5248 0.8485 -0.0676, -0.0004 0.9978 -0.066, 0.0004 0.9978 0.066,
+0.0004 0.9978 0.066, -0.0004 0.9978 -0.066, -0.5248 0.8485 0.0676,
+-0.0004 0.9978 -0.066, -0.5256 0.8478 -0.0699, -0.5248 0.8485 0.0676,
+-0.5248 0.8485 0.0676, -0.5256 0.8478 -0.0699, -0.989 0.132 0.0666,
+-0.5256 0.8478 -0.0699, -0.9891 0.1305 -0.0682, -0.989 0.132 0.0666,
+-0.989 0.132 0.0666, -0.9891 0.1305 -0.0682, -0.6275 -0.7753 0.0719,
+-0.9891 0.1305 -0.0682, -0.6268 -0.7761 -0.0694, -0.6275 -0.7753 0.0719,
+-0.6275 -0.7753 0.0719, -0.6268 -0.7761 -0.0694, -0.0005 -0.9979 0.0645,
+-0.6268 -0.7761 -0.0694, 0.0005 -0.9979 -0.0645, -0.0005 -0.9979 0.0645,
+0.0005 -0.9979 -0.0645, 0.0375 -0.991 -0.1285, 0.6275 -0.7753 -0.0719,
+0.0375 -0.991 -0.1285, 0.7693 -0.6244 -0.1354, 0.6275 -0.7753 -0.0719,
+0.6275 -0.7753 -0.0719, 0.7693 -0.6244 -0.1354, 0.989 0.132 -0.0666,
+0.7693 -0.6244 -0.1354, 0.9483 0.2877 -0.1342, 0.989 0.132 -0.0666,
+0.989 0.132 -0.0666, 0.9483 0.2877 -0.1342, 0.5248 0.8485 -0.0676,
+0.9483 0.2877 -0.1342, 0.3883 0.9112 -0.1379, 0.5248 0.8485 -0.0676,
+0.5248 0.8485 -0.0676, 0.3883 0.9112 -0.1379, -0.0004 0.9978 -0.066,
+0.3883 0.9112 -0.1379, -0.0418 0.9904 -0.1316, -0.0004 0.9978 -0.066,
+-0.0004 0.9978 -0.066, -0.0418 0.9904 -0.1316, -0.5256 0.8478 -0.0699,
+-0.0418 0.9904 -0.1316, -0.6423 0.7547 -0.1333, -0.5256 0.8478 -0.0699,
+-0.5256 0.8478 -0.0699, -0.6423 0.7547 -0.1333, -0.9891 0.1305 -0.0682,
+-0.6423 0.7547 -0.1333, -0.991 -0.0292 -0.1309, -0.9891 0.1305 -0.0682,
+-0.9891 0.1305 -0.0682, -0.991 -0.0292 -0.1309, -0.6268 -0.7761 -0.0694,
+-0.991 -0.0292 -0.1309, -0.4492 -0.8823 -0.1403, -0.6268 -0.7761 -0.0694,
+-0.6268 -0.7761 -0.0694, -0.4492 -0.8823 -0.1403, 0.0005 -0.9979 -0.0645,
+-0.4492 -0.8823 -0.1403, 0.0375 -0.991 -0.1285, 0.0005 -0.9979 -0.0645,
+											]
+										}
+										coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+36, 37, 38, -1,
+39, 40, 41, -1,
+42, 43, 44, -1,
+45, 46, 47, -1,
+48, 49, 50, -1,
+51, 52, 53, -1,
+54, 55, 56, -1,
+57, 58, 59, -1,
+60, 61, 62, -1,
+63, 64, 65, -1,
+66, 67, 68, -1,
+69, 70, 71, -1,
+72, 73, 74, -1,
+75, 76, 77, -1,
+78, 79, 80, -1,
+81, 82, 83, -1,
+84, 85, 86, -1,
+87, 88, 89, -1,
+90, 91, 92, -1,
+93, 94, 95, -1,
+96, 97, 98, -1,
+99, 100, 101, -1,
+102, 103, 104, -1,
+105, 106, 107, -1,
+108, 109, 110, -1,
+111, 112, 113, -1,
+114, 115, 116, -1,
+117, 118, 119, -1,
+120, 121, 122, -1,
+123, 124, 125, -1,
+126, 127, 128, -1,
+129, 130, 131, -1,
+132, 133, 134, -1,
+135, 136, 137, -1,
+138, 139, 140, -1,
+141, 142, 143, -1,
+										]
+									}
+								}
+							]
+						}
+					]
+				}
+				DEF instance10 Transform {
+					rotation 0.5774 0.5774 0.5774 -2.0944
+					scale 26.0000 26.0000 52.0000
+					center -4.4231 0.0000 0.3077
+					translation 4.4231 -0.0000 -0.3077
+					children [
+						Shape {
+							appearance USE appearance11486147
+							geometry DEF instance12 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance13 Transform {
+					rotation 0.5774 0.5774 0.5774 -2.0944
+					scale 17.0000 17.0000 34.0000
+					center -6.7647 0.0000 -0.9706
+					translation 6.7647 -0.0000 0.9706
+					children [
+						Shape {
+							appearance USE appearance11486147
+							geometry DEF instance15 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance16 Transform {
+					rotation 0.9125 -0.1566 0.3780 -2.4189
+					scale 6.0000 6.0000 59.0000
+					center -6.8276 19.0329 2.1531
+					translation 6.8276 -19.0329 -2.1531
+					children [
+						Shape {
+							appearance USE appearance11486147
+							geometry DEF instance18 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance19 Transform {
+					rotation -0.1566 0.9125 0.3780 -2.4189
+					scale 6.0000 6.0000 59.0000
+					center -6.8276 -19.0329 2.1531
+					translation 6.8276 19.0329 -2.1531
+					children [
+						Shape {
+							appearance USE appearance11486147
+							geometry DEF instance21 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				Group {
+					children [
+						DEF instance22 Transform {
+							center 0.0000 -82.0000 -122.2921
+							translation -0.0000 82.0000 122.2921
+							children [
+								Group {
+									children [
+										DEF instance23 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance25 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 87.5037 99.9304, -33.426 82 98.924, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 0.0329 -0.1798, -0.9832 0.0329 -0.1798, -0.9832 0.0329 -0.1798,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance26 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance28 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 82 87.548, -33.426 82 98.924, -33.426 87.5037 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 0.1044 -0.5708, -0.8144 0.1044 -0.5708, -0.8144 0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance29 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance31 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 91.9517 89.3678, -25.452 82 87.548, -33.426 87.5037 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 0.1044 -0.5708, -0.8144 0.1044 -0.5708, -0.8144 0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance32 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance34 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 91.9517 103.0483, -33.426 87.5037 99.9304, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 0.1048 -0.1495, -0.9832 0.1048 -0.1495, -0.9832 0.1048 -0.1495,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance35 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance37 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 91.9517 89.3678, -33.426 87.5037 99.9304, -33.426 91.9517 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 0.3329 -0.4749, -0.8147 0.3329 -0.4749, -0.8147 0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance38 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance40 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 99.9946 95.0054, -25.452 91.9517 89.3678, -33.426 91.9517 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 0.3329 -0.4749, -0.8147 0.3329 -0.4749, -0.8147 0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance41 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance43 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 95.0696 107.4963, -33.426 91.9517 103.0483, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 0.1495 -0.1048, -0.9832 0.1495 -0.1048, -0.9832 0.1495 -0.1048,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance44 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance46 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 99.9946 95.0054, -33.426 91.9517 103.0483, -33.426 95.0696 107.4963,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 0.4749 -0.3329, -0.8147 0.4749 -0.3329, -0.8147 0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance47 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance49 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 105.6322 103.0483, -25.452 99.9946 95.0054, -33.426 95.0696 107.4963,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 0.4749 -0.3329, -0.8147 0.4749 -0.3329, -0.8147 0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance50 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance52 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 96.076 113, -33.426 95.0696 107.4963, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 0.1798 -0.0329, -0.9832 0.1798 -0.0329, -0.9832 0.1798 -0.0329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance53 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance55 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 105.6322 103.0483, -33.426 95.0696 107.4963, -33.426 96.076 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 0.5708 -0.1044, -0.8144 0.5708 -0.1044, -0.8144 0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance56 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance58 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 107.452 113, -25.452 105.6322 103.0483, -33.426 96.076 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 0.5708 -0.1044, -0.8144 0.5708 -0.1044, -0.8144 0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance59 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance61 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 95.0696 118.5037, -33.426 96.076 113, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 0.1798 0.0329, -0.9832 0.1798 0.0329, -0.9832 0.1798 0.0329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance62 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance64 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 107.452 113, -33.426 96.076 113, -33.426 95.0696 118.5037,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 0.5708 0.1044, -0.8144 0.5708 0.1044, -0.8144 0.5708 0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance65 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance67 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 105.6322 122.9517, -25.452 107.452 113, -33.426 95.0696 118.5037,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 0.5708 0.1044, -0.8144 0.5708 0.1044, -0.8144 0.5708 0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance68 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance70 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 91.9517 122.9517, -33.426 95.0696 118.5037, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 0.1495 0.1048, -0.9832 0.1495 0.1048, -0.9832 0.1495 0.1048,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance71 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance73 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 105.6322 122.9517, -33.426 95.0696 118.5037, -33.426 91.9517 122.9517,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 0.4749 0.3329, -0.8147 0.4749 0.3329, -0.8147 0.4749 0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance74 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance76 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 99.9946 130.9946, -25.452 105.6322 122.9517, -33.426 91.9517 122.9517,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 0.4749 0.3329, -0.8147 0.4749 0.3329, -0.8147 0.4749 0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance77 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance79 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 87.5037 130.7156, -33.426 91.9517 122.9517, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9825 0.1616 0.0926, -0.9825 0.1616 0.0926, -0.9825 0.1616 0.0926,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance80 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance82 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 99.9946 130.9946, -33.426 91.9517 122.9517, -33.426 87.5037 130.7156,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8091 0.51 0.2922, -0.8091 0.51 0.2922, -0.8091 0.51 0.2922,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance83 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance85 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 91.9517 145.9243, -25.452 99.9946 130.9946, -33.426 87.5037 130.7156,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8129 0.5128 0.2762, -0.8129 0.5128 0.2762, -0.8129 0.5128 0.2762,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance86 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance88 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 82 136.3681, -33.426 87.5037 130.7156, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9878 0.1117 0.1088, -0.9878 0.1117 0.1088, -0.9878 0.1117 0.1088,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance89 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance91 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 91.9517 145.9243, -33.426 87.5037 130.7156, -33.426 82 136.3681,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8658 0.3585 0.3491, -0.8658 0.3585 0.3491, -0.8658 0.3585 0.3491,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance92 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance94 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 82 157.0361, -25.452 91.9517 145.9243, -33.426 82 136.3681,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8657 0.3729 0.334, -0.8657 0.3729 0.334, -0.8657 0.3729 0.334,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance95 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance97 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 76.4963 135.7692, -33.426 82 136.3681, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9939 -0.0119 0.1095, -0.9939 -0.0119 0.1095, -0.9939 -0.0119 0.1095,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance98 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance100 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 82 157.0361, -33.426 82 136.3681, -33.426 76.4963 135.7692,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9323 -0.0391 0.3597, -0.9323 -0.0391 0.3597, -0.9323 -0.0391 0.3597,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance101 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance103 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 72.0483 156.0314, -25.452 82 157.0361, -33.426 76.4963 135.7692,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9326 -0.0362 0.3591, -0.9326 -0.0362 0.3591, -0.9326 -0.0362 0.3591,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance104 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance106 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 72.0483 133.0589, -33.426 76.4963 135.7692, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9934 -0.0596 0.0979, -0.9934 -0.0596 0.0979, -0.9934 -0.0596 0.0979,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance107 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance109 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 72.0483 156.0314, -33.426 76.4963 135.7692, -33.426 72.0483 133.0589,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9264 -0.1959 0.3216, -0.9264 -0.1959 0.3216, -0.9264 -0.1959 0.3216,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance110 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance112 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 64.0054 151.2089, -25.452 72.0483 156.0314, -33.426 72.0483 133.0589,
+															]
+														}
+														normal Normal {
+															vector [
+-0.927 -0.1929 0.3218, -0.927 -0.1929 0.3218, -0.927 -0.1929 0.3218,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance113 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance115 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 68.9304 123.5573, -33.426 72.0483 133.0589, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9868 -0.1536 0.0504, -0.9868 -0.1536 0.0504, -0.9868 -0.1536 0.0504,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance116 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance118 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 64.0054 151.2089, -33.426 72.0483 133.0589, -33.426 68.9304 123.5573,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8577 -0.4886 0.1603, -0.8577 -0.4886 0.1603, -0.8577 -0.4886 0.1603,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance119 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance121 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 58.3678 133.0589, -25.452 64.0054 151.2089, -33.426 68.9304 123.5573,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8507 -0.502 0.1559, -0.8507 -0.502 0.1559, -0.8507 -0.502 0.1559,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance122 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance124 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 67.924 113, -33.426 68.9304 123.5573, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9835 -0.1799 0.0171, -0.9835 -0.1799 0.0171, -0.9835 -0.1799 0.0171,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance125 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance127 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 58.3678 133.0589, -33.426 68.9304 123.5573, -33.426 67.924 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8198 -0.57 0.0543, -0.8198 -0.57 0.0543, -0.8198 -0.57 0.0543,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance128 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance130 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 56.548 113, -25.452 58.3678 133.0589, -33.426 67.924 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8178 -0.5732 0.052, -0.8178 -0.5732 0.052, -0.8178 -0.5732 0.052,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance131 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance133 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 68.9304 107.4963, -33.426 67.924 113, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 -0.1798 -0.0329, -0.9832 -0.1798 -0.0329, -0.9832 -0.1798 -0.0329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance134 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance136 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 56.548 113, -33.426 67.924 113, -33.426 68.9304 107.4963,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 -0.5708 -0.1044, -0.8144 -0.5708 -0.1044, -0.8144 -0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance137 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance139 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 58.3678 103.0483, -25.452 56.548 113, -33.426 68.9304 107.4963,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 -0.5708 -0.1044, -0.8144 -0.5708 -0.1044, -0.8144 -0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance140 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance142 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 72.0483 103.0483, -33.426 68.9304 107.4963, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 -0.1495 -0.1048, -0.9832 -0.1495 -0.1048, -0.9832 -0.1495 -0.1048,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance143 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance145 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 58.3678 103.0483, -33.426 68.9304 107.4963, -33.426 72.0483 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 -0.4749 -0.3329, -0.8147 -0.4749 -0.3329, -0.8147 -0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance146 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance148 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 64.0054 95.0054, -25.452 58.3678 103.0483, -33.426 72.0483 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 -0.4749 -0.3329, -0.8147 -0.4749 -0.3329, -0.8147 -0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance149 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance151 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 76.4963 99.9304, -33.426 72.0483 103.0483, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 -0.1048 -0.1495, -0.9832 -0.1048 -0.1495, -0.9832 -0.1048 -0.1495,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance152 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance154 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 64.0054 95.0054, -33.426 72.0483 103.0483, -33.426 76.4963 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 -0.3329 -0.4749, -0.8147 -0.3329 -0.4749, -0.8147 -0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance155 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance157 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 72.0483 89.3678, -25.452 64.0054 95.0054, -33.426 76.4963 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8147 -0.3329 -0.4749, -0.8147 -0.3329 -0.4749, -0.8147 -0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance158 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance160 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-33.426 82 98.924, -33.426 76.4963 99.9304, -36 82 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9832 -0.0329 -0.1798, -0.9832 -0.0329 -0.1798, -0.9832 -0.0329 -0.1798,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance161 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance163 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 72.0483 89.3678, -33.426 76.4963 99.9304, -33.426 82 98.924,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 -0.1044 -0.5708, -0.8144 -0.1044 -0.5708, -0.8144 -0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance164 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance166 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-25.452 82 87.548, -25.452 72.0483 89.3678, -33.426 82 98.924,
+															]
+														}
+														normal Normal {
+															vector [
+-0.8144 -0.1044 -0.5708, -0.8144 -0.1044 -0.5708, -0.8144 -0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance167 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance169 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 82 79.574, -25.452 82 87.548, -25.452 91.9517 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 0.1481 -0.8098, -0.5677 0.1481 -0.8098, -0.5677 0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance170 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance172 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 95.0696 81.964, -14.076 82 79.574, -25.452 91.9517 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 0.1481 -0.8098, -0.5677 0.1481 -0.8098, -0.5677 0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance173 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance175 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 82 77, -14.076 82 79.574, -14.076 95.0696 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 0.177 -0.9681, -0.177 0.177 -0.9681, -0.177 0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance176 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance178 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 96.076 79.574, -0 82 77, -14.076 95.0696 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 0.177 -0.9681, -0.177 0.177 -0.9681, -0.177 0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance179 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance181 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 95.0696 81.964, -25.452 91.9517 89.3678, -25.452 99.9946 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 0.4724 -0.6739, -0.5681 0.4724 -0.6739, -0.5681 0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance182 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance184 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 105.6322 89.3678, -14.076 95.0696 81.964, -25.452 99.9946 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 0.4724 -0.6739, -0.5681 0.4724 -0.6739, -0.5681 0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance185 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance187 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 96.076 79.574, -14.076 95.0696 81.964, -14.076 105.6322 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 0.5649 -0.8059, -0.1772 0.5649 -0.8059, -0.1772 0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance188 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance190 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 107.452 87.548, -0 96.076 79.574, -14.076 105.6322 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 0.5649 -0.8059, -0.1772 0.5649 -0.8059, -0.1772 0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance191 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance193 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 105.6322 89.3678, -25.452 99.9946 95.0054, -25.452 105.6322 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 0.6739 -0.4724, -0.5681 0.6739 -0.4724, -0.5681 0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance194 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance196 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 113.036 99.9304, -14.076 105.6322 89.3678, -25.452 105.6322 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 0.6739 -0.4724, -0.5681 0.6739 -0.4724, -0.5681 0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance197 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance199 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 107.452 87.548, -14.076 105.6322 89.3678, -14.076 113.036 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 0.8059 -0.5649, -0.1772 0.8059 -0.5649, -0.1772 0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance200 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance202 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 115.426 98.924, -0 107.452 87.548, -14.076 113.036 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 0.8059 -0.5649, -0.1772 0.8059 -0.5649, -0.1772 0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance203 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance205 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 113.036 99.9304, -25.452 105.6322 103.0483, -25.452 107.452 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 0.8098 -0.1481, -0.5677 0.8098 -0.1481, -0.5677 0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance206 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance208 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 115.426 113, -14.076 113.036 99.9304, -25.452 107.452 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 0.8098 -0.1481, -0.5677 0.8098 -0.1481, -0.5677 0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance209 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance211 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 115.426 98.924, -14.076 113.036 99.9304, -14.076 115.426 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 0.9681 -0.177, -0.177 0.9681 -0.177, -0.177 0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance212 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance214 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 118 113, -0 115.426 98.924, -14.076 115.426 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 0.9681 -0.177, -0.177 0.9681 -0.177, -0.177 0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance215 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance217 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 115.426 113, -25.452 107.452 113, -25.452 105.6322 122.9517,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 0.8098 0.1481, -0.5677 0.8098 0.1481, -0.5677 0.8098 0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance218 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance220 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 113.036 126.0696, -14.076 115.426 113, -25.452 105.6322 122.9517,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 0.8098 0.1481, -0.5677 0.8098 0.1481, -0.5677 0.8098 0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance221 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance223 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 118 113, -14.076 115.426 113, -14.076 113.036 126.0696,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 0.9681 0.177, -0.177 0.9681 0.177, -0.177 0.9681 0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance224 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance226 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 115.426 127.076, -0 118 113, -14.076 113.036 126.0696,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 0.9681 0.177, -0.177 0.9681 0.177, -0.177 0.9681 0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance227 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance229 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 113.036 126.0696, -25.452 105.6322 122.9517, -25.452 99.9946 130.9946,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 0.6739 0.4724, -0.5681 0.6739 0.4724, -0.5681 0.6739 0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance230 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance232 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 105.6322 136.6322, -14.076 113.036 126.0696, -25.452 99.9946 130.9946,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 0.6739 0.4724, -0.5681 0.6739 0.4724, -0.5681 0.6739 0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance233 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance235 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 115.426 127.076, -14.076 113.036 126.0696, -14.076 105.6322 136.6322,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 0.8059 0.5649, -0.1772 0.8059 0.5649, -0.1772 0.8059 0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance236 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance238 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 107.452 138.452, -0 115.426 127.076, -14.076 105.6322 136.6322,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 0.8059 0.5649, -0.1772 0.8059 0.5649, -0.1772 0.8059 0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance239 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance241 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 95.0696 153.3281, -25.452 91.9517 145.9243, -25.452 82 157.0361,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5381 0.6279 0.5623, -0.5381 0.6279 0.5623, -0.5381 0.6279 0.5623,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance242 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance244 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 82 165.0101, -14.076 95.0696 153.3281, -25.452 82 157.0361,
+															]
+														}
+														normal Normal {
+															vector [
+-0.4632 0.5906 0.6608, -0.4632 0.5906 0.6608, -0.4632 0.5906 0.6608,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance245 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance247 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 96.076 155.7181, -14.076 95.0696 153.3281, -14.076 82 165.0101,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1717 0.6565 0.7345, -0.1717 0.6565 0.7345, -0.1717 0.6565 0.7345,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance248 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance250 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 82 167.5841, -0 96.076 155.7181, -14.076 82 165.0101,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1385 0.6383 0.7572, -0.1385 0.6383 0.7572, -0.1385 0.6383 0.7572,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance251 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance253 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 82 165.0101, -25.452 82 157.0361, -25.452 72.0483 156.0314,
+															]
+														}
+														normal Normal {
+															vector [
+-0.572 -0.0824 0.8161, -0.572 -0.0824 0.8161, -0.572 -0.0824 0.8161,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance254 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance256 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 68.9304 163.4353, -14.076 82 165.0101, -25.452 72.0483 156.0314,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5617 -0.099 0.8214, -0.5617 -0.099 0.8214, -0.5617 -0.099 0.8214,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance257 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance259 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 82 167.5841, -14.076 82 165.0101, -14.076 68.9304 163.4353,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1786 -0.1177 0.9768, -0.1786 -0.1177 0.9768, -0.1786 -0.1177 0.9768,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance260 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance262 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 67.924 165.8252, -0 82 167.5841, -14.076 68.9304 163.4353,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1746 -0.1221 0.977, -0.1746 -0.1221 0.977, -0.1746 -0.1221 0.977,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance263 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance265 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 68.9304 163.4353, -25.452 72.0483 156.0314, -25.452 64.0054 151.2089,
+															]
+														}
+														normal Normal {
+															vector [
+-0.573 -0.4215 0.7029, -0.573 -0.4215 0.7029, -0.573 -0.4215 0.7029,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance266 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance268 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 58.3678 156.8465, -14.076 68.9304 163.4353, -25.452 64.0054 151.2089,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5639 -0.4371 0.7007, -0.5639 -0.4371 0.7007, -0.5639 -0.4371 0.7007,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance269 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance271 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 67.924 165.8252, -14.076 68.9304 163.4353, -14.076 58.3678 156.8465,
+															]
+														}
+														normal Normal {
+															vector [
+-0.179 -0.5207 0.8348, -0.179 -0.5207 0.8348, -0.179 -0.5207 0.8348,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance272 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance274 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 56.548 158.6663, -0 67.924 165.8252, -14.076 58.3678 156.8465,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1755 -0.5243 0.8332, -0.1755 -0.5243 0.8332, -0.1755 -0.5243 0.8332,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance275 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance277 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 58.3678 156.8465, -25.452 64.0054 151.2089, -25.452 58.3678 133.0589,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5271 -0.8116 0.2521, -0.5271 -0.8116 0.2521, -0.5271 -0.8116 0.2521,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance278 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance280 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 50.964 136.1767, -14.076 58.3678 156.8465, -25.452 58.3678 133.0589,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5763 -0.7694 0.2756, -0.5763 -0.7694 0.2756, -0.5763 -0.7694 0.2756,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance281 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance283 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 56.548 158.6663, -14.076 58.3678 156.8465, -14.076 50.964 136.1767,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1631 -0.9288 0.3327, -0.1631 -0.9288 0.3327, -0.1631 -0.9288 0.3327,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance284 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance286 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 48.574 137.1832, -0 56.548 158.6663, -14.076 50.964 136.1767,
+															]
+														}
+														normal Normal {
+															vector [
+-0.181 -0.922 0.3422, -0.181 -0.922 0.3422, -0.181 -0.922 0.3422,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance287 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance289 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 50.964 136.1767, -25.452 58.3678 133.0589, -25.452 56.548 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5583 -0.8262 0.075, -0.5583 -0.8262 0.075, -0.5583 -0.8262 0.075,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance290 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance292 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 48.574 113, -14.076 50.964 136.1767, -25.452 56.548 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5719 -0.816 0.0841, -0.5719 -0.816 0.0841, -0.5719 -0.816 0.0841,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance293 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance295 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 48.574 137.1832, -14.076 50.964 136.1767, -14.076 48.574 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1736 -0.9796 0.101, -0.1736 -0.9796 0.101, -0.1736 -0.9796 0.101,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance296 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance298 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 46 113, -0 48.574 137.1832, -14.076 48.574 113,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1789 -0.9783 0.1041, -0.1789 -0.9783 0.1041, -0.1789 -0.9783 0.1041,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance299 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance301 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 48.574 113, -25.452 56.548 113, -25.452 58.3678 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 -0.8098 -0.1481, -0.5677 -0.8098 -0.1481, -0.5677 -0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance302 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance304 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 50.964 99.9304, -14.076 48.574 113, -25.452 58.3678 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 -0.8098 -0.1481, -0.5677 -0.8098 -0.1481, -0.5677 -0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance305 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance307 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 46 113, -14.076 48.574 113, -14.076 50.964 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 -0.9681 -0.177, -0.177 -0.9681 -0.177, -0.177 -0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance308 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance310 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 48.574 98.924, -0 46 113, -14.076 50.964 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 -0.9681 -0.177, -0.177 -0.9681 -0.177, -0.177 -0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance311 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance313 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 50.964 99.9304, -25.452 58.3678 103.0483, -25.452 64.0054 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 -0.6739 -0.4724, -0.5681 -0.6739 -0.4724, -0.5681 -0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance314 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance316 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 58.3678 89.3678, -14.076 50.964 99.9304, -25.452 64.0054 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 -0.6739 -0.4724, -0.5681 -0.6739 -0.4724, -0.5681 -0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance317 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance319 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 48.574 98.924, -14.076 50.964 99.9304, -14.076 58.3678 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 -0.8059 -0.5649, -0.1772 -0.8059 -0.5649, -0.1772 -0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance320 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance322 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 56.548 87.548, -0 48.574 98.924, -14.076 58.3678 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 -0.8059 -0.5649, -0.1772 -0.8059 -0.5649, -0.1772 -0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance323 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance325 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 58.3678 89.3678, -25.452 64.0054 95.0054, -25.452 72.0483 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 -0.4724 -0.6739, -0.5681 -0.4724 -0.6739, -0.5681 -0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance326 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance328 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 68.9304 81.964, -14.076 58.3678 89.3678, -25.452 72.0483 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5681 -0.4724 -0.6739, -0.5681 -0.4724 -0.6739, -0.5681 -0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance329 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance331 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 56.548 87.548, -14.076 58.3678 89.3678, -14.076 68.9304 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 -0.5649 -0.8059, -0.1772 -0.5649 -0.8059, -0.1772 -0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance332 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance334 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 67.924 79.574, -0 56.548 87.548, -14.076 68.9304 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1772 -0.5649 -0.8059, -0.1772 -0.5649 -0.8059, -0.1772 -0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance335 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance337 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 68.9304 81.964, -25.452 72.0483 89.3678, -25.452 82 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 -0.1481 -0.8098, -0.5677 -0.1481 -0.8098, -0.5677 -0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance338 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance340 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 82 79.574, -14.076 68.9304 81.964, -25.452 82 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5677 -0.1481 -0.8098, -0.5677 -0.1481 -0.8098, -0.5677 -0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance341 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance343 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 67.924 79.574, -14.076 68.9304 81.964, -14.076 82 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 -0.177 -0.9681, -0.177 -0.177 -0.9681, -0.177 -0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance344 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance346 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 82 77, -0 67.924 79.574, -14.076 82 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+-0.177 -0.177 -0.9681, -0.177 -0.177 -0.9681, -0.177 -0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance347 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance349 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 82 79.574, -0 82 77, -0 96.076 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 0.177 -0.9681, 0.177 0.177 -0.9681, 0.177 0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance350 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance352 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 95.0696 81.964, 14.076 82 79.574, -0 96.076 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 0.177 -0.9681, 0.177 0.177 -0.9681, 0.177 0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance353 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance355 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 82 87.548, 14.076 82 79.574, 14.076 95.0696 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 0.1481 -0.8098, 0.5677 0.1481 -0.8098, 0.5677 0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance356 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance358 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 91.9517 89.3678, 25.452 82 87.548, 14.076 95.0696 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 0.1481 -0.8098, 0.5677 0.1481 -0.8098, 0.5677 0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance359 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance361 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 95.0696 81.964, -0 96.076 79.574, -0 107.452 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 0.5649 -0.8059, 0.1772 0.5649 -0.8059, 0.1772 0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance362 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance364 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 105.6322 89.3678, 14.076 95.0696 81.964, -0 107.452 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 0.5649 -0.8059, 0.1772 0.5649 -0.8059, 0.1772 0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance365 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance367 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 91.9517 89.3678, 14.076 95.0696 81.964, 14.076 105.6322 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 0.4724 -0.6739, 0.5681 0.4724 -0.6739, 0.5681 0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance368 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance370 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 99.9946 95.0054, 25.452 91.9517 89.3678, 14.076 105.6322 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 0.4724 -0.6739, 0.5681 0.4724 -0.6739, 0.5681 0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance371 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance373 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 105.6322 89.3678, -0 107.452 87.548, -0 115.426 98.924,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 0.8059 -0.5649, 0.1772 0.8059 -0.5649, 0.1772 0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance374 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance376 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 113.036 99.9304, 14.076 105.6322 89.3678, -0 115.426 98.924,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 0.8059 -0.5649, 0.1772 0.8059 -0.5649, 0.1772 0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance377 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance379 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 99.9946 95.0054, 14.076 105.6322 89.3678, 14.076 113.036 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 0.6739 -0.4724, 0.5681 0.6739 -0.4724, 0.5681 0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance380 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance382 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 105.6322 103.0483, 25.452 99.9946 95.0054, 14.076 113.036 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 0.6739 -0.4724, 0.5681 0.6739 -0.4724, 0.5681 0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance383 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance385 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 113.036 99.9304, -0 115.426 98.924, -0 118 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 0.9681 -0.177, 0.177 0.9681 -0.177, 0.177 0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance386 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance388 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 115.426 113, 14.076 113.036 99.9304, -0 118 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 0.9681 -0.177, 0.177 0.9681 -0.177, 0.177 0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance389 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance391 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 105.6322 103.0483, 14.076 113.036 99.9304, 14.076 115.426 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 0.8098 -0.1481, 0.5677 0.8098 -0.1481, 0.5677 0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance392 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance394 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 107.452 113, 25.452 105.6322 103.0483, 14.076 115.426 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 0.8098 -0.1481, 0.5677 0.8098 -0.1481, 0.5677 0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance395 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance397 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 115.426 113, -0 118 113, -0 115.426 127.076,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 0.9681 0.177, 0.177 0.9681 0.177, 0.177 0.9681 0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance398 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance400 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 113.036 126.0696, 14.076 115.426 113, -0 115.426 127.076,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 0.9681 0.177, 0.177 0.9681 0.177, 0.177 0.9681 0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance401 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance403 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 107.452 113, 14.076 115.426 113, 14.076 113.036 126.0696,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 0.8098 0.1481, 0.5677 0.8098 0.1481, 0.5677 0.8098 0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance404 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance406 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 105.6322 122.9517, 25.452 107.452 113, 14.076 113.036 126.0696,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 0.8098 0.1481, 0.5677 0.8098 0.1481, 0.5677 0.8098 0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance407 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance409 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 113.036 126.0696, -0 115.426 127.076, -0 107.452 138.452,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 0.8059 0.5649, 0.1772 0.8059 0.5649, 0.1772 0.8059 0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance410 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance412 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 105.6322 136.6322, 14.076 113.036 126.0696, -0 107.452 138.452,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 0.8059 0.5649, 0.1772 0.8059 0.5649, 0.1772 0.8059 0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance413 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance415 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 105.6322 122.9517, 14.076 113.036 126.0696, 14.076 105.6322 136.6322,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 0.6739 0.4724, 0.5681 0.6739 0.4724, 0.5681 0.6739 0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance416 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance418 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 99.9946 130.9946, 25.452 105.6322 122.9517, 14.076 105.6322 136.6322,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 0.6739 0.4724, 0.5681 0.6739 0.4724, 0.5681 0.6739 0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance419 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance421 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 95.0696 153.3281, -0 96.076 155.7181, -0 82 167.5841,
+															]
+														}
+														normal Normal {
+															vector [
+0.1732 0.6348 0.753, 0.1732 0.6348 0.753, 0.1732 0.6348 0.753,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance422 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance424 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 82 165.0101, 14.076 95.0696 153.3281, -0 82 167.5841,
+															]
+														}
+														normal Normal {
+															vector [
+0.1351 0.6603 0.7387, 0.1351 0.6603 0.7387, 0.1351 0.6603 0.7387,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance425 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance427 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 91.9517 145.9243, 14.076 95.0696 153.3281, 14.076 82 165.0101,
+															]
+														}
+														normal Normal {
+															vector [
+0.5554 0.5542 0.62, 0.5554 0.5542 0.62, 0.5554 0.5542 0.62,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance428 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance430 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 82 157.0361, 25.452 91.9517 145.9243, 14.076 82 165.0101,
+															]
+														}
+														normal Normal {
+															vector [
+0.4236 0.6748 0.6043, 0.4236 0.6748 0.6043, 0.4236 0.6748 0.6043,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance431 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance433 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 82 165.0101, -0 82 167.5841, -0 67.924 165.8253,
+															]
+														}
+														normal Normal {
+															vector [
+0.1785 -0.122 0.9763, 0.1785 -0.122 0.9763, 0.1785 -0.122 0.9763,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance434 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance436 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 68.9304 163.4353, 14.076 82 165.0101, -0 67.924 165.8253,
+															]
+														}
+														normal Normal {
+															vector [
+0.1744 -0.1178 0.9776, 0.1744 -0.1178 0.9776, 0.1744 -0.1178 0.9776,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance437 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance439 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 82 157.0361, 14.076 82 165.0101, 14.076 68.9304 163.4353,
+															]
+														}
+														normal Normal {
+															vector [
+0.5712 -0.0982 0.8149, 0.5712 -0.0982 0.8149, 0.5712 -0.0982 0.8149,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance440 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance442 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 72.0483 156.0314, 25.452 82 157.0361, 14.076 68.9304 163.4353,
+															]
+														}
+														normal Normal {
+															vector [
+0.5595 -0.0833 0.8246, 0.5595 -0.0833 0.8246, 0.5595 -0.0833 0.8246,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance443 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance445 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 68.9304 163.4353, -0 67.924 165.8253, -0 56.548 158.6663,
+															]
+														}
+														normal Normal {
+															vector [
+0.1789 -0.524 0.8327, 0.1789 -0.524 0.8327, 0.1789 -0.524 0.8327,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance446 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance448 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 58.3678 156.8465, 14.076 68.9304 163.4353, -0 56.548 158.6663,
+															]
+														}
+														normal Normal {
+															vector [
+0.1754 -0.5211 0.8353, 0.1754 -0.5211 0.8353, 0.1754 -0.5211 0.8353,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance449 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance451 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 72.0483 156.0314, 14.076 68.9304 163.4353, 14.076 58.3678 156.8465,
+															]
+														}
+														normal Normal {
+															vector [
+0.572 -0.4341 0.696, 0.572 -0.4341 0.696, 0.572 -0.4341 0.696,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance452 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance454 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 64.0054 151.2089, 25.452 72.0483 156.0314, 14.076 58.3678 156.8465,
+															]
+														}
+														normal Normal {
+															vector [
+0.5622 -0.4253 0.7092, 0.5622 -0.4253 0.7092, 0.5622 -0.4253 0.7092,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance455 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance457 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 58.3678 156.8465, -0 56.548 158.6663, -0 48.574 137.1832,
+															]
+														}
+														normal Normal {
+															vector [
+0.1639 -0.9248 0.3433, 0.1639 -0.9248 0.3433, 0.1639 -0.9248 0.3433,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance458 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance460 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 50.964 136.1767, 14.076 58.3678 156.8465, -0 48.574 137.1832,
+															]
+														}
+														normal Normal {
+															vector [
+0.1809 -0.9259 0.3317, 0.1809 -0.9259 0.3317, 0.1809 -0.9259 0.3317,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance461 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance463 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 64.0054 151.2089, 14.076 58.3678 156.8465, 14.076 50.964 136.1767,
+															]
+														}
+														normal Normal {
+															vector [
+0.5352 -0.7952 0.2848, 0.5352 -0.7952 0.2848, 0.5352 -0.7952 0.2848,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance464 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance466 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 58.3678 133.0589, 25.452 64.0054 151.2089, 14.076 50.964 136.1767,
+															]
+														}
+														normal Normal {
+															vector [
+0.575 -0.7813 0.2427, 0.575 -0.7813 0.2427, 0.575 -0.7813 0.2427,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance467 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance469 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 50.964 136.1767, -0 48.574 137.1832, -0 46 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.1737 -0.9793 0.1042, 0.1737 -0.9793 0.1042, 0.1737 -0.9793 0.1042,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance470 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance472 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 48.574 113, 14.076 50.964 136.1767, -0 46 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.179 -0.9787 0.1009, 0.179 -0.9787 0.1009, 0.179 -0.9787 0.1009,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance473 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance475 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 58.3678 133.0589, 14.076 50.964 136.1767, 14.076 48.574 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.5598 -0.8243 0.085, 0.5598 -0.8243 0.085, 0.5598 -0.8243 0.085,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance476 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance478 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 56.548 113, 25.452 58.3678 133.0589, 14.076 48.574 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.5724 -0.8166 0.0741, 0.5724 -0.8166 0.0741, 0.5724 -0.8166 0.0741,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance479 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance481 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 48.574 113, -0 46 113, -0 48.574 98.924,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 -0.9681 -0.177, 0.177 -0.9681 -0.177, 0.177 -0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance482 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance484 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 50.964 99.9304, 14.076 48.574 113, -0 48.574 98.924,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 -0.9681 -0.177, 0.177 -0.9681 -0.177, 0.177 -0.9681 -0.177,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance485 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance487 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 56.548 113, 14.076 48.574 113, 14.076 50.964 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 -0.8098 -0.1481, 0.5677 -0.8098 -0.1481, 0.5677 -0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance488 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance490 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 58.3678 103.0483, 25.452 56.548 113, 14.076 50.964 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 -0.8098 -0.1481, 0.5677 -0.8098 -0.1481, 0.5677 -0.8098 -0.1481,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance491 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance493 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 50.964 99.9304, -0 48.574 98.924, -0 56.548 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 -0.8059 -0.5649, 0.1772 -0.8059 -0.5649, 0.1772 -0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance494 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance496 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 58.3678 89.3678, 14.076 50.964 99.9304, -0 56.548 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 -0.8059 -0.5649, 0.1772 -0.8059 -0.5649, 0.1772 -0.8059 -0.5649,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance497 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance499 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 58.3678 103.0483, 14.076 50.964 99.9304, 14.076 58.3678 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 -0.6739 -0.4724, 0.5681 -0.6739 -0.4724, 0.5681 -0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance500 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance502 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 64.0054 95.0054, 25.452 58.3678 103.0483, 14.076 58.3678 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 -0.6739 -0.4724, 0.5681 -0.6739 -0.4724, 0.5681 -0.6739 -0.4724,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance503 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance505 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 58.3678 89.3678, -0 56.548 87.548, -0 67.924 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 -0.5649 -0.8059, 0.1772 -0.5649 -0.8059, 0.1772 -0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance506 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance508 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 68.9304 81.964, 14.076 58.3678 89.3678, -0 67.924 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+0.1772 -0.5649 -0.8059, 0.1772 -0.5649 -0.8059, 0.1772 -0.5649 -0.8059,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance509 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance511 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 64.0054 95.0054, 14.076 58.3678 89.3678, 14.076 68.9304 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 -0.4724 -0.6739, 0.5681 -0.4724 -0.6739, 0.5681 -0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance512 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance514 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 72.0483 89.3678, 25.452 64.0054 95.0054, 14.076 68.9304 81.964,
+															]
+														}
+														normal Normal {
+															vector [
+0.5681 -0.4724 -0.6739, 0.5681 -0.4724 -0.6739, 0.5681 -0.4724 -0.6739,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance515 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance517 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 68.9304 81.964, -0 67.924 79.574, -0 82 77,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 -0.177 -0.9681, 0.177 -0.177 -0.9681, 0.177 -0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance518 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance520 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 82 79.574, 14.076 68.9304 81.964, -0 82 77,
+															]
+														}
+														normal Normal {
+															vector [
+0.177 -0.177 -0.9681, 0.177 -0.177 -0.9681, 0.177 -0.177 -0.9681,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance521 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance523 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 72.0483 89.3678, 14.076 68.9304 81.964, 14.076 82 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 -0.1481 -0.8098, 0.5677 -0.1481 -0.8098, 0.5677 -0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance524 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance526 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 82 87.548, 25.452 72.0483 89.3678, 14.076 82 79.574,
+															]
+														}
+														normal Normal {
+															vector [
+0.5677 -0.1481 -0.8098, 0.5677 -0.1481 -0.8098, 0.5677 -0.1481 -0.8098,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance527 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance529 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 82 98.924, 25.452 82 87.548, 25.452 91.9517 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 0.1044 -0.5708, 0.8144 0.1044 -0.5708, 0.8144 0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance530 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance532 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 87.5037 99.9304, 33.426 82 98.924, 25.452 91.9517 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 0.1044 -0.5708, 0.8144 0.1044 -0.5708, 0.8144 0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance533 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance535 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 82 98.924, 33.426 87.5037 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 0.0329 -0.1798, 0.9832 0.0329 -0.1798, 0.9832 0.0329 -0.1798,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance536 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance538 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 87.5037 99.9304, 25.452 91.9517 89.3678, 25.452 99.9946 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 0.3329 -0.4749, 0.8147 0.3329 -0.4749, 0.8147 0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance539 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance541 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 91.9517 103.0483, 33.426 87.5037 99.9304, 25.452 99.9946 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 0.3329 -0.4749, 0.8147 0.3329 -0.4749, 0.8147 0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance542 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance544 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 87.5037 99.9304, 33.426 91.9517 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 0.1048 -0.1495, 0.9832 0.1048 -0.1495, 0.9832 0.1048 -0.1495,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance545 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance547 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 91.9517 103.0483, 25.452 99.9946 95.0054, 25.452 105.6322 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 0.4749 -0.3329, 0.8147 0.4749 -0.3329, 0.8147 0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance548 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance550 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 95.0696 107.4963, 33.426 91.9517 103.0483, 25.452 105.6322 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 0.4749 -0.3329, 0.8147 0.4749 -0.3329, 0.8147 0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance551 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance553 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 91.9517 103.0483, 33.426 95.0696 107.4963,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 0.1495 -0.1048, 0.9832 0.1495 -0.1048, 0.9832 0.1495 -0.1048,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance554 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance556 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 95.0696 107.4963, 25.452 105.6322 103.0483, 25.452 107.452 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 0.5708 -0.1044, 0.8144 0.5708 -0.1044, 0.8144 0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance557 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance559 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 96.076 113, 33.426 95.0696 107.4963, 25.452 107.452 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 0.5708 -0.1044, 0.8144 0.5708 -0.1044, 0.8144 0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance560 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance562 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 95.0696 107.4963, 33.426 96.076 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 0.1798 -0.0329, 0.9832 0.1798 -0.0329, 0.9832 0.1798 -0.0329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance563 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance565 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 96.076 113, 25.452 107.452 113, 25.452 105.6322 122.9517,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 0.5708 0.1044, 0.8144 0.5708 0.1044, 0.8144 0.5708 0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance566 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance568 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 95.0696 118.5037, 33.426 96.076 113, 25.452 105.6322 122.9517,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 0.5708 0.1044, 0.8144 0.5708 0.1044, 0.8144 0.5708 0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance569 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance571 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 96.076 113, 33.426 95.0696 118.5037,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 0.1798 0.0329, 0.9832 0.1798 0.0329, 0.9832 0.1798 0.0329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance572 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance574 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 95.0696 118.5037, 25.452 105.6322 122.9517, 25.452 99.9946 130.9946,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 0.4749 0.3329, 0.8147 0.4749 0.3329, 0.8147 0.4749 0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance575 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance577 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 91.9517 122.9517, 33.426 95.0696 118.5037, 25.452 99.9946 130.9946,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 0.4749 0.3329, 0.8147 0.4749 0.3329, 0.8147 0.4749 0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance578 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance580 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 95.0696 118.5037, 33.426 91.9517 122.9517,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 0.1495 0.1048, 0.9832 0.1495 0.1048, 0.9832 0.1495 0.1048,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance581 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance583 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 91.9517 122.9517, 25.452 99.9946 130.9946, 25.452 91.9517 145.9243,
+															]
+														}
+														normal Normal {
+															vector [
+0.807 0.52 0.2801, 0.807 0.52 0.2801, 0.807 0.52 0.2801,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance584 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance586 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 87.5037 130.7156, 33.426 91.9517 122.9517, 25.452 91.9517 145.9243,
+															]
+														}
+														normal Normal {
+															vector [
+0.8199 0.4968 0.2846, 0.8199 0.4968 0.2846, 0.8199 0.4968 0.2846,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance587 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance589 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 91.9517 122.9517, 33.426 87.5037 130.7156,
+															]
+														}
+														normal Normal {
+															vector [
+0.9825 0.1616 0.0926, 0.9825 0.1616 0.0926, 0.9825 0.1616 0.0926,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance590 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance592 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 87.5037 130.7156, 25.452 91.9517 145.9243, 25.452 82 157.0362,
+															]
+														}
+														normal Normal {
+															vector [
+0.8604 0.3797 0.34, 0.8604 0.3797 0.34, 0.8604 0.3797 0.34,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance593 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance595 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 82 136.3681, 33.426 87.5037 130.7156, 25.452 82 157.0362,
+															]
+														}
+														normal Normal {
+															vector [
+0.8751 0.3467 0.3376, 0.8751 0.3467 0.3376, 0.8751 0.3467 0.3376,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance596 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance598 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 87.5037 130.7156, 33.426 82 136.3681,
+															]
+														}
+														normal Normal {
+															vector [
+0.9878 0.1117 0.1088, 0.9878 0.1117 0.1088, 0.9878 0.1117 0.1088,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance599 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance601 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 82 136.3681, 25.452 82 157.0362, 25.452 72.0483 156.0314,
+															]
+														}
+														normal Normal {
+															vector [
+0.9324 -0.0363 0.3597, 0.9324 -0.0363 0.3597, 0.9324 -0.0363 0.3597,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance602 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance604 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 76.4963 135.7692, 33.426 82 136.3681, 25.452 72.0483 156.0314,
+															]
+														}
+														normal Normal {
+															vector [
+0.9327 -0.039 0.3585, 0.9327 -0.039 0.3585, 0.9327 -0.039 0.3585,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance605 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance607 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 82 136.3681, 33.426 76.4963 135.7692,
+															]
+														}
+														normal Normal {
+															vector [
+0.9939 -0.0119 0.1095, 0.9939 -0.0119 0.1095, 0.9939 -0.0119 0.1095,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance608 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance610 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 76.4963 135.7692, 25.452 72.0483 156.0314, 25.452 64.0054 151.2089,
+															]
+														}
+														normal Normal {
+															vector [
+0.9267 -0.1932 0.3223, 0.9267 -0.1932 0.3223, 0.9267 -0.1932 0.3223,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance611 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance613 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 72.0483 133.0589, 33.426 76.4963 135.7692, 25.452 64.0054 151.2089,
+															]
+														}
+														normal Normal {
+															vector [
+0.9268 -0.1954 0.3206, 0.9268 -0.1954 0.3206, 0.9268 -0.1954 0.3206,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance614 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance616 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 76.4963 135.7692, 33.426 72.0483 133.0589,
+															]
+														}
+														normal Normal {
+															vector [
+0.9934 -0.0596 0.0979, 0.9934 -0.0596 0.0979, 0.9934 -0.0596 0.0979,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance617 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance619 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 72.0483 133.0589, 25.452 64.0054 151.2089, 25.452 58.3678 133.0589,
+															]
+														}
+														normal Normal {
+															vector [
+0.8536 -0.4975 0.1545, 0.8536 -0.4975 0.1545, 0.8536 -0.4975 0.1545,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance620 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance622 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 68.9304 123.5573, 33.426 72.0483 133.0589, 25.452 58.3678 133.0589,
+															]
+														}
+														normal Normal {
+															vector [
+0.8524 -0.4968 0.163, 0.8524 -0.4968 0.163, 0.8524 -0.4968 0.163,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance623 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance625 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 72.0483 133.0589, 33.426 68.9304 123.5573,
+															]
+														}
+														normal Normal {
+															vector [
+0.9868 -0.1536 0.0504, 0.9868 -0.1536 0.0504, 0.9868 -0.1536 0.0504,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance626 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance628 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 68.9304 123.5573, 25.452 58.3678 133.0589, 25.452 56.548 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.8189 -0.5716 0.0519, 0.8189 -0.5716 0.0519, 0.8189 -0.5716 0.0519,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance629 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance631 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 67.924 113, 33.426 68.9304 123.5573, 25.452 56.548 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.8176 -0.5731 0.0546, 0.8176 -0.5731 0.0546, 0.8176 -0.5731 0.0546,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance632 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance634 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 68.9304 123.5573, 33.426 67.924 113,
+															]
+														}
+														normal Normal {
+															vector [
+0.9835 -0.1799 0.0171, 0.9835 -0.1799 0.0171, 0.9835 -0.1799 0.0171,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance635 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance637 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 67.924 113, 25.452 56.548 113, 25.452 58.3678 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 -0.5708 -0.1044, 0.8144 -0.5708 -0.1044, 0.8144 -0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance638 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance640 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 68.9304 107.4963, 33.426 67.924 113, 25.452 58.3678 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 -0.5708 -0.1044, 0.8144 -0.5708 -0.1044, 0.8144 -0.5708 -0.1044,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance641 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance643 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 67.924 113, 33.426 68.9304 107.4963,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 -0.1798 -0.0329, 0.9832 -0.1798 -0.0329, 0.9832 -0.1798 -0.0329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance644 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance646 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 68.9304 107.4963, 25.452 58.3678 103.0483, 25.452 64.0054 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 -0.4749 -0.3329, 0.8147 -0.4749 -0.3329, 0.8147 -0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance647 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance649 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 72.0483 103.0483, 33.426 68.9304 107.4963, 25.452 64.0054 95.0054,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 -0.4749 -0.3329, 0.8147 -0.4749 -0.3329, 0.8147 -0.4749 -0.3329,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance650 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance652 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 68.9304 107.4963, 33.426 72.0483 103.0483,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 -0.1495 -0.1048, 0.9832 -0.1495 -0.1048, 0.9832 -0.1495 -0.1048,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance653 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance655 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 72.0483 103.0483, 25.452 64.0054 95.0054, 25.452 72.0483 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 -0.3329 -0.4749, 0.8147 -0.3329 -0.4749, 0.8147 -0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance656 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance658 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 76.4963 99.9304, 33.426 72.0483 103.0483, 25.452 72.0483 89.3678,
+															]
+														}
+														normal Normal {
+															vector [
+0.8147 -0.3329 -0.4749, 0.8147 -0.3329 -0.4749, 0.8147 -0.3329 -0.4749,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance659 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance661 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 72.0483 103.0483, 33.426 76.4963 99.9304,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 -0.1048 -0.1495, 0.9832 -0.1048 -0.1495, 0.9832 -0.1048 -0.1495,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance662 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance664 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 76.4963 99.9304, 25.452 72.0483 89.3678, 25.452 82 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 -0.1044 -0.5708, 0.8144 -0.1044 -0.5708, 0.8144 -0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance665 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance667 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+33.426 82 98.924, 33.426 76.4963 99.9304, 25.452 82 87.548,
+															]
+														}
+														normal Normal {
+															vector [
+0.8144 -0.1044 -0.5708, 0.8144 -0.1044 -0.5708, 0.8144 -0.1044 -0.5708,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance668 Transform {
+											center -0.0000 82.0000 122.2921
+											translation 0.0000 -82.0000 -122.2921
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance670 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+36 82 113, 33.426 76.4963 99.9304, 33.426 82 98.924,
+															]
+														}
+														normal Normal {
+															vector [
+0.9832 -0.0329 -0.1798, 0.9832 -0.0329 -0.1798, 0.9832 -0.0329 -0.1798,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+						DEF instance671 Transform {
+							center 0.0000 -99.7019 -143.3563
+							translation -0.0000 99.7019 143.3563
+							children [
+								Group {
+									children [
+										DEF instance672 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance DEF appearance0 Appearance {
+														material Material {
+															diffuseColor 1.0000 1.0000 1.0000
+															specularColor 0.5000 0.5000 0.5000
+															transparency 0.0000
+														}
+													}
+													geometry DEF instance674 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 105.6322 136.6322, -25.452 99.9946 130.9946, -25.452 91.9517 145.9243,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5574 0.7309 0.3938, -0.5574 0.7309 0.3938, -0.5574 0.7309 0.3938,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance675 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance677 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-14.076 95.0696 153.3281, -14.076 105.6322 136.6322, -25.452 91.9517 145.9243,
+															]
+														}
+														normal Normal {
+															vector [
+-0.5014 0.7312 0.4626, -0.5014 0.7312 0.4626, -0.5014 0.7312 0.4626,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance678 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance680 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 107.452 138.452, -14.076 105.6322 136.6322, -14.076 95.0696 153.3281,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1756 0.8319 0.5263, -0.1756 0.8319 0.5263, -0.1756 0.8319 0.5263,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance681 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance683 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-0 96.076 155.7181, -0 107.452 138.452, -14.076 95.0696 153.3281,
+															]
+														}
+														normal Normal {
+															vector [
+-0.1514 0.8254 0.5438, -0.1514 0.8254 0.5438, -0.1514 0.8254 0.5438,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance684 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance686 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 105.6322 136.6322, -0 107.452 138.452, -0 96.076 155.7181,
+															]
+														}
+														normal Normal {
+															vector [
+0.1763 0.822 0.5416, 0.1763 0.822 0.5416, 0.1763 0.822 0.5416,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance687 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance689 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+14.076 95.0696 153.3281, 14.076 105.6322 136.6322, -0 96.076 155.7181,
+															]
+														}
+														normal Normal {
+															vector [
+0.1495 0.8356 0.5286, 0.1495 0.8356 0.5286, 0.1495 0.8356 0.5286,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance690 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance692 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 99.9946 130.9946, 14.076 105.6322 136.6322, 14.076 95.0696 153.3281,
+															]
+														}
+														normal Normal {
+															vector [
+0.5644 0.6976 0.4413, 0.5644 0.6976 0.4413, 0.5644 0.6976 0.4413,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+										DEF instance693 Transform {
+											center -0.0000 99.7019 143.3563
+											translation 0.0000 -99.7019 -143.3563
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance695 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+25.452 91.9517 145.9243, 25.452 99.9946 130.9946, 14.076 95.0696 153.3281,
+															]
+														}
+														normal Normal {
+															vector [
+0.4819 0.7714 0.4156, 0.4819 0.7714 0.4156, 0.4819 0.7714 0.4156,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+														]
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				DEF instance696 Transform {
+					rotation 0.0000 1.0000 -0.0000 -1.5708
+					scale 36.0000 36.0000 36.0000
+					center -2.5000 -0.0000 -0.0000
+					translation 2.5000 0.0000 0.0000
+					children [
+						Shape {
+							appearance USE appearance11486147
+							geometry DEF instance698 Sphere {
+								radius 1.0
+							}
+						}
+					]
+				}
+				DEF instance699 Transform {
+					rotation 0.1858 -0.4486 0.8742 -0.8850
+					center 10.4701 53.8445 30.0965
+					translation -10.4701 -53.8445 -30.0965
+					children [
+						Group {
+							children [
+								DEF instance700 Transform {
+									rotation 0.0000 1.0000 0.0000 -3.1416
+									center -73.9525 -0.0000 227.2610
+									translation 73.9525 0.0000 -227.2610
+									children [
+										Group {
+											children [
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance702 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-20 -85 110, -35 -85 110, -35 -75 110,
+-35 -85 110, -20 -85 110, -30 -90 110,
+-30 -90 110, -20 -85 110, -30 -100 110,
+-30 -100 110, -20 -85 110, -20 -110 110,
+															]
+														}
+														normal Normal {
+															vector [
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+														]
+													}
+												}
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance704 IndexedFaceSet {
+														normalPerVertex TRUE
+														solid FALSE
+														coord Coordinate {
+															point [
+-20 -110 115, -30 -90 115, -30 -100 115,
+-30 -90 115, -35 -75 115, -35 -85 115,
+-35 -75 115, -30 -90 115, -20 -85 115,
+-20 -85 115, -30 -90 115, -20 -110 115,
+															]
+														}
+														normal Normal {
+															vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+														]
+													}
+												}
+												Shape {
+													appearance USE appearance11486147
+													geometry DEF instance706 IndexedFaceSet {
+														normalPerVertex TRUE
+														coord Coordinate {
+															point [
+-35 -85 115, -35 -85 110, -30 -90 115,
+-35 -85 110, -30 -90 110, -30 -90 115,
+-30 -90 115, -30 -90 110, -30 -100 115,
+-30 -90 110, -30 -100 110, -30 -100 115,
+-30 -100 115, -30 -100 110, -20 -110 115,
+-30 -100 110, -20 -110 110, -20 -110 115,
+-20 -110 115, -20 -110 110, -20 -85 115,
+-20 -110 110, -20 -85 110, -20 -85 115,
+-20 -85 115, -20 -85 110, -35 -75 115,
+-20 -85 110, -35 -75 110, -35 -75 115,
+-35 -75 115, -35 -75 110, -35 -85 115,
+-35 -75 110, -35 -85 110, -35 -85 115,
+															]
+														}
+														normal Normal {
+															vector [
+-0.9675 -0.2527 0, -0.8629 -0.5054 0, -0.8629 -0.5054 0,
+-0.8629 -0.5054 0, -0.9675 -0.2527 0, -0.8629 -0.5054 0,
+-0.8629 -0.5054 0, -0.9675 -0.2527 0, -0.9675 -0.2527 0,
+-0.9675 -0.2527 0, -0.8629 -0.5054 0, -0.9675 -0.2527 0,
+-0.9675 -0.2527 0, -0.8629 -0.5054 0, -0.7071 -0.7071 0,
+-0.8629 -0.5054 0, -0.7071 -0.7071 0, -0.7071 -0.7071 0,
+1 0 0, 1 0 0, 0.9508 0.3097 0,
+1 0 0, 0.7851 0.6194 0, 0.9508 0.3097 0,
+0.9508 0.3097 0, 0.7851 0.6194 0, 0.5547 0.8321 0,
+0.7851 0.6194 0, 0.5547 0.8321 0, 0.5547 0.8321 0,
+-1 0 0, -1 0 0, -0.9675 -0.2527 0,
+-1 0 0, -0.8629 -0.5054 0, -0.9675 -0.2527 0,
+															]
+														}
+														coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+														]
+													}
+												}
+											]
+										}
+									]
+								}
+								DEF instance707 Transform {
+									center 5.4150 -0.0000 -2.2611
+									translation -5.4150 0.0000 2.2611
+									children [
+										Group {
+											children [
+												Shape {
+													appearance USE appearance11486147
+													USE instance702
+												}
+												Shape {
+													appearance USE appearance11486147
+													USE instance704
+												}
+												Shape {
+													appearance USE appearance11486147
+													USE instance706
+												}
+											]
+										}
+									]
+								}
+								DEF instance708 Transform {
+									rotation 1.0000 0.0000 0.0000 -1.5708
+									scale 6.0000 6.0000 59.0000
+									center 6.6667 19.1666 1.4915
+									translation -6.6667 -19.1666 -1.4915
+									children [
+										Shape {
+											appearance USE appearance11486147
+											geometry DEF instance710 Cylinder {
+												height 1.0
+											}
+										}
+									]
+								}
+								DEF instance711 Transform {
+									rotation 0.0000 1.0000 -0.0000 -1.5708
+									scale 14.4410 14.4410 14.4410
+									center -7.9635 1.7312 -2.7699
+									translation 7.9635 -1.7312 2.7699
+									children [
+										Shape {
+											appearance USE appearance11486147
+											geometry DEF instance713 Sphere {
+												radius 1.0
+											}
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+				DEF instance714 Transform {
+					rotation 0.0000 0.0000 1.0000 -0.7854
+					center -19.5754 23.7990 55.0000
+					translation 19.5754 -23.7990 -55.0000
+					children [
+						Group {
+							children [
+								USE instance700
+								USE instance707
+								USE instance708
+								USE instance711
+							]
+						}
+					]
+				}
+				DEF instance715 Transform {
+					rotation -0.1733 0.4184 0.8916 -0.8698
+					center -27.4245 15.9499 77.8941
+					translation 27.4245 -15.9499 -77.8941
+					children [
+						Group {
+							children [
+								USE instance700
+								USE instance707
+								USE instance708
+								USE instance711
+							]
+						}
+					]
+				}
+				DEF instance716 Transform {
+					rotation 0.2143 0.5173 -0.8285 -0.9272
+					center -95.1124 59.3845 38.8768
+					translation 95.1124 -59.3845 -38.8768
+					children [
+						Group {
+							children [
+								USE instance700
+								USE instance707
+								USE instance708
+								USE instance711
+							]
+						}
+					]
+				}
+				DEF instance717 Transform {
+					rotation -0.1319 -0.3185 -0.9387 -0.8311
+					center -54.8817 19.1538 81.8692
+					translation 54.8817 -19.1538 -81.8692
+					children [
+						Group {
+							children [
+								USE instance700
+								USE instance707
+								USE instance708
+								USE instance711
+							]
+						}
+					]
+				}
+				DEF instance718 Transform {
+					rotation 0.0000 0.0000 -1.0000 -0.7854
+					center -60.1617 24.4338 55.0000
+					translation 60.1617 -24.4338 -55.0000
+					children [
+						Group {
+							children [
+								USE instance700
+								USE instance707
+								USE instance708
+								USE instance711
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

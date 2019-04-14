@@ -1,0 +1,23 @@
+circuit grid:
+	bump- ""circuitblocks.png"
+	20 diffuse on pure white
+dark tiles:
+	generic staticy texture( bump and diffuse), 41 diffuse total color
+glow dots:
+	r171g168b255
+	center bumped texture
+invisible surface:
+	its invisible.
+tile, space white:
+	same as dark  tiles. about 1 percent darker.
+unnamed-1:
+	40 percent diffuse on pure white.
+window overlay[NL]:
+	diffuse: r255g181b255
+	diffuse amount: "dots tex.png"
+	abient amount: "dots tex.png"
+	glow factor:	"dots tex.png"
+	opacity: 	"dots tex.png"
+	specular control:	"dots tex.png"	
+	stencil:	"dots tex.png"
+	

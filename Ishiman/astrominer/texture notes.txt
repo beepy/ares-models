@@ -1,0 +1,12 @@
+cyan color:
+	generic ishiman texturing.
+
+other colors: solid colors
+window grid:
+	ishiman cyan diffuse.
+	diffuse control:
+	ambient control:
+	opacity control:
+	specular control:
+	bump:
+		"cross texture.png"

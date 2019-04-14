@@ -1,0 +1,65 @@
+#VRML V2.0 utf8
+
+DirectionalLight {
+	on TRUE
+	intensity 0.9500
+	color 1.0000 1.0000 1.0000
+	direction -0.1856 -0.2951 0.9373
+}
+WorldInfo {
+	title "/Users/atg/Dropbox/xsera/models/Strata Challenge/models/Models/Media CD 1/Planet w- Atmosphere_/Planet w- Atmosphere.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+Group {
+	children [
+		DEF instance3 Transform {
+			scale 6.0674 6.0674 6.0674
+			center 4.5499 -3.8758 -0.0000
+			translation -4.5499 3.8758 0.0000
+			children [
+				Shape {
+					appearance DEF appearance0 Appearance {
+						material Material {
+							diffuseColor 1.0000 1.0000 1.0000
+							specularColor 0.2000 0.2000 0.2000
+							transparency 0.5352
+						}
+					}
+					geometry DEF instance5 Sphere {
+						radius 1.0
+					}
+				}
+			]
+		}
+		DEF instance6 Transform {
+			scale 6.0073 6.0073 6.0073
+			center 4.5954 -3.9146 -0.0000
+			translation -4.5954 3.9146 0.0000
+			children [
+				Shape {
+					appearance DEF appearance1 Appearance {
+						material Material {
+							diffuseColor 0.5581 0.2987 0.0079
+							specularColor 0.0000 0.0000 0.0000
+							transparency 0.0000
+						}
+						texture ImageTexture {
+							url [
+								"texture1.jpg"
+							]
+						}
+					}
+					geometry DEF instance8 Sphere {
+						radius 1.0
+					}
+				}
+			]
+		}
+	]
+}
+Viewpoint {
+	position -5.1064 46.0158 22.4995
+	orientation -0.7071 0.7071 0.0000 0.9553
+	fieldOfView 0.8029
+}

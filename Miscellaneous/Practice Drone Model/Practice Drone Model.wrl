@@ -1,0 +1,122 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position -64.6683 46.6775 61.4258
+	orientation 0.6730 -0.7396 0.0000 0.7052
+	fieldOfView 1.0719
+	description "Camera #1"
+}
+DirectionalLight {
+	on TRUE
+	intensity 0.8000
+	color 1.0000 1.0000 1.0000
+	direction -0.0876 0.5848 -0.8064
+}
+WorldInfo {
+	title "/Users/atg/Desktop/models/Models/Media CD 1/Practice Drone Model.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+DEF instance3 Transform {
+	center -20.4058 -48.0096 17.4347
+	translation 20.4058 48.0096 -17.4347
+	children [
+		Group {
+			children [
+				DEF instance4 Transform {
+					rotation -1.0000 0.0000 0.0000 -1.5708
+					scale 0.1876 0.1876 0.1876
+					center 160.5843 15.7983 193.5692
+					translation -160.5843 -15.7983 -193.5692
+					children [
+						Shape {
+							appearance DEF appearance0 Appearance {
+								material Material {
+									diffuseColor 1.0000 1.0000 1.0000
+									specularColor 1.0000 1.0000 1.0000
+									transparency 0.0000
+								}
+							}
+							geometry DEF instance6 IndexedFaceSet {
+								normalPerVertex TRUE
+								coord Coordinate {
+									point [
+49.5834 15.7983 -54.6325, -66.3097 82.7089 -54.6325, -27.6796 15.7983 54.6325,
+-66.3097 82.7089 -54.6325, -66.3111 -51.1122 -54.6325, -27.6796 15.7983 54.6325,
+-66.3111 -51.1122 -54.6325, 49.5834 15.7983 -54.6325, -27.6796 15.7983 54.6325,
+-66.3097 82.7089 -54.6325, 49.5834 15.7983 -54.6325, -66.3111 -51.1122 -54.6325,
+									]
+								}
+								normal Normal {
+									vector [
+0.4714 0.8165 0.3333, 0.4714 0.8165 0.3333, 0.4714 0.8165 0.3333,
+-0.9428 0 0.3333, -0.9428 0 0.3333, -0.9428 0 0.3333,
+0.4714 -0.8165 0.3333, 0.4714 -0.8165 0.3333, 0.4714 -0.8165 0.3333,
+0 0 -1, 0 0 -1, 0 0 -1,
+									]
+								}
+								coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+								]
+							}
+						}
+					]
+				}
+				DEF instance7 Transform {
+					rotation 1.0000 0.0000 0.0000 -1.5708
+					scale 15.0143 15.0143 3.1839
+					center 2.3574 -0.0000 -14.7688
+					translation -2.3574 0.0000 14.7688
+					children [
+						Shape {
+							appearance DEF appearance1 Appearance {
+								material Material {
+									diffuseColor 0.8650 0.8650 0.8650
+									specularColor 0.0000 0.0000 0.0000
+									transparency 0.0000
+								}
+								texture ImageTexture {
+									url [
+										"texture1.jpg"
+									]
+								}
+							}
+							geometry DEF instance9 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance10 Transform {
+					rotation 1.0000 0.0000 0.0000 -1.5708
+					scale 15.0143 15.0143 3.1839
+					center 2.3574 -0.0000 -13.4021
+					translation -2.3574 0.0000 13.4021
+					children [
+						Shape {
+							appearance USE appearance1
+							geometry DEF instance12 Cylinder {
+								height 1.0
+							}
+						}
+					]
+				}
+				DEF instance13 Transform {
+					rotation 1.0000 0.0000 0.0000 -1.5708
+					scale 0.1876 0.1876 0.1876
+					center 160.5843 15.7983 -302.6718
+					translation -160.5843 -15.7983 302.6718
+					children [
+						Shape {
+							appearance USE appearance0
+							USE instance6
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2792 @@
+#VRML V2.0 utf8
+
+Viewpoint {
+	position 1523.7365 230.4277 3071.4861
+	orientation -0.2989 0.9543 0.0000 0.4362
+	fieldOfView 1.2225
+	description "Camera #1"
+}
+DirectionalLight {
+	on TRUE
+	intensity 0.8000
+	color 1.0000 1.0000 1.0000
+	direction -0.2265 -0.0894 0.9699
+}
+WorldInfo {
+	title "/Users/atg/Desktop/models/Models/Media CD 1/orbital shipyard model 2.wrl"
+	info ["Generated with Strata 3D CX(TM): http://www.strata.com"]
+}
+
+Group {
+	children [
+		DEF instance3 Transform {
+			rotation 0.7071 0.0000 0.7071 -3.1416
+			center -590.6555 -70.0250 677.3410
+			translation 590.6555 70.0250 -677.3410
+			children [
+				DEF instance4 Transform {
+					rotation 0.0000 -1.0000 0.0000 -0.7854
+					center 1858.9304 216.8668 -265.7321
+					translation -1858.9304 -216.8668 265.7321
+					children [
+						DEF instance5 Transform {
+							rotation 0.0000 -1.0000 0.0000 -1.5708
+							center 2111.0616 -107.4075 -1250.2321
+							translation -2111.0616 107.4075 1250.2321
+							children [
+								Group {
+									children [
+										DEF instance6 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center -14.2170 0.7185 -0.0000
+											translation 14.2170 -0.7185 0.0000
+											children [
+												Shape {
+													appearance DEF appearance0 Appearance {
+														material Material {
+															diffuseColor 0.8650 0.8650 0.8650
+															specularColor 0.0000 0.0000 0.0000
+															transparency 0.0000
+														}
+														texture ImageTexture {
+															url [
+																"texture0.jpg"
+															]
+														}
+													}
+													geometry DEF instance8 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance9 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 9.5082 17.0754
+											center -13.2692 2.4893 -0.0000
+											translation 13.2692 -2.4893 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance11 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance12 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center -12.1319 0.7185 -0.0000
+											translation 12.1319 -0.7185 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance14 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance15 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center -10.9945 0.7185 -0.0000
+											translation 10.9945 -0.7185 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance17 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance18 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 24.1149 12.2393 17.0754
+											center -7.1374 1.7107 -0.0000
+											translation 7.1374 -1.7107 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance20 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance21 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center -8.9093 0.7185 -0.0000
+											translation 8.9093 -0.7185 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance23 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance24 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 22.2532 17.0754
+											center -7.3928 0.4909 -0.0000
+											translation 7.3928 -0.4909 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance26 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance27 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center -6.4450 0.7185 -0.0000
+											translation 6.4450 -0.7185 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance29 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance30 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 18.6118 17.0754
+											center -5.1181 0.7826 0.0000
+											translation 5.1181 -0.7826 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance32 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance33 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center -4.1703 0.7185 0.0000
+											translation 4.1703 -0.7185 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance35 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance36 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 14.0600 17.0754
+											center -3.0330 1.3597 0.0000
+											translation 3.0330 -1.3597 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance38 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance39 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center -1.7060 0.7185 -0.0000
+											translation 1.7060 -0.7185 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance41 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance42 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 12.2393 17.0754
+											center -0.3791 1.7107 -0.0000
+											translation 0.3791 -1.7107 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance44 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance45 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 15.8807 17.0754
+											center 0.9478 1.0892 -0.0000
+											translation -0.9478 -1.0892 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance47 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance48 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center 2.2747 0.7185 0.0000
+											translation -2.2747 -0.7185 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance50 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance51 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 15.8807 17.0754
+											center 3.9808 1.0892 0.0000
+											translation -3.9808 -1.0892 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance53 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance54 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 13.1496 17.0754
+											center 5.1181 1.5231 0.0000
+											translation -5.1181 -1.5231 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance56 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance57 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center 6.2555 0.7185 0.0000
+											translation -6.2555 -0.7185 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance59 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance60 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 33.1774 17.0754
+											center 7.3929 -0.0000 0.0000
+											translation -7.3929 0.0000 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance62 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance63 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 24.9842 17.0754
+											center 8.9093 0.3279 0.0000
+											translation -8.9093 -0.3279 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance65 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance66 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center 10.0467 0.7185 0.0000
+											translation -10.0467 -0.7185 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance68 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance69 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 18.8550 27.7153 17.0754
+											center 10.2229 0.1971 -0.0000
+											translation -10.2229 -0.1971 0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance71 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance72 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 17.0754 19.3060 17.0754
+											center 12.3214 0.7185 0.0000
+											translation -12.3214 -0.7185 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance74 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance75 Transform {
+											rotation 0.0000 -1.0000 0.0000 -0.7854
+											scale 21.3838 29.5360 17.0754
+											center 11.1511 0.1233 0.0000
+											translation -11.1511 -0.1233 -0.0000
+											children [
+												Shape {
+													appearance USE appearance0
+													geometry DEF instance77 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance78 Transform {
+			rotation 1.0000 -0.0000 0.0000 -3.1416
+			center 62.1954 -70.0238 3706.9616
+			translation -62.1954 70.0238 -3706.9616
+			children [
+				USE instance4
+			]
+		}
+		DEF instance79 Transform {
+			rotation 1.0000 -0.0000 0.0000 -3.1416
+			center 275.1289 -70.0239 3706.9616
+			translation -275.1289 70.0239 -3706.9616
+			children [
+				USE instance4
+			]
+		}
+		DEF instance80 Transform {
+			rotation -0.7071 0.0000 0.7071 -3.1416
+			center 3088.8306 -70.0254 2843.4659
+			translation -3088.8306 70.0254 -2843.4659
+			children [
+				USE instance4
+			]
+		}
+		DEF instance81 Transform {
+			rotation -0.7071 0.0000 0.7071 -3.1416
+			center 3304.0536 -70.0254 2843.4659
+			translation -3304.0536 70.0254 -2843.4659
+			children [
+				USE instance4
+			]
+		}
+		DEF instance82 Transform {
+			rotation 1.0000 -0.0000 0.0000 -3.1416
+			center 275.1287 -70.0236 4407.5811
+			translation -275.1287 70.0236 -4407.5811
+			children [
+				USE instance4
+			]
+		}
+		DEF instance83 Transform {
+			rotation 0.7071 0.0000 0.7071 -3.1416
+			center -803.5889 -70.0250 677.3410
+			translation 803.5889 70.0250 -677.3410
+			children [
+				USE instance4
+			]
+		}
+		DEF instance84 Transform {
+			rotation 1.0000 -0.0000 0.0000 -3.1416
+			center 61.4988 -70.0236 4407.5811
+			translation -61.4988 70.0236 -4407.5811
+			children [
+				USE instance4
+			]
+		}
+		DEF instance85 Transform {
+			center -0.0000 0.0000 -0.0000
+			translation 0.0000 -0.0000 0.0000
+			children [
+				USE instance5
+			]
+		}
+		DEF instance86 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			center 1783.7666 -107.4075 -922.9372
+			translation -1783.7666 107.4075 922.9372
+			children [
+				Group {
+					children [
+						DEF instance87 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 21.3838 29.5360 17.0754
+							center 11.1511 0.1233 0.0000
+							translation -11.1511 -0.1233 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance89 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance90 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 12.3214 0.7185 0.0000
+							translation -12.3214 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance92 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance93 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 18.8550 27.7153 17.0754
+							center 10.2229 0.1971 -0.0000
+							translation -10.2229 -0.1971 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance95 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance96 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 10.0467 0.7185 0.0000
+							translation -10.0467 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance98 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance99 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 24.9842 17.0754
+							center 8.9093 0.3279 0.0000
+							translation -8.9093 -0.3279 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance101 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance102 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 33.1774 17.0754
+							center 7.3929 -0.0000 0.0000
+							translation -7.3929 0.0000 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance104 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance105 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 6.2555 0.7185 0.0000
+							translation -6.2555 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance107 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance108 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 13.1496 17.0754
+							center 5.1181 1.5231 0.0000
+							translation -5.1181 -1.5231 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance110 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance111 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 15.8807 17.0754
+							center 3.9808 1.0892 0.0000
+							translation -3.9808 -1.0892 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance113 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance114 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 2.2747 0.7185 0.0000
+							translation -2.2747 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance116 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance117 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 15.8807 17.0754
+							center 0.9478 1.0892 -0.0000
+							translation -0.9478 -1.0892 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance119 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance120 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 12.2393 17.0754
+							center -0.3791 1.7107 -0.0000
+							translation 0.3791 -1.7107 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance122 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance123 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -1.7060 0.7185 -0.0000
+							translation 1.7060 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance125 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance126 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 14.0600 17.0754
+							center -3.0330 1.3597 0.0000
+							translation 3.0330 -1.3597 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance128 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance129 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -4.1703 0.7185 0.0000
+							translation 4.1703 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance131 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance132 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 18.6118 17.0754
+							center -5.1181 0.7826 0.0000
+							translation 5.1181 -0.7826 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance134 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance135 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -6.4450 0.7185 -0.0000
+							translation 6.4450 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance137 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance138 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 22.2532 17.0754
+							center -7.3928 0.4909 -0.0000
+							translation 7.3928 -0.4909 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance140 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance141 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -8.9093 0.7185 -0.0000
+							translation 8.9093 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance143 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance144 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 24.1149 12.2393 17.0754
+							center -7.1374 1.7107 -0.0000
+							translation 7.1374 -1.7107 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance146 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance147 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -10.9945 0.7185 -0.0000
+							translation 10.9945 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance149 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance150 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -12.1319 0.7185 -0.0000
+							translation 12.1319 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance152 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance153 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 9.5082 17.0754
+							center -13.2692 2.4893 -0.0000
+							translation 13.2692 -2.4893 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance155 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance156 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -14.2170 0.7185 -0.0000
+							translation 14.2170 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance158 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance159 Transform {
+			center -1248.0613 -107.4075 -1783.7666
+			translation 1248.0613 107.4075 1783.7666
+			children [
+				Group {
+					children [
+						DEF instance160 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -14.2170 0.7185 -0.0000
+							translation 14.2170 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance162 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance163 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 9.5082 17.0754
+							center -13.2692 2.4893 -0.0000
+							translation 13.2692 -2.4893 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance165 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance166 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -12.1319 0.7185 -0.0000
+							translation 12.1319 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance168 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance169 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -10.9945 0.7185 -0.0000
+							translation 10.9945 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance171 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance172 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 24.1149 12.2393 17.0754
+							center -7.1374 1.7107 -0.0000
+							translation 7.1374 -1.7107 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance174 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance175 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -8.9093 0.7185 -0.0000
+							translation 8.9093 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance177 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance178 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 22.2532 17.0754
+							center -7.3928 0.4909 -0.0000
+							translation 7.3928 -0.4909 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance180 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance181 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -6.4450 0.7185 -0.0000
+							translation 6.4450 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance183 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance184 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 18.6118 17.0754
+							center -5.1181 0.7826 0.0000
+							translation 5.1181 -0.7826 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance186 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance187 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -4.1703 0.7185 0.0000
+							translation 4.1703 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance189 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance190 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 14.0600 17.0754
+							center -3.0330 1.3597 0.0000
+							translation 3.0330 -1.3597 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance192 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance193 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -1.7060 0.7185 -0.0000
+							translation 1.7060 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance195 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance196 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 12.2393 17.0754
+							center -0.3791 1.7107 -0.0000
+							translation 0.3791 -1.7107 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance198 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance199 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 15.8807 17.0754
+							center 0.9478 1.0892 -0.0000
+							translation -0.9478 -1.0892 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance201 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance202 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 2.2747 0.7185 0.0000
+							translation -2.2747 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance204 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance205 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 15.8807 17.0754
+							center 3.9808 1.0892 0.0000
+							translation -3.9808 -1.0892 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance207 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance208 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 13.1496 17.0754
+							center 5.1181 1.5231 0.0000
+							translation -5.1181 -1.5231 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance210 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance211 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 6.2555 0.7185 0.0000
+							translation -6.2555 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance213 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance214 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 33.1774 17.0754
+							center 7.3929 -0.0000 0.0000
+							translation -7.3929 0.0000 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance216 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance217 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 24.9842 17.0754
+							center 8.9093 0.3279 0.0000
+							translation -8.9093 -0.3279 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance219 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance220 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 10.0467 0.7185 0.0000
+							translation -10.0467 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance222 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance223 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 18.8550 27.7153 17.0754
+							center 10.2229 0.1971 -0.0000
+							translation -10.2229 -0.1971 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance225 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance226 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 12.3214 0.7185 0.0000
+							translation -12.3214 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance228 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance229 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 21.3838 29.5360 17.0754
+							center 11.1511 0.1233 0.0000
+							translation -11.1511 -0.1233 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance231 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance232 Transform {
+			center -918.4775 -107.4075 -2113.3506
+			translation 918.4775 107.4075 2113.3506
+			children [
+				Group {
+					children [
+						DEF instance233 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 21.3838 29.5360 17.0754
+							center 11.1511 0.1233 0.0000
+							translation -11.1511 -0.1233 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance235 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance236 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 12.3214 0.7185 0.0000
+							translation -12.3214 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance238 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance239 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 18.8550 27.7153 17.0754
+							center 10.2229 0.1971 -0.0000
+							translation -10.2229 -0.1971 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance241 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance242 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 10.0467 0.7185 0.0000
+							translation -10.0467 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance244 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance245 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 24.9842 17.0754
+							center 8.9093 0.3279 0.0000
+							translation -8.9093 -0.3279 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance247 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance248 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 33.1774 17.0754
+							center 7.3929 -0.0000 0.0000
+							translation -7.3929 0.0000 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance250 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance251 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 6.2555 0.7185 0.0000
+							translation -6.2555 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance253 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance254 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 13.1496 17.0754
+							center 5.1181 1.5231 0.0000
+							translation -5.1181 -1.5231 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance256 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance257 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 15.8807 17.0754
+							center 3.9808 1.0892 0.0000
+							translation -3.9808 -1.0892 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance259 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance260 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center 2.2747 0.7185 0.0000
+							translation -2.2747 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance262 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance263 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 15.8807 17.0754
+							center 0.9478 1.0892 -0.0000
+							translation -0.9478 -1.0892 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance265 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance266 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 12.2393 17.0754
+							center -0.3791 1.7107 -0.0000
+							translation 0.3791 -1.7107 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance268 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance269 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -1.7060 0.7185 -0.0000
+							translation 1.7060 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance271 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance272 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 14.0600 17.0754
+							center -3.0330 1.3597 0.0000
+							translation 3.0330 -1.3597 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance274 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance275 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -4.1703 0.7185 0.0000
+							translation 4.1703 -0.7185 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance277 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance278 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 18.6118 17.0754
+							center -5.1181 0.7826 0.0000
+							translation 5.1181 -0.7826 -0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance280 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance281 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -6.4450 0.7185 -0.0000
+							translation 6.4450 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance283 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance284 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 22.2532 17.0754
+							center -7.3928 0.4909 -0.0000
+							translation 7.3928 -0.4909 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance286 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance287 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -8.9093 0.7185 -0.0000
+							translation 8.9093 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance289 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance290 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 24.1149 12.2393 17.0754
+							center -7.1374 1.7107 -0.0000
+							translation 7.1374 -1.7107 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance292 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance293 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -10.9945 0.7185 -0.0000
+							translation 10.9945 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance295 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance296 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -12.1319 0.7185 -0.0000
+							translation 12.1319 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance298 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance299 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 9.5082 17.0754
+							center -13.2692 2.4893 -0.0000
+							translation 13.2692 -2.4893 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance301 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance302 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 17.0754 19.3060 17.0754
+							center -14.2170 0.7185 -0.0000
+							translation 14.2170 -0.7185 0.0000
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance304 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance305 Transform {
+			scale 5.0000 1.0000 5.0000
+			center -214.2072 -80.3454 -389.4828
+			translation 214.2072 80.3454 389.4828
+			children [
+				Group {
+					children [
+						DEF instance306 Transform {
+							center -2.6755 6.1154 -0.0001
+							translation 2.6755 -6.1154 0.0001
+							children [
+								Group {
+									children [
+										DEF instance307 Transform {
+											scale 5.7332 5.3510 73.3846
+											center 11.8000 -0.0000 0.0000
+											translation -11.8000 0.0000 -0.0000
+											children [
+												Shape {
+													appearance DEF appearance1 Appearance {
+														material Material {
+															diffuseColor 0.8650 0.8650 0.8650
+															specularColor 0.0000 0.0000 0.0000
+															transparency 0.0000
+														}
+														texture ImageTexture {
+															url [
+																"texture1.jpg"
+															]
+														}
+													}
+													geometry DEF instance309 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance310 Transform {
+											rotation 0.0000 1.0000 -0.0000 -1.5708
+											scale 5.7332 5.3510 73.3846
+											center -11.8000 0.0000 0.0000
+											translation 11.8000 -0.0000 -0.0000
+											children [
+												Shape {
+													appearance USE appearance1
+													geometry DEF instance312 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance313 Transform {
+											rotation 0.0000 1.0000 -0.0000 -1.5708
+											scale 5.7332 5.3510 73.3846
+											center 11.8000 -0.0000 0.0000
+											translation -11.8000 0.0000 -0.0000
+											children [
+												Shape {
+													appearance USE appearance1
+													geometry DEF instance315 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+										DEF instance316 Transform {
+											scale 5.7332 5.3510 73.3846
+											center -11.8000 -0.0000 0.0000
+											translation 11.8000 0.0000 -0.0000
+											children [
+												Shape {
+													appearance USE appearance1
+													geometry DEF instance318 Box {
+														size 2.0 2.0 2.0
+													}
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+						DEF instance319 Transform {
+							rotation 0.0000 1.0000 -0.0000 -2.3562
+							scale 5.7332 5.3510 89.0553
+							center 0.3300 1.1428 0.0212
+							translation -0.3300 -1.1428 -0.0212
+							children [
+								Shape {
+									appearance USE appearance1
+									geometry DEF instance321 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+						DEF instance322 Transform {
+							rotation 0.0000 -1.0000 0.0000 -2.3562
+							scale 5.7332 5.3510 89.0553
+							center 0.3300 1.1428 -0.0212
+							translation -0.3300 -1.1428 0.0212
+							children [
+								Shape {
+									appearance USE appearance1
+									geometry DEF instance324 Box {
+										size 2.0 2.0 2.0
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance325 Transform {
+			center -1084.4136 -74.2302 -1947.4141
+			translation 1084.4136 74.2302 1947.4141
+			children [
+				Group {
+					children [
+						DEF instance326 Transform {
+							center 146.0000 0.0000 -0.0001
+							translation -146.0000 -0.0000 0.0001
+							children [
+								Group {
+									children [
+										DEF instance327 Transform {
+											center 2.6755 -6.1151 292.0002
+											translation -2.6755 6.1151 -292.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance328 Transform {
+											center 2.6755 -6.1151 -291.9998
+											translation -2.6755 6.1151 291.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance329 Transform {
+											center 2.6755 -6.1151 -145.9998
+											translation -2.6755 6.1151 145.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance330 Transform {
+											center 2.6755 -6.1151 0.0002
+											translation -2.6755 6.1151 -0.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance331 Transform {
+											center 2.6755 -6.1151 146.0002
+											translation -2.6755 6.1151 -146.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+						DEF instance332 Transform {
+							center -0.0000 0.0000 -0.0001
+							translation 0.0000 -0.0000 0.0001
+							children [
+								Group {
+									children [
+										DEF instance333 Transform {
+											center 2.6755 -6.1151 146.0002
+											translation -2.6755 6.1151 -146.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance334 Transform {
+											center 2.6755 -6.1151 0.0002
+											translation -2.6755 6.1151 -0.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance335 Transform {
+											center 2.6755 -6.1151 -145.9998
+											translation -2.6755 6.1151 145.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance336 Transform {
+											center 2.6755 -6.1151 -291.9998
+											translation -2.6755 6.1151 291.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance337 Transform {
+											center 2.6755 -6.1151 292.0002
+											translation -2.6755 6.1151 -292.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+						DEF instance338 Transform {
+							center -146.0000 0.0000 -0.0001
+							translation 146.0000 -0.0000 0.0001
+							children [
+								Group {
+									children [
+										DEF instance339 Transform {
+											center 2.6755 -6.1151 292.0002
+											translation -2.6755 6.1151 -292.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance340 Transform {
+											center 2.6755 -6.1151 -291.9998
+											translation -2.6755 6.1151 291.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance341 Transform {
+											center 2.6755 -6.1151 -145.9998
+											translation -2.6755 6.1151 145.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance342 Transform {
+											center 2.6755 -6.1151 0.0002
+											translation -2.6755 6.1151 -0.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance343 Transform {
+											center 2.6755 -6.1151 146.0002
+											translation -2.6755 6.1151 -146.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+						DEF instance344 Transform {
+							center -292.0000 0.0000 -0.0001
+							translation 292.0000 -0.0000 0.0001
+							children [
+								Group {
+									children [
+										DEF instance345 Transform {
+											center 2.6755 -6.1151 146.0002
+											translation -2.6755 6.1151 -146.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance346 Transform {
+											center 2.6755 -6.1151 0.0002
+											translation -2.6755 6.1151 -0.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance347 Transform {
+											center 2.6755 -6.1151 -145.9998
+											translation -2.6755 6.1151 145.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance348 Transform {
+											center 2.6755 -6.1151 -291.9998
+											translation -2.6755 6.1151 291.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance349 Transform {
+											center 2.6755 -6.1151 292.0002
+											translation -2.6755 6.1151 -292.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+						DEF instance350 Transform {
+							center 292.0000 0.0000 -0.0001
+							translation -292.0000 -0.0000 0.0001
+							children [
+								Group {
+									children [
+										DEF instance351 Transform {
+											center 2.6755 -6.1151 146.0002
+											translation -2.6755 6.1151 -146.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance352 Transform {
+											center 2.6755 -6.1151 0.0002
+											translation -2.6755 6.1151 -0.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance353 Transform {
+											center 2.6755 -6.1151 -145.9998
+											translation -2.6755 6.1151 145.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance354 Transform {
+											center 2.6755 -6.1151 -291.9998
+											translation -2.6755 6.1151 291.9998
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+										DEF instance355 Transform {
+											center 2.6755 -6.1151 292.0002
+											translation -2.6755 6.1151 -292.0002
+											children [
+												Group {
+													children [
+														USE instance306
+														USE instance319
+														USE instance322
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance356 Transform {
+			rotation 0.0000 -1.0000 0.0000 -1.5708
+			center 2308.3670 -0.0000 857.5687
+			translation -2308.3670 0.0000 -857.5687
+			children [
+				Group {
+					children [
+						DEF instance357 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 19.8650
+							center -180.7010 584.5090 -6.7510
+							translation 180.7010 -584.5090 6.7510
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance359 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance360 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 27.0097
+							center -185.2844 582.9256 -4.9652
+							translation 185.2844 -582.9256 4.9652
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance362 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance363 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 14.0193
+							center -183.2010 586.0923 -9.5659
+							translation 183.2010 -586.0923 9.5659
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance365 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance366 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 32.8553
+							center -180.8676 581.4256 -4.0818
+							translation 180.8676 -581.4256 4.0818
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance368 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance369 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 25.7106
+							center -181.3677 584.5923 -5.2160
+							translation 181.3677 -584.5923 5.2160
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance371 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance372 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 12.7203
+							center -184.9510 584.7589 -10.5428
+							translation 184.9510 -584.7589 10.5428
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance374 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance375 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 23.7621
+							center -183.4510 581.4256 -5.6438
+							translation 183.4510 -581.4256 5.6438
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance377 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance378 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 3.9518 3.9518 26.3601
+							center -182.2843 582.7590 -5.0875
+							translation 182.2843 -582.7590 5.0875
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance380 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance381 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 23.3826 23.3826 36.0482
+							center -30.9346 98.6023 -2.7848
+							translation 30.9346 -98.6023 2.7848
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance383 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance384 Transform {
+							scale 1.0000 1.0000 0.1887
+							center -0.0001 -0.0000 -9930.9922
+							translation 0.0001 0.0000 9930.9922
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											geometry DEF instance386 IndexedFaceSet {
+												normalPerVertex TRUE
+												solid FALSE
+												coord Coordinate {
+													point [
+660.8514 91.4933 2269.3735, 723.0989 34.9792 2269.3735, 652.661 34.9792 2269.3735,
+723.0989 34.9792 2269.3735, 660.8514 91.4933 2269.3735, 667.4038 93.9505 2269.3735,
+723.0989 34.9792 2269.3735, 667.4038 93.9505 2269.3735, 673.9562 132.4456 2269.3735,
+723.0989 34.9792 2269.3735, 673.9562 132.4456 2269.3735, 723.0989 132.4456 2269.3735,
+													]
+												}
+												normal Normal {
+													vector [
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+0 0 -1, 0 0 -1, 0 0 -1,
+													]
+												}
+												coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+												]
+											}
+										}
+										Shape {
+											appearance USE appearance1
+											geometry DEF instance388 IndexedFaceSet {
+												normalPerVertex TRUE
+												solid FALSE
+												coord Coordinate {
+													point [
+723.0989 34.9792 2304.5923, 660.8514 91.4933 2304.5923, 652.661 34.9792 2304.5923,
+660.8514 91.4933 2304.5923, 723.0989 34.9792 2304.5923, 667.4038 93.9505 2304.5923,
+667.4038 93.9505 2304.5923, 723.0989 34.9792 2304.5923, 673.9562 132.4456 2304.5923,
+673.9562 132.4456 2304.5923, 723.0989 34.9792 2304.5923, 723.0989 132.4456 2304.5923,
+													]
+												}
+												normal Normal {
+													vector [
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+0 0 1, 0 0 1, 0 0 1,
+													]
+												}
+												coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+												]
+											}
+										}
+										Shape {
+											appearance USE appearance1
+											geometry DEF instance390 IndexedFaceSet {
+												normalPerVertex TRUE
+												coord Coordinate {
+													point [
+723.0989 132.4456 2304.5923, 723.0989 132.4456 2269.3735, 673.9562 132.4456 2304.5923,
+723.0989 132.4456 2269.3735, 673.9562 132.4456 2269.3735, 673.9562 132.4456 2304.5923,
+673.9562 132.4456 2304.5923, 673.9562 132.4456 2269.3735, 667.4038 93.9505 2304.5923,
+673.9562 132.4456 2269.3735, 667.4038 93.9505 2269.3735, 667.4038 93.9505 2304.5923,
+667.4038 93.9505 2304.5923, 667.4038 93.9505 2269.3735, 660.8514 91.4933 2304.5923,
+667.4038 93.9505 2269.3735, 660.8514 91.4933 2269.3735, 660.8514 91.4933 2304.5923,
+660.8514 91.4933 2304.5923, 660.8514 91.4933 2269.3735, 652.661 34.9792 2304.5923,
+660.8514 91.4933 2269.3735, 652.661 34.9792 2269.3735, 652.661 34.9792 2304.5923,
+652.661 34.9792 2304.5923, 652.661 34.9792 2269.3735, 723.0989 34.9792 2304.5923,
+652.661 34.9792 2269.3735, 723.0989 34.9792 2269.3735, 723.0989 34.9792 2304.5923,
+723.0989 34.9792 2304.5923, 723.0989 34.9792 2269.3735, 723.0989 132.4456 2304.5923,
+723.0989 34.9792 2269.3735, 723.0989 132.4456 2269.3735, 723.0989 132.4456 2304.5923,
+													]
+												}
+												normal Normal {
+													vector [
+0.8944 0.4472 0, 0.4472 0.8944 0, -0.414 0.9103 0,
+0.4472 0.8944 0, -0.8279 0.5608 0, -0.414 0.9103 0,
+-0.414 0.9103 0, -0.8279 0.5608 0, -0.8771 0.4803 0,
+-0.8279 0.5608 0, -0.6374 0.7705 0, -0.8771 0.4803 0,
+-0.8771 0.4803 0, -0.6374 0.7705 0, -0.6428 0.766 0,
+-0.6374 0.7705 0, -0.8854 0.4647 0, -0.6428 0.766 0,
+-0.6428 0.766 0, -0.8854 0.4647 0, -0.9897 0.1434 0,
+-0.8854 0.4647 0, -0.9897 0.1434 0, -0.9897 0.1434 0,
+0 -1 0, 0 -1 0, 0.4472 -0.8944 0,
+0 -1 0, 0.8944 -0.4472 0, 0.4472 -0.8944 0,
+0.4472 -0.8944 0, 0.8944 -0.4472 0, 0.8944 0.4472 0,
+0.8944 -0.4472 0, 0.4472 0.8944 0, 0.8944 0.4472 0,
+													]
+												}
+												coordIndex [
+0, 1, 2, -1,
+3, 4, 5, -1,
+6, 7, 8, -1,
+9, 10, 11, -1,
+12, 13, 14, -1,
+15, 16, 17, -1,
+18, 19, 20, -1,
+21, 22, 23, -1,
+24, 25, 26, -1,
+27, 28, 29, -1,
+30, 31, 32, -1,
+33, 34, 35, -1,
+												]
+											}
+										}
+									]
+								}
+							]
+						}
+						DEF instance391 Transform {
+							rotation 1.0000 0.0000 0.0000 -1.5708
+							scale 45.7921 45.7921 91.5842
+							center -15.7999 50.3273 -0.3962
+							translation 15.7999 -50.3273 0.3962
+							children [
+								Shape {
+									appearance USE appearance0
+									geometry DEF instance393 Cylinder {
+										height 1.0
+									}
+								}
+							]
+						}
+						DEF instance394 Transform {
+							rotation 0.0000 1.0000 -0.0000 -1.8326
+							scale 1.0000 1.0000 0.1887
+							center -1316.6394 -0.0000 9149.7813
+							translation 1316.6394 0.0000 -9149.7813
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance395 Transform {
+							rotation 0.0000 1.0000 -0.0000 -2.0944
+							scale 1.0000 1.0000 0.1887
+							center -912.0513 -0.0000 11713.7968
+							translation 912.0513 0.0000 -11713.7968
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance396 Transform {
+							rotation 0.0000 1.0000 -0.0000 -2.3562
+							scale 1.0000 1.0000 0.1887
+							center -396.0534 -0.0000 13635.3911
+							translation 396.0534 0.0000 -13635.3911
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance397 Transform {
+							rotation 0.0000 1.0000 -0.0000 -2.6180
+							scale 1.0000 1.0000 0.1887
+							center 196.1900 -0.0000 14783.6095
+							translation -196.1900 0.0000 -14783.6095
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance398 Transform {
+							rotation 0.0000 1.0000 -0.0000 -2.8798
+							scale 1.0000 1.0000 0.1887
+							center 824.3185 -0.0000 15080.2035
+							translation -824.3185 0.0000 -15080.2035
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance399 Transform {
+							rotation 0.0000 1.0000 0.0000 -3.1416
+							scale 1.0000 1.0000 0.1887
+							center 1445.5256 -0.0006 14504.9619
+							translation -1445.5256 0.0006 -14504.9619
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance400 Transform {
+							rotation 0.0000 -1.0000 0.0000 -2.8798
+							scale 1.0000 1.0000 0.1887
+							center 2017.4786 -0.0000 13097.0828
+							translation -2017.4786 0.0000 -13097.0828
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance401 Transform {
+							rotation 0.0000 -1.0000 0.0000 -2.6180
+							scale 1.0000 1.0000 0.1887
+							center 2501.1983 -0.0000 10952.5143
+							translation -2501.1983 0.0000 -10952.5143
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance402 Transform {
+							rotation 0.0000 -1.0000 0.0000 -2.3562
+							scale 1.0000 1.0000 0.1887
+							center 2863.7206 -0.0000 8217.4046
+							translation -2863.7206 0.0000 -8217.4046
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance403 Transform {
+							rotation 0.0000 -1.0000 0.0000 -2.0944
+							scale 1.0000 1.0000 0.1887
+							center 3080.3402 -0.0000 5078.1471
+							translation -3080.3402 0.0000 -5078.1471
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance404 Transform {
+							rotation 0.0000 -1.0000 0.0000 -1.8326
+							scale 1.0000 1.0000 0.1887
+							center 3136.2948 -0.0000 1748.6760
+							translation -3136.2948 0.0000 -1748.6760
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance405 Transform {
+							rotation 0.0000 -1.0000 0.0000 -1.5708
+							scale 1.0000 1.0000 0.1887
+							center 3027.7712 -0.0000 -1544.1106
+							translation -3027.7712 0.0000 1544.1106
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance406 Transform {
+							rotation 0.0000 -1.0000 0.0000 -1.3090
+							scale 1.0000 1.0000 0.1887
+							center 2762.1650 -0.0000 -4575.8142
+							translation -2762.1650 0.0000 4575.8142
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance407 Transform {
+							rotation 0.0000 -1.0000 0.0000 -1.0472
+							scale 1.0000 1.0000 0.1887
+							center 2357.5771 -0.0000 -7139.8292
+							translation -2357.5771 0.0000 7139.8292
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance408 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.7854
+							scale 1.0000 1.0000 0.1887
+							center 1841.5793 -0.0000 -9061.4226
+							translation -1841.5793 0.0000 9061.4226
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance409 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.5236
+							scale 1.0000 1.0000 0.1887
+							center 1249.3359 -0.0000 -10209.6411
+							translation -1249.3359 0.0000 10209.6411
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+						DEF instance410 Transform {
+							rotation 0.0000 -1.0000 0.0000 -0.2618
+							scale 1.0000 1.0000 0.1887
+							center 621.2075 -0.0000 -10506.2348
+							translation -621.2075 0.0000 10506.2348
+							children [
+								Group {
+									children [
+										Shape {
+											appearance USE appearance1
+											USE instance386
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance388
+										}
+										Shape {
+											appearance USE appearance1
+											USE instance390
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+		DEF instance411 Transform {
+			rotation 0.0000 1.0000 0.0000 -3.1416
+			center 1447.0180 -0.0010 3890.6112
+			translation -1447.0180 0.0010 -3890.6112
+			children [
+				Group {
+					children [
+						USE instance357
+						USE instance360
+						USE instance363
+						USE instance366
+						USE instance369
+						USE instance372
+						USE instance375
+						USE instance378
+						USE instance381
+						USE instance384
+						USE instance391
+						USE instance394
+						USE instance395
+						USE instance396
+						USE instance397
+						USE instance398
+						USE instance399
+						USE instance400
+						USE instance401
+						USE instance402
+						USE instance403
+						USE instance404
+						USE instance405
+						USE instance406
+						USE instance407
+						USE instance408
+						USE instance409
+						USE instance410
+					]
+				}
+			]
+		}
+		DEF instance412 Transform {
+			rotation 0.0000 1.0000 -0.0000 -1.5708
+			center -1582.2445 -0.0000 3028.1010
+			translation 1582.2445 0.0000 -3028.1010
+			children [
+				Group {
+					children [
+						USE instance357
+						USE instance360
+						USE instance363
+						USE instance366
+						USE instance369
+						USE instance372
+						USE instance375
+						USE instance378
+						USE instance381
+						USE instance384
+						USE instance391
+						USE instance394
+						USE instance395
+						USE instance396
+						USE instance397
+						USE instance398
+						USE instance399
+						USE instance400
+						USE instance401
+						USE instance402
+						USE instance403
+						USE instance404
+						USE instance405
+						USE instance406
+						USE instance407
+						USE instance408
+						USE instance409
+						USE instance410
+					]
+				}
+			]
+		}
+		DEF instance413 Transform {
+			center -723.5155 -0.0000 -0.0000
+			translation 723.5155 0.0000 0.0000
+			children [
+				Group {
+					children [
+						USE instance357
+						USE instance360
+						USE instance363
+						USE instance366
+						USE instance369
+						USE instance372
+						USE instance375
+						USE instance378
+						USE instance381
+						USE instance384
+						USE instance391
+						USE instance394
+						USE instance395
+						USE instance396
+						USE instance397
+						USE instance398
+						USE instance399
+						USE instance400
+						USE instance401
+						USE instance402
+						USE instance403
+						USE instance404
+						USE instance405
+						USE instance406
+						USE instance407
+						USE instance408
+						USE instance409
+						USE instance410
+					]
+				}
+			]
+		}
+	]
+}

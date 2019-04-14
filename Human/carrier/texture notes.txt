@@ -1,0 +1,45 @@
+**this will be the prototype for textures of humans***
+
+hardware techno transparent [Nl]:
+	diffuse-  27 percent grey
+	diffuse control:
+	opacity:
+	specular control:
+	reflection control:
+	bump:
+	stencil:
+		"human circuits.png"
+invisible surface:
+	self explanatory
+
+metal aluminum:
+	r232g253b255
+metal space plate Nl:
+	25 percent white.
+	bump- "plate texture.png"
+metal space plate2:
+	pure white diffuse. is the only difference from metal space plate nl
+sun glow:
+	pure red, 
+	radial glow
+tall grid panel Nl:
+	diffuse- "texture0.jpg"
+	20 percent white
+	bump- aniso grid.
+tall grid white:
+	brighter tall grid panel NL texture.
+tile space, white:
+	texturing as generic
+	pure white color
+window Overlay [nl]
+	diffuse control:
+	ambient control:
+	glow control
+	opacity:
+	specular amount:
+	stencil:
+		"dots tex.png" from assault tarnsport salrillian
+
+
+
+

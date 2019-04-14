@@ -1,0 +1,10 @@
+black & shiney:
+	pure white diffuse, low 20percent diffuse amount. specular and smooth.
+metal aluminum:
+	r232g253b255
+space tile: fatigued white:
+	diffuse- "texture0.jpg"
+	bump- "circuits bump.png"
+	r194g181b133
+tan aluminum:
+	r190g166b101

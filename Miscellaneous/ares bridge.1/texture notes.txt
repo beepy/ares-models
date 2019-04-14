@@ -1,0 +1,50 @@
+bridge grill:
+	diffuse-  "texture7.jpg"
+	bump- "texture7.jpg" (one of the color channels.)
+	r98g98b98
+bridge text:
+	diffuse- "bridge text.jpg"
+circuctry[sic]:
+	diffuse- "texture9.jpg"
+	bump- "texture9.jpg"
+computer:
+	"computer.jpg"
+computer.a:
+	"texture0.jpg"
+computer.b:
+	"computerb tex.png"
+display:
+	"shader8_diff.jpg"
+green light:
+	r18g173b102
+key pad:
+	"texture8.jpg"
+lcd:
+	r12g62b21
+linen:
+	bump- "linenbump.png"
+	r64g0b0
+metal aluminum:
+	r232g253b255
+neon:
+	r240g255b186
+pearl:
+	pure white, ambient mostly and slighyl transparent
+red lense:
+	r140g0b0
+	35 diffuse and 35 ambient
+stereo black plain:
+	r247g235b201
+	diffuse 80p ambient 20p
+stereo black rib1:
+	r247g235b201
+	bump- "rib bump.png"
+stero black rib2:
+	r247g253b201
+	bump- "rib bump2.png"
+stereo square:
+	r247g235b201
+	bump- "stereo square.png"
+
+
+

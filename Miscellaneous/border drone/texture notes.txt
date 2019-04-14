@@ -1,0 +1,3 @@
+tile, space white:
+	bump- "smooth generic staticy texture.png" from obish 
+	diffuse- "texture0.jpg"

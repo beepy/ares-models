@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Strata Design 3D CX</authoring_tool>
+        </contributor>
+        <created>2007-06-11T13:30:00Z</created>
+        <modified>2007-06-11T13:30:00Z</modified>
+        <unit meter="0.000352778" name="strata"/>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_images>
+        <image id="image1" name="shader1_dif">
+            <init_from>shader1_dif.jpg</init_from>
+        </image>
+    </library_images>
+    <library_effects>
+        <effect id="shader1-effect">
+            <profile_COMMON>
+                <newparam sid="shader1_dif-surface">
+                    <surface type="2D">
+                        <init_from>image1</init_from>
+                    </surface>
+                </newparam>
+                <newparam sid="shader1_dif-sampler">
+                    <sampler2D>
+                        <source>shader1_dif-surface</source>
+                    </sampler2D>
+                </newparam>
+                <technique sid="t0">
+                    <phong>
+                        <diffuse>
+                            <texture texture="shader1_dif-sampler" texcoord="UV1"/>
+                        </diffuse>
+                        <specular>
+                            <color>1 1 1 1</color>
+                        </specular>
+                        <shininess>
+                            <float>0</float>
+                        </shininess>
+                        <reflectivity>
+                            <float>0</float>
+                        </reflectivity>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                        <index_of_refraction>
+                            <float>1</float>
+                        </index_of_refraction>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+        <effect id="shader2-effect">
+            <profile_COMMON>
+                <technique sid="t0">
+                    <phong>
+                        <diffuse>
+                            <color>1 1 1 1</color>
+                        </diffuse>
+                        <specular>
+                            <color>1 1 1 1</color>
+                        </specular>
+                        <shininess>
+                            <float>0</float>
+                        </shininess>
+                        <reflectivity>
+                            <float>0</float>
+                        </reflectivity>
+                        <transparency>
+                            <float>1</float>
+                        </transparency>
+                        <index_of_refraction>
+                            <float>1</float>
+                        </index_of_refraction>
+                    </phong>
+                </technique>
+            </profile_COMMON>
+        </effect>
+    </library_effects>
+    <library_materials>
+        <material id="shader1" name="Tile,_Space_White">
+            <instance_effect url="#shader1-effect"/>
+        </material>
+        <material id="shader2" name="Window_Glow">
+            <instance_effect url="#shader2-effect"/>
+        </material>
+    </library_materials>
+    <library_geometries>
+        <geometry id="mesh1" name="Polygon_Mesh">
+            <mesh>
+                <source id="mesh1-points">
+                    <float_array id="mesh1-points-array" count="24">62.1398 62.1399 21.2575 124.28 124.28 -21.2576 -124.28 124.28 -21.2576 62.1398 -62.1398 21.2575 124.28 -124.28 -21.2576 -62.1398 -62.1398 21.2575 -124.28 -124.28 -21.2576 -62.1398 62.1399 21.2575</float_array>
+                    <technique_common>
+                        <accessor count="8" source="#mesh1-points-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="mesh1-uvs">
+                    <float_array id="mesh1-uvs-array" count="16">0.655349 0.655351 0.810697 0.810699 0.189304 0.810699 0.655351 0.344651 0.810699 0.189303 0.344651 0.344649 0.189303 0.189301 0.344649 0.655349</float_array>
+                    <technique_common>
+                        <accessor count="8" source="#mesh1-uvs-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="mesh1-normals">
+                    <float_array id="mesh1-normals-array" count="24">0.203168 0.406337 0.890849 0.406337 0.203169 0.890849 -0.203168 0.406337 0.890849 0.406337 -0.203169 0.89085 0.203168 -0.406337 0.890849 -0.203168 -0.406337 0.890849 -0.406337 -0.203169 0.890849 -0.406337 0.203169 0.89085</float_array>
+                    <technique_common>
+                        <accessor count="8" source="#mesh1-normals-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="mesh1-vertices">
+                    <input semantic="POSITION" source="#mesh1-points"/>
+                </vertices>
+                <polylist count="8" material="shader1">
+                    <input offset="0" semantic="VERTEX" source="#mesh1-vertices"/>
+                    <input offset="1" semantic="TEXCOORD" source="#mesh1-uvs"/>
+                    <input offset="2" semantic="NORMAL" source="#mesh1-normals"/>
+                    <vcount>3 3 3 3 3 3 3 3</vcount>
+                    <p>0 0 0 1 1 1 2 2 2 3 3 3 4 4 4 1 1 1 5 5 5 6 6 6 4 4 4 7 7 7 2 2 2 6 6 6 2 2 2 7 7 7 0 0 0 1 1 1 0 0 0 3 3 3 4 4 4 3 3 3 5 5 5 6 6 6 5 5 5 7 7 7</p>
+                </polylist>
+            </mesh>
+        </geometry>
+        <geometry id="mesh2" name="Polygon_Mesh">
+            <mesh>
+                <source id="mesh2-points">
+                    <float_array id="mesh2-points-array" count="12">-124.28 124.28 -1.05181e-05 124.28 124.28 -1.05181e-05 124.28 -124.28 -1.05181e-05 -124.28 -124.28 -1.05181e-05</float_array>
+                    <technique_common>
+                        <accessor count="4" source="#mesh2-points-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="mesh2-uvs">
+                    <float_array id="mesh2-uvs-array" count="8">6.71441e-06 0.999996 0.999997 0.999996 0.999997 6.55614e-06 3.26129e-06 3.26608e-06</float_array>
+                    <technique_common>
+                        <accessor count="4" source="#mesh2-uvs-array" stride="2">
+                            <param name="S" type="float"/>
+                            <param name="T" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <source id="mesh2-normals">
+                    <float_array id="mesh2-normals-array" count="12">0 0 -1 0 0 -1 0 0 -1 0 0 -1</float_array>
+                    <technique_common>
+                        <accessor count="4" source="#mesh2-normals-array" stride="3">
+                            <param name="X" type="float"/>
+                            <param name="Y" type="float"/>
+                            <param name="Z" type="float"/>
+                        </accessor>
+                    </technique_common>
+                </source>
+                <vertices id="mesh2-vertices">
+                    <input semantic="POSITION" source="#mesh2-points"/>
+                </vertices>
+                <polylist count="2" material="shader2">
+                    <input offset="0" semantic="VERTEX" source="#mesh2-vertices"/>
+                    <input offset="1" semantic="TEXCOORD" source="#mesh2-uvs"/>
+                    <input offset="2" semantic="NORMAL" source="#mesh2-normals"/>
+                    <vcount>3 3</vcount>
+                    <p>0 0 0 1 1 1 2 2 2 2 2 2 3 3 3 0 0 0</p>
+                </polylist>
+            </mesh>
+        </geometry>
+    </library_geometries>
+    <library_visual_scenes>
+        <visual_scene id="Scene">
+            <node id="node1" name="Polygon_Mesh">
+                <translate>-9.87048 -272.622 233.273</translate>
+                <rotate sid="rotate_z">0 0 1 -0</rotate>
+                <rotate sid="rotate_y">0 1 0 0</rotate>
+                <rotate sid="rotate_x">1 0 0 0</rotate>
+                <scale>1 1 1</scale>
+                <instance_geometry url="#mesh1">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="shader1" target="#shader1">
+                                <bind_vertex_input semantic="UV1" input_semantic="TEXCOORD" input_set="0"/>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+            <node id="node2" name="Polygon_Mesh">
+                <translate>-9.87048 -272.622 226.416</translate>
+                <rotate sid="rotate_z">0 0 1 0</rotate>
+                <rotate sid="rotate_y">0 1 0 0</rotate>
+                <rotate sid="rotate_x">1 0 0 -180</rotate>
+                <scale>0.8 0.8 0.8</scale>
+                <instance_geometry url="#mesh2">
+                    <bind_material>
+                        <technique_common>
+                            <instance_material symbol="shader2" target="#shader2">
+                                <bind_vertex_input semantic="UV1" input_semantic="TEXCOORD" input_set="0"/>
+                            </instance_material>
+                        </technique_common>
+                    </bind_material>
+                </instance_geometry>
+            </node>
+        </visual_scene>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#Scene"/>
+    </scene>
+</COLLADA>

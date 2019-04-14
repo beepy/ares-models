@@ -1,0 +1,20 @@
+aluminum metal:
+	r232g253b255
+name plate texture:
+	texture6.jpg
+no shadow:
+	pure white. full ambient
+rocket glow trans:
+	r255g61b0
+solar panel texture:
+	deffuse- texture3.jpg
+	and 'solar panel bump map.png'
+sun glow:
+	r255g61b0
+tile, red:
+	diffuse- "texture0.jpg"
+	bump - "texture0.jpg"
+	r222g15b28
+tile, space white:
+	same as tile red but
+	r255g255b255

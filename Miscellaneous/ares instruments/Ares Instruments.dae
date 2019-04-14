@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+    <asset>
+        <contributor>
+            <authoring_tool>Strata Design 3D CX</authoring_tool>
+        </contributor>
+        <created>2007-06-11T13:30:00Z</created>
+        <modified>2007-06-11T13:30:00Z</modified>
+        <unit meter="0.000352778" name="strata"/>
+        <up_axis>Y_UP</up_axis>
+    </asset>
+    <library_images/>
+    <library_effects/>
+    <library_materials/>
+    <library_geometries/>
+    <library_visual_scenes>
+        <visual_scene id="Scene"/>
+    </library_visual_scenes>
+    <scene>
+        <instance_visual_scene url="#Scene"/>
+    </scene>
+</COLLADA>

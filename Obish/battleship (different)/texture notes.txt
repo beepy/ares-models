@@ -1,0 +1,19 @@
+**note: this is the texture reference all obish files will use unless specified in their thexture notes file**
+
+firestorm:
+	r115g189b255
+	glow control- center blob gradient
+light:
+	r255g255b158
+	glow control- same as firestorm
+tile, space white
+	difuse texture- "texture0.jpg"
+	r0g128b255
+	bump- "smooth generic staticy texture.png"
+unnamed-1:
+	diffuse texture- "texture1.jpg"
+	diffuse- r0g127b255
+	glow factor- "glow notches.png"
+	bump- generic circuits texture, has staticy underlay
+fade-  firstorm:
+	same as texture used in ares logo model
